@@ -1,0 +1,15 @@
+fiction news	0.437
+fiction nonfiction	0.473
+fiction blog	0.491
+fiction social	0.579
+fiction spoken_conversational	0.829
+news nonfiction	0.423
+news blog	0.426
+news social	0.695
+news spoken_conversational	1.097
+nonfiction blog	0.443
+nonfiction social	0.525
+nonfiction spoken_conversational	0.965
+blog social	0.652
+blog spoken_conversational	1.144
+social spoken_conversational	0.803
