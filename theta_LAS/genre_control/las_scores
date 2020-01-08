@@ -1,0 +1,180 @@
+fiction news
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 71.36%, LAS: 60.07%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 84.43%, LAS: 74.20%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+
+fiction nonfiction
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 71.86%, LAS: 62.15%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 83.64%, LAS: 73.41%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+
+fiction blog
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 72.15%, LAS: 58.95%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 78.75%, LAS: 65.23%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+
+fiction social
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 74.39%, LAS: 62.86%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 77.61%, LAS: 62.84%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+
+fiction spoken_conversational
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 84.28%, LAS: 72.60%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 65.00%, LAS: 52.50%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+
+news fiction
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 84.43%, LAS: 74.20%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 71.36%, LAS: 60.07%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+
+news nonfiction
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 77.19%, LAS: 69.40%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 75.19%, LAS: 65.58%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+
+news blog
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 78.12%, LAS: 67.64%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 72.57%, LAS: 61.85%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+
+news social
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 79.00%, LAS: 71.00%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 69.22%, LAS: 56.62%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+
+news spoken_conversational
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 84.28%, LAS: 73.99%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 51.49%, LAS: 39.37%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+
+nonfiction fiction
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 83.64%, LAS: 73.41%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 71.86%, LAS: 62.15%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+
+nonfiction news
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 75.19%, LAS: 65.58%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 77.19%, LAS: 69.40%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+
+nonfiction blog
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 78.22%, LAS: 68.17%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 74.84%, LAS: 65.25%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+
+nonfiction social
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 77.91%, LAS: 68.81%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 69.83%, LAS: 59.81%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+
+nonfiction spoken_conversational
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 81.22%, LAS: 71.49%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 54.90%, LAS: 46.06%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+
+blog fiction
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 78.75%, LAS: 65.23%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 72.15%, LAS: 58.95%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+
+blog news
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 72.57%, LAS: 61.85%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 78.12%, LAS: 67.64%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+
+blog nonfiction
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 74.84%, LAS: 65.25%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 78.22%, LAS: 68.17%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+
+blog social
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 74.27%, LAS: 63.83%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 72.57%, LAS: 60.31%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+
+blog spoken_conversational
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 81.08%, LAS: 62.31%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 55.71%, LAS: 42.62%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+
+social fiction
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 77.61%, LAS: 62.84%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 74.39%, LAS: 62.86%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+
+social news
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 69.22%, LAS: 56.62%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 79.00%, LAS: 71.00%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+
+social nonfiction
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 69.83%, LAS: 59.81%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 77.91%, LAS: 68.81%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+
+social blog
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 72.57%, LAS: 60.31%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 74.27%, LAS: 63.83%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+
+social spoken_conversational
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 83.45%, LAS: 61.20%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 64.20%, LAS: 50.97%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+
+spoken_conversational fiction
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 65.00%, LAS: 52.50%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 84.28%, LAS: 72.60%
+Parsing from gold tokenization with gold tags - forms: 880, UAS: 94.77%, LAS: 90.34%
+
+spoken_conversational news
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 51.49%, LAS: 39.37%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 84.28%, LAS: 73.99%
+Parsing from gold tokenization with gold tags - forms: 1072, UAS: 94.96%, LAS: 92.07%
+
+spoken_conversational nonfiction
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 54.90%, LAS: 46.06%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 81.22%, LAS: 71.49%
+Parsing from gold tokenization with gold tags - forms: 938, UAS: 94.88%, LAS: 92.54%
+
+spoken_conversational blog
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 55.71%, LAS: 42.62%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 81.08%, LAS: 62.31%
+Parsing from gold tokenization with gold tags - forms: 955, UAS: 96.96%, LAS: 94.03%
+
+spoken_conversational social
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 97.50%, LAS: 94.71%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 64.20%, LAS: 50.97%
+Parsing from gold tokenization with gold tags - forms: 719, UAS: 83.45%, LAS: 61.20%
+Parsing from gold tokenization with gold tags - forms: 824, UAS: 94.78%, LAS: 91.87%
+

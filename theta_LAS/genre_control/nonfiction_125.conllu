@@ -1,0 +1,1313 @@
+# sent_id = train-2031
+# text = Delegacja polska stanowczo odrzuciła nową propozycję.
+1	Delegacja	delegacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+2	polska	polski	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	1:amod	_
+3	stanowczo	stanowczo	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	odrzuciła	odrzucić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	nową	nowy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	propozycję	propozycja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-8531
+# text = Powstrzymało go pytanie.
+1	Powstrzymało	powstrzymać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Short	1	obj	1:obj	_
+3	pytanie	pytanie	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-384
+# text = - Godzinę temu Witold odebrał telefon z zakładów PZInż.
+1	-	-	PUNCT	interp	PunctType=Dash	5	punct	5:punct	_
+2	Godzinę	godzina	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obl	5:obl:temu	_
+3	temu	temu	ADP	prep:acc	AdpType=Post	2	case	2:case	Case=Acc
+4	Witold	Witold	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	5	nsubj	5:nsubj	_
+5	odebrał	odebrać	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	telefon	telefon	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	5	obj	5:obj	_
+7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Gen
+8	zakładów	zakład	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	5	obl	5:obl:z	_
+9	PZInż	PZInż	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	8	flat	8:flat	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = train-11333
+# text = W 1991 dokonano kolejnych zmian administracyjnych.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Loc
+2	1991	1991	ADJ	adj:sg:loc:m3:pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	3	obl	3:obl:w	_
+3	dokonano	dokonać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kolejnych	kolejny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	_
+5	zmian	zmiana	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	obj	3:obj	_
+6	administracyjnych	administracyjny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-2967
+# text = I dzwoni w przód!
+1	I	i	CCONJ	conj	_	2	cc	2:cc	_
+2	dzwoni	dzwonić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Acc
+4	przód	przód	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	2	obl	2:obl:w	SpaceAfter=No
+5	!	!	PUNCT	interp	PunctType=Excl	2	punct	2:punct	_
+
+# sent_id = train-10521
+# text = Tezy są skonfiskowane, ale to są rzeczy wiadome.
+1	Tezy	teza	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	3:nsubj:pass	_
+2	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
+3	skonfiskowane	skonfiskować	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+5	ale	ale	CCONJ	conj	_	6	cc	6:cc	_
+6	to	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	conj	3:conj	_
+7	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+8	rzeczy	rzecz	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	6:nsubj	_
+9	wiadome	wiadomy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	8:amod	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-10520
+# text = Terror niczego nie tworzy, jest jałowy.
+1	Terror	terror	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	4	nsubj	4:nsubj|7:nsubj	_
+2	niczego	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	4	obj	4:obj	_
+3	nie	nie	PART	qub	Polarity=Neg	4	advmod	4:advmod	_
+4	tworzy	tworzyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	jałowy	jałowy	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	4	conj	4:conj	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-1891
+# text = Czyj ja jestem?
+1	Czyj	czyj	DET	adj:sg:nom:m1:pos	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Int|SubGender=Masc1	0	root	0:root	_
+2	ja	ja	PRON	ppron12:sg:nom:m1:pri	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs|SubGender=Masc1	1	nsubj	1:nsubj	_
+3	jestem	być	AUX	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	SpaceAfter=No
+4	?	?	PUNCT	interp	PunctType=Qest	1	punct	1:punct	_
+
+# sent_id = train-9844
+# text = Stalowa linka była opuszczona, deskę umocowano do zaczepu i uniesiono do pionu.
+1	Stalowa	stalowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
+2	linka	linka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	4:nsubj:pass	_
+3	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
+4	opuszczona	opuścić	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+6	deskę	deska	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	obj	7:obj|11:obj	_
+7	umocowano	umocować	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+8	do	do	ADP	prep:gen	AdpType=Prep	9	case	9:case	Case=Gen
+9	zaczepu	zaczep	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	7	obl	7:obl:do	_
+10	i	i	CCONJ	conj	_	11	cc	11:cc	_
+11	uniesiono	unieść	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	7:conj	_
+12	do	do	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen
+13	pionu	pion	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	11	obl	11:obl:do	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-13175
+# text = Zatrudnia zaledwie 60 urzędników, wśród nich tylko czterech księży.
+1	Zatrudnia	zatrudniać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	zaledwie	zaledwie	PART	qub	_	4	advmod	4:advmod	_
+3	60	60	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	4	nummod	4:nummod	DepType=Rec
+4	urzędników	urzędnik	NOUN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	1	obj	1:obj	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+6	wśród	wśród	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
+7	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|SubGender=Masc1|Variant=Long	10	nmod	10:nmod:wśród	_
+8	tylko	tylko	PART	qub	_	10	advmod	10:advmod	_
+9	czterech	cztery	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	10	nummod	10:nummod	DepType=Rec
+10	księży	ksiądz	NOUN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	4	conj	1:obj|4:conj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-4587
+# text = Ma na imię Mikołaj.
+1	Ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	na	na	ADP	prep:acc	AdpType=Prep	3	case	3:case	Case=Acc
+3	imię	imię	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	obl	1:obl:na	_
+4	Mikołaj	Mikołaj	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	1	xcomp	1:xcomp	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-1023
+# text = Popełniłam jakiś błąd?
+1	Popełniła	popełnić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	1	aux:aglt	1:aux:aglt	_
+3	jakiś	jakiś	DET	adj:sg:acc:m3:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind|SubGender=Masc3	4	det	4:det	_
+4	błąd	błąd	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	1	obj	1:obj	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	1	punct	1:punct	_
+
+# sent_id = test-702
+# text = Na korytarzu stoi kobieta o wyglądzie jej matki.
+1	Na	na	ADP	prep:loc	AdpType=Prep	2	case	2:case	Case=Loc
+2	korytarzu	korytarz	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	3	obl	3:obl:na	_
+3	stoi	stać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	kobieta	kobieta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+5	o	o	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
+6	wyglądzie	wygląd	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	4	nmod	4:nmod:o	_
+7	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	8	nmod:poss	8:nmod:poss	_
+8	matki	matka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-9723
+# text = Splątała się jawa ze snem.
+1	Splątała	splątać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	jawa	jawa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
+4	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	5	case	5:case	Case=Ins
+5	snem	sen	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	1	obl	1:obl:z	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-413
+# text = I nigdy więcej niczego na ten temat nie usłyszeliśmy.
+1	I	i	CCONJ	conj	_	9	cc	9:cc	_
+2	nigdy	nigdy	ADV	adv	PronType=Neg	9	advmod	9:advmod	_
+3	więcej	dużo	ADV	adv:com	Degree=Cmp	2	advmod	2:advmod	_
+4	niczego	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	9	obl	9:obl	_
+5	na	na	ADP	prep:acc	AdpType=Prep	7	case	7:case	Case=Acc
+6	ten	ten	DET	adj:sg:acc:m3:pos	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem|SubGender=Masc3	7	det	7:det	_
+7	temat	temat	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	4	nmod	4:nmod:na	_
+8	nie	nie	PART	qub	Polarity=Neg	9	advmod	9:advmod	_
+9	usłyszeli	usłyszeć	VERB	praet:pl:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+10	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	9	aux:aglt	9:aux:aglt	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	9	punct	9:punct	_
+
+# sent_id = train-6066
+# text = Nie kryją się z tym, chcą być widziani, rozpoznani?
+1	Nie	nie	PART	qub	Polarity=Neg	2	advmod	2:advmod	_
+2	kryją	kryć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	2:expl:pv	_
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Ins
+5	tym	to	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	2	obl	2:obl:z	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+7	chcą	chcieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+8	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	9	aux:pass	9:aux:pass|11:aux:pass	_
+9	widziani	widzieć	ADJ	ppas:pl:nom:m1:imperf:aff	Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|SubGender=Masc1|VerbForm=Part|Voice=Pass	7	xcomp	7:xcomp	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+11	rozpoznani	rozpoznać	ADJ	ppas:pl:nom:m1:perf:aff	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|SubGender=Masc1|VerbForm=Part|Voice=Pass	9	conj	7:xcomp|9:conj	SpaceAfter=No
+12	?	?	PUNCT	interp	PunctType=Qest	2	punct	2:punct	_
+
+# sent_id = train-13499
+# text = Zostałem zmobilizowany do przemysłu.
+1	Został	zostać	AUX	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	SpaceAfter=No
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	3	aux:aglt	3:aux:aglt	_
+3	zmobilizowany	zmobilizować	ADJ	ppas:sg:nom:m1:perf:aff	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|SubGender=Masc1|VerbForm=Part|Voice=Pass	0	root	0:root	_
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	5:case	Case=Gen
+5	przemysłu	przemysł	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	3	obl	3:obl:do	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-13387
+# text = Zjadł sześć ciastek z kremem".
+1	Zjadł	zjeść	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	sześć	sześć	NUM	num:pl:acc:n:rec	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	3	nummod	3:nummod	DepType=Rec
+3	ciastek	ciastko	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	1	obj	1:obj	_
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Ins
+5	kremem	krem	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	3	nmod	3:nmod:z	SpaceAfter=No
+6	"	"	PUNCT	interp	PunctSide=Fin|PunctType=Quot	1	punct	1:punct	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-7909
+# text = Po ukończeniu zakopiańskiej Szkoły Przemysłu Drzewnego i warszawskiej ASP osiadł w Zakopanem.
+1	Po	po	ADP	prep:loc	AdpType=Prep	2	case	2:case	Case=Loc
+2	ukończeniu	ukończyć	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	obl	10:obl:po	_
+3	zakopiańskiej	zakopiański	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+4	Szkoły	szkoła	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	2:nmod	_
+5	Przemysłu	przemysł	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	4	nmod:poss	4:nmod:poss	_
+6	Drzewnego	drzewny	ADJ	adj:sg:gen:m3:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	5	amod	5:amod	_
+7	i	i	CCONJ	conj	_	9	cc	9:cc	_
+8	warszawskiej	warszawski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	9:amod	_
+9	ASP	ASP	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	conj	2:nmod|4:conj	_
+10	osiadł	osiąść	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	12:case	Case=Loc
+12	Zakopanem	Zakopane	PROPN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	10	obl	10:obl:w	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
+
+# sent_id = train-2807
+# text = Gospodyni zaprasza do pokoju.
+1	Gospodyni	gospodyni	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+2	zaprasza	zapraszać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen
+4	pokoju	pokój	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	2	obl	2:obl:do	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-12146
+# text = Witamy, witamy...
+1	Witamy	witać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	3	punct	3:punct	_
+3	witamy	witać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-10178
+# text = – „Słucham?
+1	–	–	PUNCT	interp	PunctType=Dash	3	punct	3:punct	_
+2	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	3	punct	3:punct	SpaceAfter=No
+3	Słucham	słuchać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	3:punct	_
+
+# sent_id = train-1981
+# text = Daj przepis na faworki.
+1	Daj	dać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	przepis	przepis	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	1	obj	1:obj	_
+3	na	na	ADP	prep:acc	AdpType=Prep	4	case	4:case	Case=Acc
+4	faworki	faworek	NOUN	subst:pl:acc:m2	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc2	2	nmod	2:nmod:na	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-4173
+# text = Kojarzysz mi się z egzotyczną czarownicą.
+1	Kojarzysz	kojarzyć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	1:iobj	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Ins
+5	egzotyczną	egzotyczny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	czarownicą	czarownica	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	obl	1:obl:z	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-13627
+# text = Łamią się piersi, trzeszczy kość, próchnieją dłonie, twarze bledną...
+1	Łamią	łamać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	piersi	pierś	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	1:nsubj	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+5	trzeszczy	trzeszczeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+6	kość	kość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+8	próchnieją	próchnieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+9	dłonie	dłoń	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	8:nsubj	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+11	twarze	twarz	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	12:nsubj	_
+12	bledną	blednąć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = dev-1382
+# text = Tylko tak potrafię wyrażać siebie.
+1	Tylko	tylko	PART	qub	_	2	advmod	2:advmod	_
+2	tak	tak	ADV	adv	PronType=Dem	3	advmod	3:advmod	_
+3	potrafię	potrafić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	wyrażać	wyrażać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
+5	siebie	siebie	PRON	siebie:acc	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-9164
+# text = Pytam ją, jak dojść do miasta.
+1	Pytam	pytać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	1:obj	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	jak	jak	ADV	adv	PronType=Int	5	advmod	5:advmod	_
+5	dojść	dojść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	ccomp	1:ccomp	_
+6	do	do	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
+7	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	obl	5:obl:do	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = dev-1161
+# text = Rozmawialiśmy dwa razy, w Zugdidi i Oczamczirze.
+1	Rozmawiali	rozmawiać	VERB	praet:pl:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	1	aux:aglt	1:aux:aglt	_
+3	dwa	dwa	NUM	num:pl:acc:m3:congr	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	4	nummod	4:nummod	DepType=Congr
+4	razy	raz	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	1	obl	1:obl	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	7:case|9:case	Case=Loc
+7	Zugdidi	Zugdidi	PROPN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	1	obl	1:obl:w	_
+8	i	i	CCONJ	conj	_	9	cc	9:cc	_
+9	Oczamczirze	Oczamczira	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	conj	1:obl:w|7:conj	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-409
+# text = I Nanka natychmiast wyszła do Niemców.
+1	I	i	CCONJ	conj	_	4	cc	4:cc	_
+2	Nanka	Nanka	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+3	natychmiast	natychmiast	ADV	adv	_	4	advmod	4:advmod	_
+4	wyszła	wyjść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	do	do	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
+6	Niemców	Niemiec	PROPN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	4	obl	4:obl:do	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = test-1068
+# text = Pożyczył mi Górzański.
+1	Pożyczył	pożyczyć	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|SubGender=Masc1|Variant=Short	1	iobj	1:iobj	_
+3	Górzański	Górzański	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	1	nsubj	1:nsubj	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-651
+# text = Mogłam spokojnie pisać.
+1	Mogła	móc	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	1	aux:aglt	1:aux:aglt	_
+3	spokojnie	spokojnie	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	pisać	pisać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = dev-1620
+# text = Z każdą książką bardziej umieram.
+1	Z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Ins
+2	każdą	każdy	DET	adj:sg:inst:f:pos	Case=Ins|Gender=Fem|Number=Sing|PronType=Tot	3	det	3:det	_
+3	książką	książka	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	obl	5:obl:z	_
+4	bardziej	bardzo	ADV	adv:com	Degree=Cmp	5	advmod	5:advmod	_
+5	umieram	umierać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = train-13683
+# text = Świat ma naturę hierarchiczną.
+1	Świat	świat	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	2	nsubj	2:nsubj	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	naturę	natura	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obl	2:obl	_
+4	hierarchiczną	hierarchiczny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	3:amod	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = dev-74
+# text = Analiza wykazała, że powód zawsze był ten sam.
+1	Analiza	analiza	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+2	wykazała	wykazać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+4	że	że	SCONJ	comp	_	8	mark	8:mark	_
+5	powód	powód	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	8	nsubj	8:nsubj	_
+6	zawsze	zawsze	ADV	adv	PronType=Tot	8	advmod	8:advmod	_
+7	był	być	AUX	praet:sg:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+8	ten	ten	DET	adj:sg:nom:m3:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem|SubGender=Masc3	2	ccomp:obj	2:ccomp:obj	_
+9	sam	sam	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	8	amod	8:amod	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-3182
+# text = Idę do miasta.
+1	Idę	iść	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	do	do	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+3	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	obl	1:obl:do	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-11076
+# text = Tymczasem smutny urzędnik konsulatu zajął się moim bagażem.
+1	Tymczasem	tymczasem	ADV	adv	_	5	advmod	5:advmod	_
+2	smutny	smutny	ADJ	adj:sg:nom:m1:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc1	3	amod	3:amod	_
+3	urzędnik	urzędnik	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	5	nsubj	5:nsubj	_
+4	konsulatu	konsulat	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	3	nmod:poss	3:nmod:poss	_
+5	zajął	zająć	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+7	moim	mój	DET	adj:sg:inst:m3:pos	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs|SubGender=Masc3	8	det	8:det	_
+8	bagażem	bagaż	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	5	obl	5:obl	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = train-6374
+# text = Nie tylko on uległ czarowi tego zakątka.
+1	Nie	nie	PART	qub	Polarity=Neg	3	advmod	3:advmod	_
+2	tylko	tylko	PART	qub	_	3	advmod	3:advmod	_
+3	on	on	PRON	ppron3:sg:nom:m1:ter:akc:npraep	Case=Nom|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Long	4	nsubj	4:nsubj	_
+4	uległ	ulec	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	czarowi	czar	NOUN	subst:sg:dat:m3	Case=Dat|Gender=Masc|Number=Sing|SubGender=Masc3	4	iobj	4:iobj	_
+6	tego	ten	DET	adj:sg:gen:m3:pos	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem|SubGender=Masc3	7	det	7:det	_
+7	zakątka	zakątek	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	5	nmod:poss	5:nmod:poss	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-8865
+# text = (Przepisuję z karty po włosku dla większej autentyczności).
+1	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	2	punct	2:punct	SpaceAfter=No
+2	Przepisuję	przepisywać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Gen
+4	karty	karta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obl	2:obl:z	_
+5	po	po	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
+6	włosku	włoski	ADJ	adjp	PrepCase=Pre	2	obl	2:obl:po	_
+7	dla	dla	ADP	prep:gen	AdpType=Prep	9	case	9:case	Case=Gen
+8	większej	duży	ADJ	adj:sg:gen:f:com	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	9:amod	_
+9	autentyczności	autentyczność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obl	2:obl:dla	SpaceAfter=No
+10	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	2	punct	2:punct	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-9667
+# text = Skórkę zostawia się na talerzu.
+1	Skórkę	skórka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	_
+2	zostawia	zostawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:impers	2:expl:impers	_
+4	na	na	ADP	prep:loc	AdpType=Prep	5	case	5:case	Case=Loc
+5	talerzu	talerz	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	2	obl	2:obl:na	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-2585
+# text = Dziś leżeliśmy na piasku.
+1	Dziś	dziś	ADV	adv	_	2	advmod	2:advmod	_
+2	leżeli	leżeć	VERB	praet:pl:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	2	aux:aglt	2:aux:aglt	_
+4	na	na	ADP	prep:loc	AdpType=Prep	5	case	5:case	Case=Loc
+5	piasku	piasek	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	2	obl	2:obl:na	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = test-1603
+# text = Z balkonów dziewczęta w strojach ludowych obsypywały gości kwiatami.
+1	Z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Gen
+2	balkonów	balkon	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	7	obl	7:obl:z	_
+3	dziewczęta	dziewczę	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	7:nsubj	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Loc
+5	strojach	strój	NOUN	subst:pl:loc:m3	Case=Loc|Gender=Masc|Number=Plur|SubGender=Masc3	3	nmod	3:nmod:w	_
+6	ludowych	ludowy	ADJ	adj:pl:loc:m3:pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	5	amod	5:amod	_
+7	obsypywały	obsypywać	VERB	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	gości	gość	NOUN	subst:pl:acc:m1	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc1	7	obj	7:obj	_
+9	kwiatami	kwiat	NOUN	subst:pl:inst:m3	Case=Ins|Gender=Masc|Number=Plur|SubGender=Masc3	7	obl	7:obl	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = train-908
+# text = Brygada ma w trzy dni usunąć wszystkie usterki.
+1	Brygada	brygada	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj|6:nsubj	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Acc
+4	trzy	trzy	NUM	num:pl:acc:m3:congr	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	5	nummod	5:nummod	DepType=Congr
+5	dni	dzień	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	6	obl	6:obl:w	_
+6	usunąć	usunąć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
+7	wszystkie	wszystek	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	8	det	8:det	_
+8	usterki	usterka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = dev-396
+# text = Istnieje tylko Twoje czyste Światło.
+1	Istnieje	istnieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	tylko	tylko	PART	qub	_	5	advmod	5:advmod	_
+3	Twoje	twój	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	5:det	_
+4	czyste	czysty	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
+5	Światło	światło	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-1022
+# text = Było cicho, spokojnie i sennie.
+1	Było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	cicho	cicho	ADV	adv:pos	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	_
+4	spokojnie	spokojnie	ADV	adv:pos	Degree=Pos	2	conj	1:advmod|2:conj	_
+5	i	i	CCONJ	conj	_	6	cc	6:cc	_
+6	sennie	sennie	ADV	adv:pos	Degree=Pos	2	conj	1:advmod|2:conj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-7991
+# text = Podchodzi do głównych drzwi wejściowych, by wpuścić dwie kobiety.
+1	Podchodzi	podchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen
+3	głównych	główny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	4:amod	_
+4	drzwi	drzwi	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	1	obl	1:obl:do	_
+5	wejściowych	wejściowy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	4	amod	4:amod	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+7	by	by	SCONJ	comp	_	8	mark	8:mark	_
+8	wpuścić	wpuścić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	advcl	1:advcl:by	_
+9	dwie	dwa	NUM	num:pl:acc:f:congr	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	10	nummod	10:nummod	DepType=Congr
+10	kobiety	kobieta	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	obj	8:obj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-10258
+# text = Tak przynajmniej wynika z zachowanych dokumentów i relacji.
+1	Tak	tak	ADV	adv	PronType=Dem	3	advmod	3:advmod	_
+2	przynajmniej	przynajmniej	PART	qub	_	3	advmod	3:advmod	_
+3	wynika	wynikać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case|8:case	Case=Gen
+5	zachowanych	zachować	ADJ	ppas:pl:gen:m3:perf:aff	Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|SubGender=Masc3|VerbForm=Part|Voice=Pass	6	acl	6:acl|8:acl	_
+6	dokumentów	dokument	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	3	obl	3:obl:z	_
+7	i	i	CCONJ	conj	_	8	cc	8:cc	_
+8	relacji	relacja	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	conj	3:obl:z|6:conj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-6102
+# text = Nie ma to niczego wspólnego z rzeczywistością.
+1	Nie	nie	PART	qub	Polarity=Neg	2	advmod	2:advmod	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	_
+4	niczego	nic	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	2	obl	2:obl	_
+5	wspólnego	wspólny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
+6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	7	case	7:case	Case=Ins
+7	rzeczywistością	rzeczywistość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	5:nmod:z	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-9785
+# text = Sprawdzamy wyrostki kolczyste i łuki kręgów.
+1	Sprawdzamy	sprawdzać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	wyrostki	wyrostek	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	1	obj	1:obj	_
+3	kolczyste	kolczysty	ADJ	adj:pl:acc:m3:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	2	amod	2:amod	_
+4	i	i	CCONJ	conj	_	5	cc	5:cc	_
+5	łuki	łuk	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	2	conj	1:obj|2:conj	_
+6	kręgów	krąg	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	5	nmod:poss	5:nmod:poss	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-1612
+# text = Z oddali doleciały urywane dźwięki strażackiej trąbki.
+1	Z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Gen
+2	oddali	oddal	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	3:obl:z	_
+3	doleciały	dolecieć	VERB	praet:pl:m3:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	urywane	urywany	ADJ	adj:pl:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	5	amod	5:amod	_
+5	dźwięki	dźwięk	NOUN	subst:pl:nom:m3	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc3	3	nsubj	3:nsubj	_
+6	strażackiej	strażacki	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	_
+7	trąbki	trąbka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	5:nmod:poss	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-7033
+# text = Oczywiście nikt nie pójdzie do pracy.
+1	Oczywiście	oczywiście	PART	qub	_	4	advmod	4:advmod	_
+2	nikt	nikt	PRON	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg|SubGender=Masc1	4	nsubj	4:nsubj	_
+3	nie	nie	PART	qub	Polarity=Neg	4	advmod	4:advmod	_
+4	pójdzie	pójść	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	do	do	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
+6	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	4:obl:do	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-5029
+# text = Moje koty ostrzą na nich pazury nawet po kilka razy dziennie.
+1	Moje	mój	DET	adj:pl:nom:m2:pos	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs|SubGender=Masc2	2	det	2:det	_
+2	koty	kot	NOUN	subst:pl:nom:m2	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc2	3	nsubj	3:nsubj	_
+3	ostrzą	ostrzyć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	na	na	ADP	prep:loc	AdpType=Prep	5	case	5:case	Case=Loc
+5	nich	on	PRON	ppron3:pl:loc:m3:ter:akc:praep	Case=Loc|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|SubGender=Masc3|Variant=Long	3	obl	3:obl:na	_
+6	pazury	pazur	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	3	obj	3:obj	_
+7	nawet	nawet	PART	qub	_	10	advmod	10:advmod	_
+8	po	po	ADP	prep:acc	AdpType=Prep	10	case	10:case	Case=Acc
+9	kilka	kilka	DET	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind|SubGender=Masc3	10	det	10:det	DepType=Rec
+10	razy	raz	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	3	obl	3:obl:po	_
+11	dziennie	dziennie	ADV	adv:pos	Degree=Pos	10	advmod	10:advmod	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = test-1255
+# text = Szkoda tylko, że człowiek ma jedno życie.
+1	Szkoda	szkoda	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	tylko	tylko	PART	qub	_	1	advmod	1:advmod	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+4	że	że	SCONJ	comp	_	6	mark	6:mark	_
+5	człowiek	człowiek	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	6	nsubj	6:nsubj	_
+6	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+7	jedno	jeden	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	8:amod	_
+8	życie	życie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	6	obl	6:obl	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-9839
+# text = Stale też wchodzą w modę nowe odmiany.
+1	Stale	stale	ADV	adv:pos	Degree=Pos	3	advmod	3:advmod	_
+2	też	też	PART	qub	_	3	advmod	3:advmod	_
+3	wchodzą	wchodzić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Acc
+5	modę	moda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obl	3:obl:w	_
+6	nowe	nowy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	7:amod	_
+7	odmiany	odmiana	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-12307
+# text = Wstyd się przyznać...
+1	Wstyd	wstyd	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	3	expl:pv	3:expl:pv	_
+3	przyznać	przyznać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-481
+# text = Ale oni szybko domyślają się prawdy.
+1	Ale	ale	CCONJ	conj	_	4	cc	4:cc	_
+2	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Long	4	nsubj	4:nsubj	_
+3	szybko	szybko	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	domyślają	domyślać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+6	prawdy	prawda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	4:obl	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = test-1231
+# text = Stałem obok ojca i przyglądałem się grze.
+1	Stał	stać	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	1	aux:aglt	1:aux:aglt	_
+3	obok	obok	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen
+4	ojca	ojciec	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	1	obl	1:obl:obok	_
+5	i	i	CCONJ	conj	_	6	cc	6:cc	_
+6	przyglądał	przyglądać	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	SpaceAfter=No
+7	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	6	aux:aglt	6:aux:aglt	_
+8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
+9	grze	gra	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	6	iobj	6:iobj	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-5191
+# text = Można tu mówić o pewnych prawidłowościach.
+1	Można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	tu	tu	ADV	adv	PronType=Dem	3	advmod	3:advmod	_
+3	mówić	mówić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
+4	o	o	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
+5	pewnych	pewien	DET	adj:pl:loc:f:pos	Case=Loc|Gender=Fem|Number=Plur|PronType=Ind	6	det	6:det	_
+6	prawidłowościach	prawidłowość	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	3	obl	3:obl:o	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-1782
+# text = Czy naprawdę seks jest taki długowieczny?
+1	Czy	czy	PART	qub	PartType=Int	6	mark	6:mark	_
+2	naprawdę	naprawdę	PART	qub	_	6	advmod	6:advmod	_
+3	seks	seks	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	6	nsubj	6:nsubj	_
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+5	taki	taki	DET	adj:sg:nom:m3:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem|SubGender=Masc3	6	det	6:det	_
+6	długowieczny	długowieczny	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	0	root	0:root	SpaceAfter=No
+7	?	?	PUNCT	interp	PunctType=Qest	6	punct	6:punct	_
+
+# sent_id = dev-811
+# text = Nie wiem, naprawdę nie wiem, jak się zachowają.
+1	Nie	nie	PART	qub	Polarity=Neg	2	advmod	2:advmod	_
+2	wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+4	naprawdę	naprawdę	ADV	adv:pos	Degree=Pos	6	advmod	6:advmod	_
+5	nie	nie	PART	qub	Polarity=Neg	6	advmod	6:advmod	_
+6	wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+8	jak	jak	ADV	adv	PronType=Int	10	advmod	10:advmod	_
+9	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	10:expl:pv	_
+10	zachowają	zachować	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp|6:ccomp	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-12940
+# text = Zaczyna padać.
+1	Zaczyna	zaczynać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	padać	padać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-1272
+# text = Chodziło oczywiście o kontakty ściśle naukowe, ale umożliwiły one później wysłanie jezuity, astronoma, do Chin.
+1	Chodziło	chodzić	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	oczywiście	oczywiście	PART	qub	_	1	advmod	1:advmod	_
+3	o	o	ADP	prep:acc	AdpType=Prep	4	case	4:case	Case=Acc
+4	kontakty	kontakt	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	1	obl	1:obl:o	_
+5	ściśle	ściśle	ADV	adv:pos	Degree=Pos	6	advmod	6:advmod	_
+6	naukowe	naukowy	ADJ	adj:pl:acc:m3:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	4	amod	4:amod	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+8	ale	ale	CCONJ	conj	_	9	cc	9:cc	_
+9	umożliwiły	umożliwić	VERB	praet:pl:m3:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+10	one	on	PRON	ppron3:pl:nom:m3:ter:akc:npraep	Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc3|Variant=Long	9	nsubj	9:nsubj	_
+11	później	późno	ADV	adv:com	Degree=Cmp	9	advmod	9:advmod	_
+12	wysłanie	wysłać	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	obj	9:obj	_
+13	jezuity	jezuita	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	12	nmod	12:nmod	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+15	astronoma	astronom	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	13	appos	13:appos	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+17	do	do	ADP	prep:gen	AdpType=Prep	18	case	18:case	Case=Gen
+18	Chin	Chiny	PROPN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	12	nmod	12:nmod:do	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-8621
+# text = Pracuję do czwartej.
+1	Pracuję	pracować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	do	do	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+3	czwartej	czwarty	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	1	obl	1:obl:do	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-964
+# text = Pierś jego napierała na ludzi.
+1	Pierś	pierś	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	jego	on	PRON	ppron3:sg:gen:m2:ter:akc:npraep	Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc2|Variant=Long	1	nmod:poss	1:nmod:poss	_
+3	napierała	napierać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	5:case	Case=Acc
+5	ludzi	człowiek	NOUN	subst:pl:acc:m1	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc1	3	obl	3:obl:na	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-5122
+# text = Może ta porcja wystarczy.
+1	Może	może	PART	qub	_	4	advmod	4:advmod	_
+2	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
+3	porcja	porcja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+4	wystarczy	wystarczyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = test-472
+# text = Jakich lęków doświadczasz najczęściej?
+1	Jakich	jaki	DET	adj:pl:gen:m3:pos	Case=Gen|Gender=Masc|Number=Plur|PronType=Int|SubGender=Masc3	2	det	2:det	_
+2	lęków	lęk	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	3	obj	3:obj	_
+3	doświadczasz	doświadczać	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	najczęściej	często	ADV	adv:sup	Degree=Sup	3	advmod	3:advmod	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	3	punct	3:punct	_
+
+# sent_id = test-514
+# text = Już są w Chartres.
+1	Już	już	PART	qub	_	4	advmod	4:advmod	_
+2	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop:locat	4:cop:locat	_
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Loc
+4	Chartres	Chartres	PROPN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = test-1262
+# text = Szła po nich przez następne lata cała Polska.
+1	Szła	iść	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	po	po	ADP	prep:loc	AdpType=Prep	3	case	3:case	Case=Loc
+3	nich	on	PRON	ppron3:pl:loc:m3:ter:akc:praep	Case=Loc|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|SubGender=Masc3|Variant=Long	1	obl	1:obl:po	_
+4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Acc
+5	następne	następny	ADJ	adj:pl:acc:m3:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	6	amod	6:amod	_
+6	lata	rok	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	1	obl	1:obl:przez	_
+7	cała	cały	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	Polska	Polska	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-7240
+# text = Ojciec nie chciał nawet o tym słyszeć.
+1	Ojciec	ojciec	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	3	nsubj	3:nsubj|7:nsubj	_
+2	nie	nie	PART	qub	Polarity=Neg	3	advmod	3:advmod	_
+3	chciał	chcieć	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	nawet	nawet	PART	qub	_	7	advmod	7:advmod	_
+5	o	o	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
+6	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	7:obl:o	_
+7	słyszeć	słyszeć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-6933
+# text = O tym, że dzieci przeżywają koszmar, dorośli dowiadują się najczęściej przypadkiem.
+1	O	o	ADP	prep:loc	AdpType=Prep	2	case	2:case	Case=Loc
+2	tym	to	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	10	obl	10:obl:o	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+4	że	że	SCONJ	comp	_	6	mark	6:mark	_
+5	dzieci	dziecko	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	6:nsubj	_
+6	przeżywają	przeżywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	2:acl	_
+7	koszmar	koszmar	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	6	obj	6:obj	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+9	dorośli	dorosły	NOUN	subst:pl:nom:m1	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc1	10	nsubj	10:nsubj	_
+10	dowiadują	dowiadywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	się	się	PRON	qub	PronType=Prs|Reflex=Yes	10	expl:pv	10:expl:pv	_
+12	najczęściej	często	ADV	adv:sup	Degree=Sup	10	advmod	10:advmod	_
+13	przypadkiem	przypadek	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	10	obl	10:obl	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
+
+# sent_id = train-2357
+# text = Dotyczy ta ballada przygody filozoficznej chłopka-roztropka.
+1	Dotyczy	dotyczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
+3	ballada	ballada	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
+4	przygody	przygoda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl	_
+5	filozoficznej	filozoficzny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+6	chłopka-roztropka	chłopekroztropek	NOUN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-2393
+# text = Drzewo wydusza z siebie soki, pracuje.
+1	Drzewo	drzewo	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|7:nsubj	_
+2	wydusza	wyduszać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Gen
+4	siebie	siebie	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	2	obl	2:obl:z	_
+5	soki	sok	NOUN	subst:pl:acc:m3	Case=Acc|Gender=Masc|Number=Plur|SubGender=Masc3	2	obj	2:obj	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+7	pracuje	pracować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-10659
+# text = To Marty miłość.
+1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	Marty	Marta	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	3:nmod:poss	_
+3	miłość	miłość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = test-1670
+# text = Zdawało mi się...
+1	Zdawało	zdawać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	mi	ja	PRON	ppron12:sg:dat:f:pri:nakc	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	iobj	1:iobj	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:impers	1:expl:impers	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-6762
+# text = Nikt poza bratem i ojcem nie wiedział.
+1	Nikt	nikt	PRON	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg|SubGender=Masc1	7	nsubj	7:nsubj	_
+2	poza	poza	ADP	prep:inst	AdpType=Prep	3	case	3:case|5:case	Case=Ins
+3	bratem	brat	NOUN	subst:sg:inst:m1	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc1	1	nmod	1:nmod:poza	_
+4	i	i	CCONJ	conj	_	5	cc	5:cc	_
+5	ojcem	ojciec	NOUN	subst:sg:inst:m1	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc1	3	conj	1:nmod:poza|3:conj	_
+6	nie	nie	PART	qub	Polarity=Neg	7	advmod	7:advmod	_
+7	wiedział	wiedzieć	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = train-1152
+# text = Cela była wesoła, to byli komuniści przyzwyczajeni do defensywy.
+1	Cela	cela	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	wesoła	wesoły	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+5	to	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	conj	3:conj	_
+6	byli	być	AUX	praet:pl:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin	5	aux	5:aux	_
+7	komuniści	komunista	NOUN	subst:pl:nom:m1	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc1	5	nsubj	5:nsubj	_
+8	przyzwyczajeni	przyzwyczaić	ADJ	ppas:pl:nom:m1:perf:aff	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|SubGender=Masc1|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
+9	do	do	ADP	prep:gen	AdpType=Prep	10	case	10:case	Case=Gen
+10	defensywy	defensywa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	obl	8:obl:do	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-13055
+# text = Zanurz się we mnie...
+1	Zanurz	zanurzyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	obj	1:obj	_
+3	we	w	ADP	prep:acc:wok	AdpType=Prep|Variant=Long	4	case	4:case	Case=Acc
+4	mnie	ja	PRON	ppron12:sg:acc:m3:pri:akc	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs|SubGender=Masc3|Variant=Long	1	obl	1:obl:w	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-12031
+# text = Wiek XIX ma swoje lokomotywy, ale nie ma swoich katedr.
+1	Wiek	wiek	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	3	nsubj	3:nsubj	_
+2	XIX	XIX	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	1	acl	1:acl	_
+3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	swoje	swój	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	5:det	_
+5	lokomotywy	lokomotywa	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	obl	3:obl	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+7	ale	ale	CCONJ	conj	_	9	cc	9:cc	_
+8	nie	nie	PART	qub	Polarity=Neg	9	advmod	9:advmod	_
+9	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
+10	swoich	swój	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	11:det	_
+11	katedr	katedra	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	obl	9:obl	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = test-24
+# text = A moja sytuacja jest nieprawdopodobnie luksusowa.
+1	A	a	CCONJ	conj	_	6	cc	6:cc	_
+2	moja	mój	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	3:det	_
+3	sytuacja	sytuacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+5	nieprawdopodobnie	nieprawdopodobnie	ADV	adv:pos	Degree=Pos	6	advmod	6:advmod	_
+6	luksusowa	luksusowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = train-10588
+# text = To fakt.
+1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	fakt	fakt	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-11133
+# text = Uczula i sprzyja miażdżycy, a nawet nowotworom.
+1	Uczula	uczulać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	i	i	CCONJ	conj	_	3	cc	3:cc	_
+3	sprzyja	sprzyjać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+4	miażdżycy	miażdżyca	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	3	iobj	3:iobj	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+6	a	a	CCONJ	conj	_	8	cc	8:cc	_
+7	nawet	nawet	CCONJ	conj	_	6	fixed	6:fixed	_
+8	nowotworom	nowotwór	NOUN	subst:pl:dat:m3	Case=Dat|Gender=Masc|Number=Plur|SubGender=Masc3	4	conj	3:iobj|4:conj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-13575
+# text = Zwiększy się również zazdrość i przemoc.
+1	Zwiększy	zwiększyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	również	również	PART	qub	_	1	advmod	1:advmod	_
+4	zazdrość	zazdrość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
+5	i	i	CCONJ	conj	_	6	cc	6:cc	_
+6	przemoc	przemoc	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	conj	1:nsubj|4:conj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-8468
+# text = Powiedział też, że interwencja jeszcze nie grozi.
+1	Powiedział	powiedzieć	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	też	też	PART	qub	_	1	advmod	1:advmod	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+4	że	że	SCONJ	comp	_	8	mark	8:mark	_
+5	interwencja	interwencja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	_
+6	jeszcze	jeszcze	ADV	adv	_	8	advmod	8:advmod	_
+7	nie	nie	PART	qub	Polarity=Neg	8	advmod	8:advmod	_
+8	grozi	grozić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-10684
+# text = To nie był rozsądny pomysł.
+1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	nie	nie	PART	qub	Polarity=Neg	1	advmod	1:advmod	_
+3	był	być	AUX	praet:sg:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc3|Tense=Past|VerbForm=Fin	1	aux	1:aux	_
+4	rozsądny	rozsądny	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	5	amod	5:amod	_
+5	pomysł	pomysł	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-10907
+# text = Trzech wystarczy.
+1	Trzech	trzy	NUM	num:pl:acc:m1:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc1	2	nsubj	2:nsubj	DepType=Rec
+2	wystarczy	wystarczyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-7102
+# text = "Odczytaj".
+1	"	"	PUNCT	interp	PunctSide=Ini|PunctType=Quot	2	punct	2:punct	SpaceAfter=No
+2	Odczytaj	odczytać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	"	"	PUNCT	interp	PunctSide=Fin|PunctType=Quot	2	punct	2:punct	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-12363
+# text = Wszystkie ptaki, także papużki, lubią się kąpać.
+1	Wszystkie	wszystek	DET	adj:pl:nom:m2:pos	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot|SubGender=Masc2	2	det	2:det	_
+2	ptaki	ptak	NOUN	subst:pl:nom:m2	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc2	7	nsubj	7:nsubj|9:nsubj	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	2	punct	2:punct	_
+4	także	także	PART	qub	_	5	advmod	5:advmod	_
+5	papużki	papużka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	appos	2:appos	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	2	punct	2:punct	_
+7	lubią	lubić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
+9	kąpać	kąpać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = train-11153
+# text = Udało się.
+1	Udało	udać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-9454
+# text = Rzeka tworzy granicę państwa.
+1	Rzeka	rzeka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+2	tworzy	tworzyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	granicę	granica	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	_
+4	państwa	państwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	3:nmod:poss	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = dev-1171
+# text = Rozwijało się rzemiosło, górnictwo, handel.
+1	Rozwijało	rozwijać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	rzemiosło	rzemiosło	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+5	górnictwo	górnictwo	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	3	conj	1:nsubj|3:conj	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+7	handel	handel	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	3	conj	1:nsubj|3:conj	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = dev-1424
+# text = Uszanuj wolność innych ludzi.
+1	Uszanuj	uszanować	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	wolność	wolność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	_
+3	innych	inny	ADJ	adj:pl:gen:m1:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc1	4	amod	4:amod	_
+4	ludzi	człowiek	NOUN	subst:pl:gen:m1	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc1	2	nmod:poss	2:nmod:poss	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-4607
+# text = Machinalnie sięgnął po leżącą na stoliku książkę Dumasa.
+1	Machinalnie	machinalnie	ADV	adv:pos	Degree=Pos	2	advmod	2:advmod	_
+2	sięgnął	sięgnąć	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	po	po	ADP	prep:acc	AdpType=Prep	7	case	7:case	Case=Acc
+4	leżącą	leżeć	ADJ	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	acl	7:acl	_
+5	na	na	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
+6	stoliku	stolik	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	4	obl	4:obl:na	_
+7	książkę	książka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obl	2:obl:po	_
+8	Dumasa	Dumas	PROPN	subst:sg:gen:m1	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc1	7	nmod:poss	7:nmod:poss	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-583
+# text = Ale wino jest także rzeczą powszednią.
+1	Ale	ale	CCONJ	conj	_	5	cc	5:cc	_
+2	wino	wino	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	5:nsubj	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	także	także	PART	qub	_	5	advmod	5:advmod	_
+5	rzeczą	rzecz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	0:root	_
+6	powszednią	powszedni	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = train-11645
+# text = W siedem lat później wydaje swe najważniejsze prace.
+1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Acc
+2	siedem	siedem	NUM	num:pl:acc:m3:rec	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|SubGender=Masc3	3	nummod	3:nummod	DepType=Rec
+3	lat	rok	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	4	obl	4:obl:w	_
+4	później	późno	ADV	adv:com	Degree=Cmp	5	advmod	5:advmod	_
+5	wydaje	wydawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	swe	swój	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	8:det	_
+7	najważniejsze	ważny	ADJ	adj:pl:acc:f:sup	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	8	amod	8:amod	_
+8	prace	praca	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	5	obj	5:obj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = train-7138
+# text = — Odpocznie od tego nieszczęścia.
+1	—	—	PUNCT	interp	PunctType=Dash	2	punct	2:punct	_
+2	Odpocznie	odpocząć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Gen
+4	tego	ten	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	5:det	_
+5	nieszczęścia	nieszczęście	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	obl	2:obl:od	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-8844
+# text = Przejawiaj!
+1	Przejawiaj	przejawiać	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	interp	PunctType=Excl	1	punct	1:punct	_
+
+# sent_id = test-1429
+# text = W blaskach świateł stoi drewniana rzeźba, postać ślicznej dziewczyny.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Loc
+2	blaskach	blask	NOUN	subst:pl:loc:m3	Case=Loc|Gender=Masc|Number=Plur|SubGender=Masc3	4	obl	4:obl:w	_
+3	świateł	światło	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	2	nmod:poss	2:nmod:poss	_
+4	stoi	stać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	drewniana	drewniany	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	rzeźba	rzeźba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+8	postać	postać	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	appos	6:appos	_
+9	ślicznej	śliczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
+10	dziewczyny	dziewczyna	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	8:nmod:poss	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-10611
+# text = To jest ciągły proces.
+1	To	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	1:aux	_
+3	ciągły	ciągły	ADJ	adj:sg:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	4	amod	4:amod	_
+4	proces	proces	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	1	nsubj	1:nsubj	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-13144
+# text = Zasiadał na najwyższym urzędzie.
+1	Zasiadał	zasiadać	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	na	na	ADP	prep:loc	AdpType=Prep	4	case	4:case	Case=Loc
+3	najwyższym	wysoki	ADJ	adj:sg:loc:m3:sup	Case=Loc|Degree=Sup|Gender=Masc|Number=Sing|SubGender=Masc3	4	amod	4:amod	_
+4	urzędzie	urząd	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	1	obl	1:obl:na	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-3169
+# text = Idziemy z Châtelet do domu na piechotę.
+1	Idziemy	iść	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen
+3	Châtelet	Châtelet	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	obl	1:obl:z	_
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	5:case	Case=Gen
+5	domu	dom	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	1	obl	1:obl:do	_
+6	na	na	ADP	prep:acc	AdpType=Prep	7	case	7:case	Case=Acc
+7	piechotę	piechota	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	1:obl:na	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-6324
+# text = Nie różnią się one niczym.
+1	Nie	nie	PART	qub	Polarity=Neg	2	advmod	2:advmod	_
+2	różnią	różnić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	2	expl:pv	2:expl:pv	_
+4	one	on	PRON	ppron3:pl:nom:n:ter:akc:npraep	Case=Nom|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nsubj	2:nsubj	_
+5	niczym	nic	PRON	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing|PronType=Neg	2	obl	2:obl	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = test-1726
+# text = Żyj świeżością chwili obecnej.
+1	Żyj	żyć	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	świeżością	świeżość	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	obl	1:obl	_
+3	chwili	chwila	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:poss	2:nmod:poss	_
+4	obecnej	obecny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	3:amod	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-8504
+# text = Powiązanie domów wskazuje również na zdobywanie wiedzy poprzez podróże.
+1	Powiązanie	powiązać	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nsubj	3:nsubj	_
+2	domów	dom	NOUN	subst:pl:gen:m3	Case=Gen|Gender=Masc|Number=Plur|SubGender=Masc3	1	nmod	1:nmod	_
+3	wskazuje	wskazywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	również	również	PART	qub	_	6	advmod	6:advmod	_
+5	na	na	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
+6	zdobywanie	zdobywać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obl	3:obl:na	_
+7	wiedzy	wiedza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
+8	poprzez	poprzez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Acc
+9	podróże	podróż	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	6	nmod	6:nmod:poprzez	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-177
+# text = A pan ma?
+1	A	a	CCONJ	conj	_	3	cc	3:cc	_
+2	pan	pan	NOUN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	3	nsubj	3:nsubj	_
+3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	3:punct	_
+
+# sent_id = train-12119
+# text = Wilhelmi ma być ministrem kultury.
+1	Wilhelmi	Wilhelmi	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	2	nsubj	2:nsubj|4:nsubj	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	cop	4:cop	_
+4	ministrem	minister	NOUN	subst:sg:inst:m1	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc1	2	xcomp	2:xcomp	_
+5	kultury	kultura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	4:nmod:poss	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = dev-1163
+# text = Rozruchy trwały nadal.
+1	Rozruchy	rozruchy	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	2:nsubj	_
+2	trwały	trwać	VERB	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	nadal	nadal	ADV	adv	_	2	advmod	2:advmod	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-4237
+# text = Kontemplując Jezusa pragnę budować na takiej skale.
+1	Kontemplując	kontemplować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	3:advcl	_
+2	Jezusa	Jezus	PROPN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	1	obj	1:obj	_
+3	pragnę	pragnąć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	budować	budować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
+5	na	na	ADP	prep:loc	AdpType=Prep	7	case	7:case	Case=Loc
+6	takiej	taki	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	7	det	7:det	_
+7	skale	skała	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl:na	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-7964
+# text = Pod koniec gotowania dodajemy gomasio i natkę pietruszki.
+1	Pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Acc
+2	koniec	koniec	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	4	obl	4:obl:pod	_
+3	gotowania	gotować	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod:poss	2:nmod:poss	_
+4	dodajemy	dodawać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	gomasio	gomasio	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	_
+6	i	i	CCONJ	conj	_	7	cc	7:cc	_
+7	natkę	natka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	conj	4:obj|5:conj	_
+8	pietruszki	pietruszka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	7:nmod:poss	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = test-1608
+# text = Z najsłabszego wiersza wyłania się zawsze jakiś obraz.
+1	Z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen
+2	najsłabszego	słaby	ADJ	adj:sg:gen:m3:sup	Case=Gen|Degree=Sup|Gender=Masc|Number=Sing|SubGender=Masc3	3	amod	3:amod	_
+3	wiersza	wiersz	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	4	obl	4:obl:z	_
+4	wyłania	wyłaniać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+6	zawsze	zawsze	ADV	adv	PronType=Tot	4	advmod	4:advmod	_
+7	jakiś	jakiś	DET	adj:sg:nom:m3:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind|SubGender=Masc3	8	det	8:det	_
+8	obraz	obraz	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	4	nsubj	4:nsubj	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = dev-1563
+# text = Wszyscy będą dorana.
+1	Wszyscy	wszyscy	PRON	subst:pl:nom:m1	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot|SubGender=Masc1	2	nsubj	2:nsubj	_
+2	będą	być	VERB	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen|SpaceAfter=No
+4	rana	rano	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	2	obl	2:obl:do	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-5789
+# text = Nasze apele ginęły w wiecowym zgiełku.
+1	Nasze	nasz	DET	adj:pl:nom:m3:pos	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|SubGender=Masc3	2	det	2:det	_
+2	apele	apel	NOUN	subst:pl:nom:m3	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc3	3	nsubj	3:nsubj	_
+3	ginęły	ginąć	VERB	praet:pl:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Loc
+5	wiecowym	wiecowy	ADJ	adj:sg:loc:m3:pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc3	6	amod	6:amod	_
+6	zgiełku	zgiełk	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	3	obl	3:obl:w	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-5495
+# text = Na plantach Zygmunt spotkał brata.
+1	Na	na	ADP	prep:loc	AdpType=Prep	2	case	2:case	Case=Loc
+2	plantach	planty	NOUN	subst:pl:loc:n	Case=Loc|Gender=Neut|Number=Plur	4	obl	4:obl:na	_
+3	Zygmunt	Zygmunt	PROPN	subst:sg:nom:m1	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc1	4	nsubj	4:nsubj	_
+4	spotkał	spotkać	VERB	praet:sg:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	brata	brat	NOUN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = train-9255
+# text = Reagując na stan zaspokojenia tych potrzeb, przeżywa emocje.
+1	Reagując	reagować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	8:advcl	_
+2	na	na	ADP	prep:acc	AdpType=Prep	3	case	3:case	Case=Acc
+3	stan	stan	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	1	obl	1:obl:na	_
+4	zaspokojenia	zaspokoić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod:poss	3:nmod:poss	_
+5	tych	ten	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	6:det	_
+6	potrzeb	potrzeba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+8	przeżywa	przeżywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	emocje	emocja	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	obj	8:obj	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
+
+# sent_id = test-459
+# text = Ja sama zastosowałam tę metodę i sądzę, że była skuteczna.
+1	Ja	ja	PRON	ppron12:sg:nom:f:pri	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj|8:nsubj	_
+2	sama	sam	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	acl	1:acl	_
+3	zastosowała	zastosować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	3	aux:aglt	3:aux:aglt	_
+5	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	6:det	_
+6	metodę	metoda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	_
+7	i	i	CCONJ	conj	_	8	cc	8:cc	_
+8	sądzę	sądzić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+10	że	że	SCONJ	comp	_	12	mark	12:mark	_
+11	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
+12	skuteczna	skuteczny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	ccomp	8:ccomp	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-10008
+# text = Sytuacja jest podobna.
+1	Sytuacja	sytuacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	podobna	podobny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-748
+# text = Bała się.
+1	Bała	bać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	się	się	PRON	qub	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-1828
+# text = Czy stać jakąś powszedniość, by stała się rzeczą wielką?
+1	Czy	czy	PART	qub	PartType=Int	2	mark	2:mark	_
+2	stać	stać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	0:root	_
+3	jakąś	jakiś	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	4	det	4:det	_
+4	powszedniość	powszedniość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obl	2:obl	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+6	by	by	SCONJ	comp	_	7	mark	7:mark	_
+7	stała	stać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
+9	rzeczą	rzecz	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	xcomp	7:xcomp	_
+10	wielką	wielki	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	9:amod	SpaceAfter=No
+11	?	?	PUNCT	interp	PunctType=Qest	2	punct	2:punct	_
+
+# sent_id = dev-288
+# text = Dzieci zadają nam wiele trudnych pytań.
+1	Dzieci	dziecko	NOUN	subst:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	2:nsubj	_
+2	zadają	zadawać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	nam	my	PRON	ppron12:pl:dat:m1:pri	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs|SubGender=Masc1	2	iobj	2:iobj	_
+4	wiele	wiele	DET	num:pl:acc:n:rec	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	6	det	6:det	DepType=Rec
+5	trudnych	trudny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	6:amod	_
+6	pytań	pytanie	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	2	obj	2:obj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = train-1309
+# text = Chwilami ogarniały głucha złość i bunt.
+1	Chwilami	chwila	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	2	obl	2:obl	_
+2	ogarniały	ogarniać	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	głucha	głuchy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+4	złość	złość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+5	i	i	CCONJ	conj	_	6	cc	6:cc	_
+6	bunt	bunt	NOUN	subst:sg:nom:m3	Case=Nom|Gender=Masc|Number=Sing|SubGender=Masc3	4	conj	2:nsubj|4:conj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = dev-34
+# text = Ale była to już zupełnie inna opowieść.
+1	Ale	ale	CCONJ	conj	_	3	cc	3:cc	_
+2	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	aux	3:aux	_
+3	to	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+4	już	już	PART	qub	_	3	advmod	3:advmod	_
+5	zupełnie	zupełnie	ADV	adv:pos	Degree=Pos	6	advmod	6:advmod	_
+6	inna	inny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	_
+7	opowieść	opowieść	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = test-658
+# text = Może jeszcze dożyję tej chwili.
+1	Może	może	PART	qub	_	3	advmod	3:advmod	_
+2	jeszcze	jeszcze	PART	qub	_	3	advmod	3:advmod	_
+3	dożyję	dożyć	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	5:det	_
+5	chwili	chwila	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obl	3:obl	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = train-3429
+# text = Jak próbowałeś sobie z nimi radzić?
+1	Jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	2	advmod	2:advmod	_
+2	próbował	próbować	VERB	praet:sg:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Number=Sing|Person=2|Variant=Long	2	aux:aglt	2:aux:aglt	_
+4	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	7	iobj	7:iobj	_
+5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Ins
+6	nimi	on	PRON	ppron3:pl:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	7	obl	7:obl:z	_
+7	radzić	radzić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	SpaceAfter=No
+8	?	?	PUNCT	interp	PunctType=Qest	2	punct	2:punct	_
+
+# sent_id = train-4636
+# text = Mają zapewnić przychylność świata.
+1	Mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	zapewnić	zapewnić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
+3	przychylność	przychylność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	_
+4	świata	świat	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	3	nmod:poss	3:nmod:poss	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-11297
+# text = Uznano, że poszlaki były wątłe i niepewne, zwłaszcza podobieństwo papieru i sznurka.
+1	Uznano	uznać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+3	że	że	SCONJ	comp	_	6	mark	6:mark|8:mark	_
+4	poszlaki	poszlaka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	6:nsubj|8:nsubj	_
+5	były	być	AUX	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop|8:cop	_
+6	wątłe	wątły	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	ccomp:obj	1:ccomp:obj	_
+7	i	i	CCONJ	conj	_	8	cc	8:cc	_
+8	niepewne	niepewny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	conj	1:ccomp:obj|6:conj	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+10	zwłaszcza	zwłaszcza	PART	qub	_	11	advmod	11:advmod	_
+11	podobieństwo	podobieństwo	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	6	obl	6:obl|8:obl	_
+12	papieru	papier	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	11	nmod:poss	11:nmod:poss	_
+13	i	i	CCONJ	conj	_	14	cc	14:cc	_
+14	sznurka	sznurek	NOUN	subst:sg:gen:m3	Case=Gen|Gender=Masc|Number=Sing|SubGender=Masc3	12	conj	11:nmod:poss|12:conj	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = train-11042
+# text = Tylko to ma znaczenie i sens.
+1	Tylko	tylko	PART	qub	_	2	advmod	2:advmod	_
+2	to	to	PRON	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
+3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	znaczenie	znaczenie	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	obl	3:obl	_
+5	i	i	CCONJ	conj	_	6	cc	6:cc	_
+6	sens	sens	NOUN	subst:sg:acc:m3	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc3	4	conj	3:obl|4:conj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = dev-667
+# text = Mówiliśmy już, że na Żabim Mnichu zdarzały się wypadki nietypowe.
+1	Mówili	mówić	VERB	praet:pl:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	1	aux:aglt	1:aux:aglt	_
+3	już	już	PART	qub	_	1	advmod	1:advmod	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+5	że	że	SCONJ	comp	_	9	mark	9:mark	_
+6	na	na	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc
+7	Żabim	Żabi	ADJ	adj:sg:loc:m2:pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|SubGender=Masc2	8	amod	8:amod	_
+8	Mnichu	Mnich	PROPN	subst:sg:loc:m2	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc2	9	obl	9:obl:na	_
+9	zdarzały	zdarzać	VERB	praet:pl:m3:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc3|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+10	się	się	PRON	qub	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
+11	wypadki	wypadek	NOUN	subst:pl:nom:m3	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc3	9	nsubj	9:nsubj	_
+12	nietypowe	nietypowy	ADJ	adj:pl:nom:m3:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc3	11	amod	11:amod	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
