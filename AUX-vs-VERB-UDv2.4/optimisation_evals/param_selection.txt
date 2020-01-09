@@ -1,0 +1,290 @@
+evaluation run 1
+	bidirectional: True
+	dropout: 0.026746366795261378
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.009033333333333301
+variance: 1.4888888888889556e-07
+test_score: 0.9918
+----------------------------------------------------------------------------------------------------
+evaluation run 2
+	bidirectional: False
+	dropout: 0.3016236904653871
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: False
+score: 0.03470000000000003
+variance: 1.8666666666666995e-07
+test_score: 0.9691
+----------------------------------------------------------------------------------------------------
+evaluation run 3
+	bidirectional: False
+	dropout: 0.33404980800945605
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: True
+score: 0.012833333333333327
+variance: 6.222222222223319e-08
+test_score: 0.9898
+----------------------------------------------------------------------------------------------------
+evaluation run 4
+	bidirectional: True
+	dropout: 0.463127816525128
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+	use_crf: False
+	use_rnn: False
+score: 0.03666666666666666
+variance: 1.3555555555555777e-07
+test_score: 0.9659
+----------------------------------------------------------------------------------------------------
+evaluation run 5
+	bidirectional: False
+	dropout: 0.40220675678003465
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 1
+	use_crf: True
+	use_rnn: True
+score: 0.016766666666666635
+variance: 3.622222222222041e-07
+test_score: 0.9871
+----------------------------------------------------------------------------------------------------
+evaluation run 6
+	bidirectional: True
+	dropout: 0.1407040655728536
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.25
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.009033333333333338
+variance: 4.422222222222359e-07
+test_score: 0.9913
+----------------------------------------------------------------------------------------------------
+evaluation run 7
+	bidirectional: True
+	dropout: 0.36685291583891033
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: True
+score: 0.013166666666666623
+variance: 6.422222222222485e-07
+test_score: 0.9882
+----------------------------------------------------------------------------------------------------
+evaluation run 8
+	bidirectional: False
+	dropout: 0.49172182138912424
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.008633333333333345
+variance: 8.8888888888968e-09
+test_score: 0.9917
+----------------------------------------------------------------------------------------------------
+evaluation run 9
+	bidirectional: True
+	dropout: 0.2463302864159333
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: True
+	use_rnn: False
+score: 0.01996666666666665
+variance: 8.222222222223125e-08
+test_score: 0.9821
+----------------------------------------------------------------------------------------------------
+evaluation run 10
+	bidirectional: True
+	dropout: 0.3337197708770476
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.011333333333333381
+variance: 2.0222222222222455e-07
+test_score: 0.9873
+----------------------------------------------------------------------------------------------------
+evaluation run 11
+	bidirectional: True
+	dropout: 0.1370515206823571
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 128
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: True
+score: 0.011566666666666689
+variance: 4.022222222221978e-07
+test_score: 0.9878
+----------------------------------------------------------------------------------------------------
+evaluation run 12
+	bidirectional: True
+	dropout: 0.2376510178017897
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: True
+	use_rnn: True
+score: 0.008466666666666697
+variance: 1.1555555555556464e-07
+test_score: 0.9924
+----------------------------------------------------------------------------------------------------
+evaluation run 13
+	bidirectional: True
+	dropout: 0.07508657889491643
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 32
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.009733333333333335
+variance: 2.822222222222069e-07
+test_score: 0.9902
+----------------------------------------------------------------------------------------------------
+evaluation run 14
+	bidirectional: False
+	dropout: 0.4518137225873843
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: False
+score: 0.038333333333333296
+variance: 1.082222222222201e-06
+test_score: 0.9639
+----------------------------------------------------------------------------------------------------
+evaluation run 15
+	bidirectional: False
+	dropout: 0.25911769951385294
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.05
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: False
+	use_rnn: True
+score: 0.015199999999999991
+variance: 4.066666666666808e-07
+test_score: 0.9834
+----------------------------------------------------------------------------------------------------
+evaluation run 16
+	bidirectional: True
+	dropout: 0.3297035686815742
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 128
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 1
+	use_crf: False
+	use_rnn: True
+score: 0.011466666666666661
+variance: 4.955555555555154e-07
+test_score: 0.989
+----------------------------------------------------------------------------------------------------
+evaluation run 17
+	bidirectional: False
+	dropout: 0.47080680680176257
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 256
+	learning_rate: 0.15
+	mini_batch_size: 8
+	rnn_layers: 4
+	use_crf: True
+	use_rnn: True
+score: 0.008566666666666686
+variance: 3.5555555555567465e-08
+test_score: 0.9918
+----------------------------------------------------------------------------------------------------
+evaluation run 18
+	bidirectional: True
+	dropout: 0.016667615688050696
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 128
+	learning_rate: 0.25
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: False
+score: 0.03203333333333332
+variance: 1.8288888888888585e-06
+test_score: 0.9708
+----------------------------------------------------------------------------------------------------
+evaluation run 19
+	bidirectional: False
+	dropout: 0.1506434853016948
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/hi-wiki-fasttext-300d-1M,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 64
+	learning_rate: 0.1
+	mini_batch_size: 8
+	rnn_layers: 2
+	use_crf: False
+	use_rnn: True
+score: 0.011200000000000024
+variance: 1.0666666666667277e-07
+test_score: 0.9898
+----------------------------------------------------------------------------------------------------
+evaluation run 20
+	bidirectional: False
+	dropout: 0.19345380343252522
+	embeddings: StackedEmbeddings [/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-forward-v0.1.pt,/storage/ostrava1/home/aggarwaa/.flair/embeddings/lm-hi-opus-large-backward-v0.1.pt]
+	hidden_size: 128
+	learning_rate: 0.2
+	mini_batch_size: 8
+	rnn_layers: 1
+	use_crf: True
+	use_rnn: True
+score: 0.010666666666666677
+variance: 8.955555555555557e-07
+test_score: 0.9881
+----------------------------------------------------------------------------------------------------
+best parameter combination
+	bidirectional: 0
+	dropout: 0.2376510178017897
+	embeddings: 1
+	hidden_size: 3
+	learning_rate: 1
+	mini_batch_size: 0
+	rnn_layers: 1
+	use_crf: 0
+	use_rnn: 0
