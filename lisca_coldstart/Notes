@@ -1,0 +1,92 @@
+K-fold Cross-Validation of Single File
+
+1. Check if problem of cold-start can be countered
+2. Determine if altering value of k affects the results obtained
+
+k= 2,4,8
+
+Within each k value, we get following scores
+
+Stats		k=2		k=4		k=8
+=================================
+Test data	16000	16000	16000
+
+=0 arcs		3487	2620	2319
+Total arcs	336054	336083	366087
+Percentage	1.04	0.78	0.64
+
+===== Random 200 arcs ===========
+False Err	?		?		?
+True Err	?		?		?
+Acc			?		?		?
+
+Does Method Work?
+?
+
+Combo same across all k?
+Nope
+
+If not, Optimal value of k?
+?
+
+# Comments
+In the total number of arcs found with lisca score = 0, the minimal number (2319) is common to all the three splits.
+Furthermore, as the value of k decreases, the additional values start piling up. k=2,4 has all common elements to k4;
+k=4,8 has all common elements to k8
+
+# Found Patterns
+
+====> Original Patterns
+acl4amod
+amod4xcomp
+conj_head
+nmod4obl
+obl4advcl|acl
+auxasHead
+
+====> k2, not k4
+
+*acl4amod	2
+*amod4xcomp	2
+*auxasRoot	2
+*nmod4obl	5
+**nsubj4obl	1
+*obl4acl|advcl	1
+**obl4xcomp	4
+***xcomp4advmod	1
+Random Error	10
+Wrong Head	4
+Tree Error	3
+None	65
+===============
+Errors = 36/100
+
+====> k4, not k8
+
+**advmod4amod	1
+*amod4xcomp	2
+**nsubj4obl	3
+*obl4advcl|acl	1
+**obl4xcomp	1
+Random Error	10
+Wrong Head	2
+Tree Error	1
+None	79
+===============
+Errors = 21/100
+
+=======> All
+
+*acl4amod	1
+**advmod4amod	1
+*amod4xcomp	5
+*nmod4obl	3
+**nsubj4obl	3
+*obl4advcl|acl	1
+**obl4xcomp	3
+Random Error	32
+Wrong Head	13
+Tree Error	23
+None	115
+===============
+Errors = 85/200

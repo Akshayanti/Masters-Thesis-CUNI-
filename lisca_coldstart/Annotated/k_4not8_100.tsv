@@ -1,0 +1,100 @@
+train-s6233	30	0	Random Error
+train-s6280	21	1	None
+dev-s1440	10	0	advmod4amod
+train-s10317	20	1	None
+train-s7817	14	0	amod4xcomp
+dev-s1508	2	1	None
+train-s11691	20	1	None
+train-s11218	22	1	None
+train-s9324	1	1	None
+dev-s566	17	0	nsubj4obl
+train-s13200	23	1	None
+train-s688	6	1	None
+train-s12488	17	1	None
+train-s4056	15	1	None
+train-s11109	16	1	None
+dev-s836	9	1	None
+train-s10804	6	1	None
+train-s2048	53	1	None
+dev-s369	6	1	None
+train-s6086	11	1	None
+train-s12855	5	0	obl4advcl|acl
+dev-s1204	60	1	None
+train-s5419	28	1	None
+train-s12929	7	1	None
+train-s10350	23	1	None
+train-s4637	27	0	Tree Error
+dev-s218	17	1	None
+train-s8306	40	1	None
+train-s7588	21	1	None
+train-s1682	34	1	None
+train-s11937	11	1	None
+train-s11362	11	1	None
+train-s11122	55	1	None
+test-s651	15	1	None
+train-s5731	25	1	None
+train-s13007	1	1	None
+train-s8306	54	1	None
+dev-s1012	31	1	None
+test-s1287	13	1	None
+train-s11382	34	1	None
+train-s11125	28	1	None
+train-s11091	9	1	None
+train-s994	32	1	None
+train-s987	3	1	None
+dev-s1023	16	1	None
+train-s6240	22	1	None
+train-s12051	27	1	None
+dev-s1053	18	1	None
+train-s5382	66	1	None
+train-s10568	58	0	Wrong Head
+train-s1953	18	1	None
+dev-s17	1	0	Random Error
+dev-s1097	5	1	None
+train-s3067	1	1	None
+train-s9169	27	1	None
+train-s10948	29	1	None
+train-s12856	36	1	None
+train-s11640	10	1	None
+train-s13003	8	1	None
+train-s2595	3	1	None
+train-s8314	44	1	None
+train-s6546	34	0	Random Error
+train-s5382	70	1	None
+train-s1180	12	1	None
+dev-s801	26	1	None
+train-s6168	6	1	None
+train-s1095	10	1	None
+train-s7187	11	1	None
+train-s10083	14	1	None
+train-s353	17	1	None
+train-s2043	6	0	nsubj4obl
+test-s961	36	1	None
+test-s671	19	1	None
+train-s4529	5	1	None
+train-s10295	3	0	Random Error
+train-s8456	16	0	Random Error
+test-s459	26	0	Random Error
+dev-s513	2	1	None
+train-s4161	23	0	Random Error
+train-s6810	2	1	None
+train-s12761	5	0	Random Error
+train-s12882	13	1	None
+train-s11425	10	1	None
+train-s7874	37	1	None
+train-s2539	6	1	None
+train-s12085	14	0	obl4xcomp
+train-s1034	27	1	None
+train-s7339	26	0	nsubj4obl
+train-s2185	7	0	amod4xcomp
+train-s10785	9	0	Random Error
+train-s7847	16	1	None
+train-s10102	44	0	Random Error
+train-s12111	51	1	None
+train-s4583	10	1	None
+train-s9085	3	1	None
+train-s6341	6	1	None
+dev-s1171	17	1	None
+dev-s195	18	1	None
+train-s8120	29	1	None
+train-s2224	8	0	Wrong Head
