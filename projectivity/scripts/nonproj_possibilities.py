@@ -214,7 +214,7 @@ if __name__ == "__main__":
 			filename = i.split("/")[-1].strip()
 			contents = infile.readlines()
 			language_code = treebank_id.split("_")[0]
-			for sent_id, text, block in find_projectivities.get_blocks(contents):
+			for sent_id, text, block in find_non_projectivities.get_blocks(contents):
 				for given_pattern in patterns_by_lang[language_code]:
 					if sent_id not in patterns[given_pattern]:
 						if combo_does_appear(given_pattern, block):
