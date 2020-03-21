@@ -1,4 +1,5 @@
 from udapi.core.block import Block
+import sys
 
 # pylint: disable=no-self-use
 
@@ -15,25 +16,24 @@ class fixconjhead(Block):
     
     def process_tree(self, root):
         for node in root.descendants:
-            # change the head of the node
+            # start by 'fixing' projective attachments
+            if self.wrongHead(node) and node.is_nonprojective():
+                if not self.nextConjHead(node, root):
+                    if not self.projTempFix(node, root):
+                        pass
+
+            # now, start attaching the things normally
             if self.wrongHead(node):
                 if not self.changeHead_sibling(node):
                     if not self.changeHead_aunt(node):
                         if not self.changeHead_granny(node):
                             pass
-    
-    
-    def isCconj(self, node):
-        if node.upos == "CCONJ" and node.udeprel == "cc":
-            return True
-        return False
-    
-    
+            
     def wrongHead(self, node):
-        if self.isCconj(node) and node.parent.precedes(node) and not node.parent.is_root():
+        if node.upos == "CCONJ" and node.udeprel == "cc" and node.parent.precedes(node):
             return True
-        return False
-    
+        else:
+            return False
     
     def changeHead_sibling(self, node):
         """Initially, we try to attach the node to the next sibling of the conjunction.
@@ -74,7 +74,6 @@ class fixconjhead(Block):
                         return True
         return False
     
-    
     def changeHead_aunt(self, node):
         """Latch on to the next aunt (sibling of the parent node). Again, more
         priority to a node with conj deprel, followed by other
@@ -94,7 +93,6 @@ class fixconjhead(Block):
         """No candidate aunt found. Nothing we can do"""
         return False
 
-    
     def changeHead_granny(self, node):
         """lowest priority allotted to moving up the tree"""
         orig_parent = node.parent
@@ -105,4 +103,27 @@ class fixconjhead(Block):
                 node.parent = orig_parent
             else:
                 return True
+        return False
+    
+    def nextConjHead(self, node, root):
+        orig_parent = node.parent
+        
+        # First priority to a node that is marked as a conjunct
+        cand_node = [x for x in root.descendants if x.ord > node.ord and x.udeprel == "conj"]
+        if cand_node:
+            node.parent = cand_node[0]
+            if node.is_nonprojective() or node.parent.is_root():
+                node.parent = orig_parent
+            else:
+                return True
+        return False
+    
+    def projTempFix(self, node, root):
+        orig_parent = node.parent
+        cand_nodes = [x for x in root.descendants if x.ord < node.ord and x.upos in ["ADJ", "ADV", "NOUN", "PROPN", "VERB", "PRON"]]
+        if cand_nodes:
+            node.parent = cand_nodes[-1]
+            if not node.is_nonprojective():
+                return True
+        node.parent = orig_parent
         return False
