@@ -26,7 +26,8 @@ The problem statement, the different approaches to the problem, and even more di
 
     Contains some results that are not annotated but are useful for evaluation of the algorithm.
     Unless needed to extend the algorithm, not needed by an end-user. More details about the files in this category can
-    be read in the documentation for Annotations folder [here](Annotations/README.md).
+    be read in the documentation for Annotations folder [here](Annotations/README.md#unhandledNonProj.list) and 
+    [here](Annotations/README.md#unhandledFinal.list).
 
 2. makefile  
 
