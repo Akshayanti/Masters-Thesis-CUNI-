@@ -16,13 +16,13 @@ The problem statement, the different approaches to the problem, and even more di
 
 <h3>Included Files</h3>
 
-1. Annotations folder  
+1. Annotations directory  
 
     Contains the manually annotated data for the experiment. The annotations were used
     to present the results in documentation. More about the annotations can be read in
     [this](Annotations/README.md) document.
     
-2. Extra Data (Not Annotated) folder
+2. Extra Data (Not Annotated) directory
 
     Contains some results that are not annotated but are useful for evaluation of the algorithm.
     Unless needed to extend the algorithm, not needed by an end-user. More details about the files in this category can
@@ -47,15 +47,14 @@ The problem statement, the different approaches to the problem, and even more di
 
     You might want to use `pip3` instead of `pip`, depending on your system.
 
-5. scripts folder  
+5. scripts directory  
 
     Contains the main script that runs the module. Needs to be copied into the correct
     udapy folder location (see makefile for details), before it can be used.
 
-6. times_af, times_ar  
+6. RunTimes directory  
 
-    Contains the file containing the time taken to run the block for Afrikaans and Arabic data, 
-    respectively. The data is organised into 2 lines per run, for a total of 100 runs. Format:
+    Contains the files containing the time taken to run the block for Afrikaans and Arabic data. The data is organised into 2 lines per run, for a total of 100 runs. Format:
 
     ```
     Time when block starts processing
