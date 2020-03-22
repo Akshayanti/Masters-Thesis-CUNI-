@@ -5,10 +5,6 @@ filename corresponds to the language the file corresponds to. The annotations ar
 2 main categories, viz. for data instances that were originally projective, and for data instances that were
 originally non-projective. The relevant details can be studied in the following sections.
 
-<h2>Important Note</h2>
-
-
-
 <h2>Annotations for Originally Non-Projective Data</h2>
 
 This category contains 2 kind of files:
@@ -30,13 +26,9 @@ The second column of the file contains manually annotated data according to the 
         Better Candidate Available.
     1   Correction Successful Without Any Faults
     0   Correction Failed
+    XX  Some Other Fault, elaborated in documentation
 
 <h3>nextConjHead.list</h3>
-
-
-In this file, the annotation was done keeping in mind if the attachment was made to the correct node
-marked as `conj`. In case the deprel is marked wrong, but the association to this node was made regardless
-of the presence of a better candidate, it was still marked with `1`. 
 
 The file in this category corresponds to instances that were affected by nextConjHead() function call on
 them. For ar data, there were no instances that were affected by nextConjHead() function call in the algorithm,
