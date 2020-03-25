@@ -36,6 +36,10 @@ and so there is no nextConjHead.list file corresponding to the language.
 
 <h3>projAffected.list</h3>
 
+The file in this category corresponds to instances that were NOT affected by nextConjHead() function call, 
+and so were forced into a projective association to the immediately preceding content word (or pronoun) in the
+word-order.
+
 <h3>unhandledNonProj.list</h3>
 
 This category contains the files in `Extra Data (Not Annotated)` folder. The files contains instances that were originally
