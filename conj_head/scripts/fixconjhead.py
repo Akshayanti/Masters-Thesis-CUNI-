@@ -52,6 +52,7 @@ class fixconjhead(Block):
             node.parent = tgt
             if node.is_nonprojective() or node.parent.is_root():
                 node.parent = orig_parent
+                return False
             else:
                 return True
         else:
@@ -88,6 +89,7 @@ class fixconjhead(Block):
                 """make sure the attachment to the aunt is projective in nature"""
                 if node.is_nonprojective() or node.parent.is_root():
                     node.parent = orig_parent
+                    return False
                 else:
                     return True
         """No candidate aunt found. Nothing we can do"""
@@ -101,6 +103,7 @@ class fixconjhead(Block):
             node.parent = granny
             if node.is_nonprojective() or node.parent.is_root():
                 node.parent = orig_parent
+                return False
             else:
                 return True
         return False
