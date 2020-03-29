@@ -45,10 +45,40 @@ word-order.
 This category contains the files in `Extra Data (Not Annotated)` folder. The files contains instances that were originally
 non-projective, and were not affected by the pipeline dealing with the forced projectivisation.
 
-<h2>Annotations for Originally Projective Data</h2>
+<h2>Annotations for Pipeline Independent of Projectivity Status</h2>
+
+This section contains the annotations for the algorithms that do not differentiate based on the projectivity status
+of the association, in a tab-separated format. The first column identifies the node, as in the previous section, with
+the annotation in the second column as per following guidelines:
+
+```
+00  Misdirected Dependency
+01  Correction Gone Wrong, Introduced Conjunction Sandwich
+1   Correction Successful Without Any Faults
+```
+
+The group contains 2 kind of files:
+1. .siblingsAnnotate
+2. .notSiblingAnnotate
+
+The description of individual file type follows.
+
+<h3>.siblingsAnnotate</h3>
+
+This category contains files that were affected by attachToSibling() algorithm. The nodes that were originally non-projective
+were evaluated earlier in previous section, and are therefore removed from the consideration in this group.
+
+Contains randomly sampled 100 nodes, all manually annotated.
+
+<h3>.notSiblingAnnotate</h3>
+
+This category contains files that were affected by attachToAunt() and attachToGrandparent() algorithms. The nodes 
+that were originally non-projective were evaluated earlier in previous section, and are therefore removed from the 
+consideration in this group.
+
+Contains upto 100 randomly sampled nodes, all manually annotated.
 
 <h3>unhandledFinal.list</h3>
 
 This category contains the files in `Extra Data (Not Annotated)` folder. The files contains instances that 
  were not affected by the algorithm at all.
-
