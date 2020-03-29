@@ -48,11 +48,11 @@ get_stats:
 correction:
 	cp scripts/fixconjhead.py $(HOME)/udapi-python/udapi/block/tutorial/;
 	for filename in ar af; do \
-		udapy util.Eval node='if node.upos == "CCONJ" and node.deprel == "cc" and node.parent.ord < node.ord: print(node)' < `echo $$filename`.conllu > `echo $$filename`.all_misdirected; \
-		udapy util.Eval node='if node.upos == "CCONJ" and node.deprel == "cc" and node.parent.ord < node.ord and node.is_nonprojective(): print(node)' < `echo $$filename`.conllu > `echo $$filename`.nonproj_misdirected; \
+		udapy util.Eval node='if node.upos == "CCONJ" and node.udeprel == "cc" and node.parent.ord < node.ord: print(node)' < `echo $$filename`.conllu > `echo $$filename`.all_misdirected; \
+		udapy util.Eval node='if node.upos == "CCONJ" and node.udeprel == "cc" and node.parent.ord < node.ord and node.is_nonprojective(): print(node)' < `echo $$filename`.conllu > `echo $$filename`.nonproj_misdirected; \
 		udapy -s tutorial.fixconjhead < `echo $$filename`.conllu > `echo $$filename`_corrected.conllu; \
-		udapy util.Eval node='if node.upos == "CCONJ" and node.deprel == "cc" and node.parent.ord < node.ord: print(node)' < `echo $$filename`_corrected.conllu > `echo $$filename`.all_misdirected_unfixed; \
-		udapy util.Eval node='if node.upos == "CCONJ" and node.deprel == "cc" and node.parent.ord < node.ord and node.is_nonprojective(): print(node)' < `echo $$filename`_corrected.conllu > `echo $$filename`.nonproj_misdirected_unfixed; \
+		udapy util.Eval node='if node.upos == "CCONJ" and node.udeprel == "cc" and node.parent.ord < node.ord: print(node)' < `echo $$filename`_corrected.conllu > `echo $$filename`.all_misdirected_unfixed; \
+		udapy util.Eval node='if node.upos == "CCONJ" and node.udeprel == "cc" and node.parent.ord < node.ord and node.is_nonprojective(): print(node)' < `echo $$filename`_corrected.conllu > `echo $$filename`.nonproj_misdirected_unfixed; \
 		wc -l `echo $$filename`.all_misdirected*; \
 		wc -l `echo $$filename`.nonproj_misdirected*; \
 	done;
