@@ -1,37 +1,49 @@
 #!/bin/sh
 
+get_data:
+	chmod +x scripts/get_data.sh;
+	sh scripts/get_data.sh;
+
 all_scores:
-	cp scripts/klcpos3.py $(HOME)/ud-treebanks*2.4/;
-	cd $(HOME)/ud-treebank*2.4; \
-	if [ -f klcpos3_scores ]; then \
-		rm -f klcpos3_scores; \
-	fi; \
-	for languages in UD_Spanish UD_Czech UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Korean UD_Latin UD_Lithuanian UD_Dutch UD_Norwegian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Swedish UD_Slovenian; do \
-		for filename in `echo $$languages`*; do \
-			for filename2 in `echo $$languages`*; do \
-				if ! [ $$filename = $$filename2 ]; then \
-					if ! [ $$filename = "`echo $$languages`-PUD" ]; then \
-						if ! [ $$filename2 = "`echo $$languages`-PUD" ]; then \
-							if ! [ -f `echo $$filename`/complete.conllu ]; then \
-								cat `echo $$filename`/*.conllu >> `echo $$filename`/complete.conllu; \
-							fi; \
-							if ! [ -f `echo $$filename2`/complete.conllu ]; then \
-								cat `echo $$filename2`/*.conllu >> `echo $$filename2`/complete.conllu; \
-							fi; \
-							echo $$filename2 $$filename >> klcpos3_scores; \
-							python3 klcpos3.py --single_source --source `echo $$filename`/complete.conllu --target `echo $$filename2`/complete.conllu | cut -f2 >> klcpos3_scores; \
-							python3 klcpos3.py --single_source --target `echo $$filename`/complete.conllu --source `echo $$filename2`/complete.conllu | cut -f2 >> klcpos3_scores; \
-							echo "" >> klcpos3_scores; \
-						fi; \
+	@echo "Generating Scores. Might take a while. Please be patient";
+	@cp scripts/klcpos3.py $(HOME)/ud-treebanks*2.5/;
+	@cd $(HOME)/ud-treebank*2.5; \
+		if [ -f klcpos3_scores ]; then \
+			rm -f klcpos3_scores; \
+		fi; \
+		if ! [ -d temp ]; then \
+			mkdir temp; \
+		fi; \
+		for languages in UD_Spanish UD_Czech UD_German UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Korean UD_Latin UD_Lithuanian UD_Dutch UD_Norwegian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Swedish UD_Slovenian; do \
+			rm -rf temp; \
+			mkdir temp; \
+			for treebank in `echo $$languages`*; do \
+				if ! [ $$treebank = "`echo $$languages`-PUD" ]; then \
+					if [ -f `echo $$treebank`/*train.conllu ]; then \
+						cat `echo $$treebank`/*-ud-*.conllu >> temp/`echo $$treebank`.conllu; \
 					fi; \
 				fi; \
 			done; \
+			cd temp; \
+				for filename1 in *.conllu; do \
+					for filename2 in *conllu; do \
+						if ! [ $$filename1 = $$filename2 ]; then \
+							echo $$filename1 $$filename2 >> klcpos3; \
+							python3 ../klcpos3.py --single_source --source `echo $$filename1` --target `echo $$filename2` | cut -f2 >> klcpos3; \
+							python3 ../klcpos3.py --single_source --target `echo $$filename1` --source `echo $$filename2` | cut -f2 >> klcpos3; \
+							echo "" >> klcpos3; \
+						fi; \
+					done; \
+				done; \
+				cat klcpos3 >> ../klcpos3_scores; \
+			cd ..; \
+			rm -rf temp; \
 		done; \
-	done; \
-	rm -f klcpos3.py;
-	cp $(HOME)/ud-treebanks*2.4/klcpos3_scores ./;
-	python3 scripts/theta_POS.py klcpos3_scores > UDv2.4_scores.tsv;
-	rm -f klcpos3_scores;
+		rm -rf temp klcpos3.py;
+	@cp $(HOME)/ud-treebanks*2.5/klcpos3_scores ./;
+	@python3 scripts/theta_POS.py klcpos3_scores > UDv2.5_scores.tsv;
+	@rm -f klcpos3_scores;
+	@echo "Done generating scores. Results available in UDv2.5_scores.tsv file";
 
 size_control:
 	if ! [ -d size_control ]; then \
@@ -66,10 +78,14 @@ size_control:
 		rm -f *.py *.conllu *.tsv *.udpipe;
 
 genre_control:
-	if ! [ -d genre_control ]; then \
+	@if ! [ -d genre_control ]; then \
 		mkdir genre_control; \
 	fi;
-	cd genre_control; \
+	@if ! [ -d genre_control/test ]; then \
+		mkdir genre_control/test; \
+		cp scripts/test_fi.sh genre_control/test/test_fi.sh; \
+	fi;
+	@cd genre_control; \
 		cp ../scripts/split_pl_genres.py ./; \
 		cp ../scripts/downsample.py ./; \
 		cp ../scripts/klcpos3.py ./; \
@@ -95,7 +111,13 @@ genre_control:
 			python3 theta_POS.py klcpos3.tsv > klcpos3_scores_`echo $$i`; \
 			rm -f klcpos3.tsv *_125.conllu; \
 		done; \
-		rm -f *.py *.tsv;
+		rm -f *.py *.tsv; \
+		echo "Polish Data"; \
+		python3 ../scripts/get_scores_with_sd.py klcpos3_scores*; \
+		echo ""; \
+		cd test; \
+			chmod +x test_fi.sh; \
+			sh test_fi.sh; \
 
 clean:
 	rm -rf size_control *.tsv;

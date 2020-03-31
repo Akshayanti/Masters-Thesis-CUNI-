@@ -4,8 +4,6 @@ import argparse
 import math
 import operator
 
-div_by = 0
-
 
 def klcpos3(tgt_dict, src_dict, tgt_total, src_total):
 	"""
@@ -63,24 +61,25 @@ def trigram_from_list(pos_list):
 	return a, total
 
 
-def mod_source_list(orig_source, orig_tgt, orig_source_count):
+def mod_source_list(orig_source_counts, target_dict, orig_source_counts_total):
 	"""
 	account for the unseen counts of trigrams seen in target, not in source
 	"""
-	new_source = dict()
-	new_source_count = orig_source_count + 1 - 1
-	for i in orig_tgt:
-		if i not in orig_source:
-			new_source[i] = 1
-			new_source_count += 1
+	new_source_counts = dict()
+	new_source_count_total = orig_source_counts_total + 1 - 1
+	# check unseen counts from target_dict, and update in new_source_counts
+	for trigram in target_dict:
+		if trigram not in orig_source_counts:
+			new_source_counts[trigram] = 1
+			new_source_count_total += 1
 		else:
-			new_source[i] = orig_source[i]
-	return new_source, new_source_count
+			new_source_counts[trigram] = orig_source_counts[trigram]
+	return new_source_counts, new_source_count_total
 
 
 if __name__ == "__main__":
-	source = dict()
-	target = dict()
+	source_counts = dict()
+	target_counts = dict()
 	tgt_total = 0
 	
 	parser = argparse.ArgumentParser("Program to calculate klcpos3 measure for single, and multi-sourced delexicalised parsing algorithms")
@@ -94,20 +93,20 @@ if __name__ == "__main__":
 	with open(args.target, "r", encoding="utf-8") as tgt_file:
 		target_data = tgt_file.readlines()
 		tgt_list = get_pos_list(target_data)
-		target, tgt_total = trigram_from_list(tgt_list)
+		target_counts, target_counts_total = trigram_from_list(tgt_list)
 	
 	values_list = dict()
 	for i in args.source:
 		with open(i, "r", encoding="utf-8") as source_file:
-			source.clear()
-			src_total = 0
+			source_counts.clear()
+			source_counts_total = 0
 			source_data = source_file.readlines()
 			src_list = get_pos_list(source_data)
-			source, src_total = trigram_from_list(src_list)
+			source_counts, source_counts_total = trigram_from_list(src_list)
 			""" So far, we have generated the trigrams
 			We need to account for instances not seen in the source, but present in target """
-			new_source, src_total2 = mod_source_list(source, target, src_total)
-			values_list[i] = klcpos3(target, new_source, tgt_total, src_total2)
+			source_counts, source_counts_total = mod_source_list(source_counts, target_counts, source_counts_total)
+			values_list[i] = klcpos3(target_counts, source_counts, target_counts_total, source_counts_total)
 	
 	if args.single_source:
 		values_list_2 = sorted(values_list.items(), key=operator.itemgetter(1), reverse=True)
