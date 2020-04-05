@@ -26,7 +26,7 @@ def values(filename):
 						val2 = float(lines.strip())
 			else:
 				in_val = round((val1 + val2), 3)
-				if in_val >= 0 and all([x not in split for x in ["UD_French-Spoken", "UD_Swedish_Sign_Language-SSLC", "UD_French-FQB", "UD_French-FTB", "UD_English-ESL"]]):
+				if in_val >= 0 and all([x not in split for x in ["UD_Chinese-GSDSimp", "UD_English-ESL", "UD_French-FTB", "UD_Japanese-BCCWJ", "UD_Swedish_Sign_Language-SSLC"]]):
 					scores_dict[split] = in_val
 				split = ""
 				val1 = 0

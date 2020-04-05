@@ -1,4 +1,4 @@
-<h1>Estimating Inter-Treebank POS Annotation Consistency in UDv2.5</h1>
+<h1>Estimating POS Annotation Consistency of Different Treebanks in a Language: A Language-Independent Approach Based on KLcpos3 Measure</h1>
 
 For documentation, please refer [here](docs/)
 
@@ -9,6 +9,9 @@ For documentation, please refer [here](docs/)
 2. `all_scores`: Get theta_POS scores for all the treebank combinations in UDv2.5. Results stored
 in `UDv2.5_scores.tsv` file.
 
+3. `size_control`: Get theta_POS scores and coverage scores for 100 different seeds. Results stored in `size_control/klc_scores_hdtb_vs_pud`
+ and `size_control/coverage` respectively.
+ 
 <h3>Included Scripts</h3>
 
 Coming Soon.. 
