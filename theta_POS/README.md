@@ -14,6 +14,133 @@ in `UDv2.5_scores.tsv` file.
  
 <h3>Included Scripts</h3>
 
+<b>Note:</b> Unless mentioned otherwise, input files are in CONLL-U format.
+
+<h4>Files Used Throughout the Experiment</h4>
+
+1. <b>get_data.sh</b>  
+    Downloads and unpacks UDv2.5 Treebank Files to `HOME` directory, if not already present.
+    ```bash
+   sh get_data.sh
+    ```
+   
+2. <b>get_scores_with_sd.py</b>  
+    Calculates mean and standard deviation values when `theta_POS.py` file is run multiple times
+    for the similar data (example- 100 runs on slightly changing data). The first argument is the
+    mode of the input file(s) followed by the different input files from second argument onwards.
+    Can take multiple inputs. Defaults printing the output to stdout, from where it can be piped
+    to the desired output file.
+    
+    Mode Values Description:
+    ```bash
+    Mode   File_Type
+     1     TSV File with column1=fieldname, column2=values
+     2     File such that fieldname and values are each in new lines. 
+           Empty line separates fieldname entries
+    ```
+   
+   Usage:
+   ```bash
+   python3 get_scores_with_sd.py <mode> <input_file(s)>
+   ```
+    
+3. <b>klcpos3.py</b>  
+    File for calculating klcpos3 measure of source and target treebanks for single-source and 
+    multi-source-weighted delexicalised parsing.
+    
+    Arguments:
+    ```bash
+   --source:           Source Candidate File(s), in CONLL-U format
+   --target:           Target Candidate File, in CONLL-U format
+   --single_source:    Used for selection of a single source, the sources would be displayed in
+                         decreasing order of similarity measure
+   --multi_source:     Used for computing klcpos3 ^ -4 as a similarity measure for weighted 
+                         multiple-source parsing. The output values are not normalised.
+    ```
+   
+   Usage:
+   
+   ```bash
+   python3 klcpos3.py [-h] -t <target_file> -s <source_file(s)> [--single_source | --multi_source]
+   ```
+4. <b>test_significance.py</b>  
+    Test if the scores generated from `get_scores_with_sd.py` are significantly different
+    at 1%, 5%, 10% confidence value.
+    ```bash
+    python3 test_significance.py <input_file> <output_file>
+    ```
+   
+5. <b>theta_POS.py</b>  
+    Reads the file, and calculate the symmetric metric theta_pos, which is a sum of 
+    calculated klcpos3 scores in either direction. Returns the final output score as a percentage of 1 i.e.   
+    if actual value = 0.45, reported value = 45  
+    (since 45 % of 1 = 0.45)  
+    
+    Defaults output to stdout, from where it can be piped into a file. 
+    
+    Input File Format:
+    ```bash
+   file1 file2
+   klcpos3(file1, file2) score
+   klcpos3(file2, file1) score
+   
+   file1 file3
+   klcpos3(file1, file3) score
+   klcpos3(file3, file1) score
+   
+   file2 file3
+   klcpos3(file2, file3) score
+   klcpos3(file3, file2) score
+   
+    ```
+    Output Format (tsv, columns mark individual values):
+    ```bash
+   file1<space>file2  theta_pos_score
+   file1<space>file3  theta_pos_score
+   file2<space>file3  theta_pos_score
+   ...
+    ```
+   
+   Usage:
+    ```bash
+   python3 theta_POS.py <input_file>
+    ```
+	
+<h4>Files Specific to "size_control" target</h4>
+
+1. get_coverage_scores.py  
+    Description Coming Soon
+    
+2. split_by_parts.py  
+    Description Coming Soon
+    
+3. <b>split_pud.py</b>  
+    Splits a given PUD file into `news.conllu` and `wiki.conllu` files.  
+    
+   ```bash
+    python3 split_pud.py <input_pud_file> 
+    ```
+
+<h4>Files Specific to "genre_control" target</h4>
+
+1. <b>downsample.py</b>  
+    Downsamples a given CONLL-U file to a given number of sentences, or according to number of sentences in another
+     CONLL-U formatted file  
+    
+    Arguments:
+    ```bash
+   -i --input         Input File that needs to be downsampled
+   -n --number        Number of Sentences to downsample to
+   -f --file          The file whose number of instances the input file should be downsampled to
+   -o --output        Output file to write the downsampled data in. If the argument is not provided, 
+                       defaults to <input_file>_<downsampled_instances_count>.conllu
+   -h --help          Display Help Message and Exit
+    ```
+   Usage:
+   ```bash
+   python3 downsample.py [-h] -i <input_file> (-n NUMBER | -f FILE) [-o <output_file>]
+    ```
+   
 Coming Soon.. 
 
 <h3>References</h3>
