@@ -1,7 +1,7 @@
 import argparse
 import random
 
-# random.seed(1618)
+random.seed(1618)
 
 def get_blocks_count(file_name):
     with open(file_name, "r", encoding="utf-8") as infile:
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     check_constraints(input_size, output_size)
     output_data = generate_output_blocks(args.input, output_size)
     
-    output_file = args.output if args.output else args.input.strip().split(".")[0] + "_" + str(output_size) + ".conllu"
+    output_file = args.output if args.output else args.input.strip().split(".conllu")[0] + "_" + str(output_size) + ".conllu"
     with open(output_file, "w", encoding="utf-8") as outfile:
         for blocks in output_data:
             for line in blocks:

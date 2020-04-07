@@ -16,7 +16,7 @@ if len(sys.argv) < 3:
 	exit(0)
 
 if mode == "1":
-	""" File(s) contain splitnames and values in TSV format"""
+	# File(s) contain splitnames and values in TSV format
 	for givenfile in sys.argv[2:]:
 		with open(givenfile, "r", encoding="utf-8") as infile:
 			for line in infile:
@@ -26,7 +26,7 @@ if mode == "1":
 				else:
 					a[split_names].append(float(val))
 elif mode == "2":
-	""" File(s) contain splitnames and values in successive lines, with empty line as a seperator between entries"""
+	# File(s) contain splitnames and values in successive lines, with empty line as a seperator between entries
 	for givenfile in sys.argv[2:]:
 		with open(givenfile, "r", encoding="utf-8") as infile:
 			split_names = ""
