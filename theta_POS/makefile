@@ -1,6 +1,7 @@
 #!/bin/sh
 
 get_data:
+	@pip3 install -r requirements.txt;
 	@chmod +x scripts/get_data.sh;
 	@sh scripts/get_data.sh;
 
@@ -48,42 +49,88 @@ size_control:
 		mkdir size_control; \
 	fi;
 	@cd size_control; \
-		cp $(HOME)/ud-treebanks-v2.5/UD_Hindi-HDTB/hi_hdtb-ud-train.conllu ./train.conllu; \
-		cp $(HOME)/ud-treebanks-v2.5/UD_Hindi-PUD/hi_pud-ud-test.conllu ./pud.conllu; \
 		cp ../scripts/split_by_parts.py ./; \
 		cp ../scripts/split_pud.py ./; \
 		cp ../scripts/klcpos3.py ./; \
 		cp ../scripts/theta_POS.py ./; \
 		cp ../scripts/get_coverage_scores.py ./; \
-		python3 split_pud.py pud.conllu; \
-		mv news.conllu pud_news.conllu; \
-		rm -f split_pud.py wiki.conllu pud.conllu; \
-		for seedvalue in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100; do \
-			echo $$seedvalue; \
-			for percentage in 5 10 15 20 25 30 35 40 45 50; do \
-				python3 split_by_parts.py `echo $$percentage` train.conllu `echo $$seedvalue`; \
-				mv train.conllu_`echo $$percentage` train_`echo $$percentage`.conllu; \
+		if ! [ -d hi ]; then \
+			mkdir hi; \
+			cat $(HOME)/ud-treebanks-v2.5/UD_Hindi-HDTB/hi_hdtb-ud-*.conllu >> hi/train.conllu; \
+			cp $(HOME)/ud-treebanks-v2.5/UD_Hindi-PUD/hi_pud-ud-test.conllu hi/pud.conllu; \
+			python3 split_pud.py hi/pud.conllu; \
+			mv news.conllu hi/pud_news.conllu; \
+			rm -f wiki.conllu hi/pud.conllu; \
+			for seedvalue in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100; do \
+				echo "hi" $$seedvalue; \
+				for percentage in 5 10 15 20 25 30 35 40 45 50; do \
+					python3 split_by_parts.py `echo $$percentage` hi/train.conllu `echo $$seedvalue`; \
+					mv hi/train.conllu_`echo $$percentage` hi/train_`echo $$percentage`.conllu; \
+				done; \
+				for percentage in 55 60 65 70 75 80 85 90 95; do \
+					mv hi/train.conllu_`echo $$percentage` hi/train_`echo $$percentage`.conllu; \
+				done; \
+				cp hi/train.conllu hi/train_100.conllu; \
+				cd hi; \
+					for percentage in 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100; do \
+						echo "train_`echo $$percentage` pud_news" >> klc_scores_pud.tsv; \
+						echo "train_`echo $$percentage` pud_news" >> coverage_`echo $$seedvalue`; \
+						python3 ../klcpos3.py --single_source --source train_`echo $$percentage`.conllu --target pud_news.conllu | cut -f2 >> klc_scores_pud.tsv; \
+						python3 ../klcpos3.py --single_source --target train_`echo $$percentage`.conllu --source pud_news.conllu | cut -f2 >> klc_scores_pud.tsv; \
+						python3 ../get_coverage_scores.py --source train_`echo $$percentage`.conllu --target pud_news.conllu >> coverage_`echo $$seedvalue`; \
+						echo "" >> klc_scores_pud.tsv; \
+						echo "" >> coverage_`echo $$seedvalue`; \
+					done; \
+					python3 ../theta_POS.py klc_scores_pud.tsv > klc_scores_hdtb_vs_pud_`echo $$seedvalue`; \
+					rm -f train_*.conllu *.tsv; \
+				cd ..; \
 			done; \
-			for percentage in 55 60 65 70 75 80 85 90 95; do \
-				mv train.conllu_`echo $$percentage` train_`echo $$percentage`.conllu; \
+		fi; \
+		if ! [ -d zh ]; then \
+			mkdir zh; \
+			cat $(HOME)/ud-treebanks-v2.5/UD_Chinese-GSD/zh_gsd-ud-*.conllu >> zh/train.conllu; \
+			cp $(HOME)/ud-treebanks-v2.5/UD_Chinese-PUD/zh_pud-ud-test.conllu zh/pud.conllu; \
+			python3 split_pud.py zh/pud.conllu; \
+			mv wiki.conllu zh/pud_wiki.conllu; \
+			rm -f split_pud.py news.conllu zh/pud.conllu; \
+			for seedvalue in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100; do \
+				echo "Generating Scores for Chinese, over 100 iterations. Might take upto an hour depending on your system" > /dev/stderr; \
+				for percentage in 5 10 15 20 25 30 35 40 45 50; do \
+					python3 split_by_parts.py `echo $$percentage` zh/train.conllu `echo $$seedvalue`; \
+					mv zh/train.conllu_`echo $$percentage` zh/train_`echo $$percentage`.conllu; \
+				done; \
+				for percentage in 55 60 65 70 75 80 85 90 95; do \
+					mv zh/train.conllu_`echo $$percentage` zh/train_`echo $$percentage`.conllu; \
+				done; \
+				cp zh/train.conllu zh/train_100.conllu; \
+				cd zh; \
+					for percentage in 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100; do \
+						echo "train_`echo $$percentage` pud_wiki" >> klc_scores_pud.tsv; \
+						echo "train_`echo $$percentage` pud_wiki" >> coverage_`echo $$seedvalue`; \
+						python3 ../klcpos3.py --single_source --source train_`echo $$percentage`.conllu --target pud_wiki.conllu | cut -f2 >> klc_scores_pud.tsv; \
+						python3 ../klcpos3.py --single_source --target train_`echo $$percentage`.conllu --source pud_wiki.conllu | cut -f2 >> klc_scores_pud.tsv; \
+						python3 ../get_coverage_scores.py --source train_`echo $$percentage`.conllu --target pud_wiki.conllu >> coverage_`echo $$seedvalue`; \
+						echo "" >> klc_scores_pud.tsv; \
+						echo "" >> coverage_`echo $$seedvalue`; \
+					done; \
+					python3 ../theta_POS.py klc_scores_pud.tsv > klc_scores_vs_pud_`echo $$seedvalue`; \
+					rm -f train_*.conllu *.tsv; \
+				cd ..; \
 			done; \
-			cp train.conllu train_100.conllu; \
-			for percentage in 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100; do \
-				echo "train_`echo $$percentage` pud_news" >> klc_scores_pud.tsv; \
-				echo "train_`echo $$percentage` pud_news" >> coverage_`echo $$seedvalue`; \
-				python3 klcpos3.py --single_source --source train_`echo $$percentage`.conllu --target pud_news.conllu | cut -f2 >> klc_scores_pud.tsv; \
-				python3 klcpos3.py --single_source --target train_`echo $$percentage`.conllu --source pud_news.conllu | cut -f2 >> klc_scores_pud.tsv; \
-				python3 get_coverage_scores.py --source train_`echo $$percentage`.conllu --target pud_news.conllu >> coverage_`echo $$seedvalue`; \
-				echo "" >> klc_scores_pud.tsv; \
-				echo "" >> coverage_`echo $$seedvalue`; \
-			done; \
-			python3 theta_POS.py klc_scores_pud.tsv > klc_scores_hdtb_vs_pud_`echo $$seedvalue`; \
-			rm -f train_*.conllu *.tsv; \
-		done; \
+		fi; \
 		cp ../scripts/get_scores_with_sd.py ./; \
-		python3 ./get_scores_with_sd.py 1 klc_scores_hdtb_vs_pud_* > klc_scores_hdtb_vs_pud; \
-		python3 ./get_scores_with_sd.py 2 coverage_* > coverage; \
-		rm -f *.py *.conllu klc_scores_hdtb_vs_pud_* coverage_*;
+		cp ../scripts/test_significance.py ./; \
+		python3 get_scores_with_sd.py 1 hi/klc_scores_hdtb_vs_pud_* > hi/klc_scores_vs_pud; \
+		python3 get_scores_with_sd.py 2 hi/coverage_* > hi/coverage; \
+		python3 test_significance.py hi/coverage hi/coverage_significance; \
+		python3 test_significance.py hi/klc_scores_vs_pud hi/klc_significance; \
+		rm -f hi/*.conllu hi/klc_scores_hdtb_vs_pud_* hi/coverage_*; \
+		python3 get_scores_with_sd.py 1 zh/klc_scores_vs_pud_* > zh/klc_scores_vs_pud; \
+		python3 get_scores_with_sd.py 2 zh/coverage_* > zh/coverage; \
+		python3 test_significance.py zh/coverage zh/coverage_significance; \
+		python3 test_significance.py zh/klc_scores_vs_pud zh/klc_significance; \
+		rm -f zh/*.conllu zh/klc_scores_vs_pud_* zh/coverage_*; \
+		rm -f *.py
 
 
 genre_control:
