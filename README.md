@@ -6,9 +6,9 @@ This research attempts at identification and correction of inconsistencies in di
 
 <h2>About Repository</h2>
 
-The repository contains the data in form of codes, and the experiment results. The thesis was completed and submitted in January 2020 at Charles University, Prague.  
+The repository contains the data in form of codes, and the experiment results. The thesis is in progress as of April 2020.  
 
 Supervisor: Dan Zeman, UFAL, Charles University, Prague  
 Co-Supervisor: Koldo Gojenola, Computer Languages and Systems, University of Basque Country (UPV-EHU), Spain
 
-[Thesis Main Document](docs/Thesis_Document.pdf)
+[Thesis Main Document](docs/README.md)
