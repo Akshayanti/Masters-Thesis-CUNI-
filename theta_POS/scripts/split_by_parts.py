@@ -41,7 +41,7 @@ def write_data(id, outfilename):
 
 
 if __name__ == "__main__":
-	help_txt = "Arg1: Percentage of data to downsample to\n" \
+	help_txt = "Arg1: Percentage of data to split to\n" \
 	           "Arg2: Input file in CONLL-U format\n" \
 	           "Arg3: Optional Argument. Seed Value (int)\n" \
 	           "Usage: python3 {x} Arg1 Arg2 Arg3".format(x=sys.argv[0])

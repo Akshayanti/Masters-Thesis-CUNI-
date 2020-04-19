@@ -6,7 +6,6 @@ import sys
 def values(filename):
 	"""
 	Reads the file, and calculate the symmetric metric theta_pos, which is a sum of calculated klcpos3 scores in either direction
-	Returns the final output score as a percentage of 1 (i.e. if actual value = 0.45, reported value = 45 (since 45 % of 1 = 0.45)
 	"""
 	scores_dict = dict()
 	done_tbs = []

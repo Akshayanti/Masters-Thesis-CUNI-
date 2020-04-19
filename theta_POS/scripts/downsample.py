@@ -1,7 +1,6 @@
 import argparse
 import random
 
-random.seed(1618)
 
 def get_blocks_count(file_name):
     with open(file_name, "r", encoding="utf-8") as infile:
@@ -10,6 +9,7 @@ def get_blocks_count(file_name):
             if line.startswith("# sent_id"):
                 count += 1
         return count
+
 
 def check_constraints(a, b):
     if a < b:
@@ -49,8 +49,14 @@ if __name__ == "__main__":
     group1.add_argument('-n', "--number", type=int, help="Number of instances to downsample to")
     group1.add_argument('-f', "--file", type=str, help="The file whose number of instances the input file should be downsampled to, in CONLLU format")
     parser.add_argument('-o', "--output", type=str, help="Output file to store data in")
+    parser.add_argument('--seed', type=int, help="Integral Seed value for deciding randomness. Defaults to 1618 if the argument is not given.")
     args = parser.parse_args()
-
+    
+    if args.seed:
+        random.seed(args.seed)
+    else:
+        random.seed(1618)
+    
     input_size = get_blocks_count(args.input)
     output_size = get_blocks_count(args.file) if args.file else args.number
     check_constraints(input_size, output_size)
