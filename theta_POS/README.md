@@ -2,6 +2,16 @@
 
 For documentation, please refer [here](docs/)
 
+
+<h2>Contents</h2>
+
+1. [Makefile Targets](#makefile-targets)
+2. [Included Scripts](#included-scripts)
+    1. [Files Used Throughout the Experiment](#files-used-throughout-the-experiment)
+    2. [Files Specific to "size control" target](#files-specific-to-size_control-target)
+    3. [Files Specific to "genre_control" target](#files-specific-to-genre_control-target) 
+3. [References](#references)
+
 <h2>makefile targets</h2>
 
 1. `get_data`: Downloads and unzips the UDv2.5 data to `$HOME` directory.
@@ -18,13 +28,23 @@ in `UDv2.5_scores.tsv` file.
 
 <h4>Files Used Throughout the Experiment</h4>
 
-1. <b>get_data.sh</b>  
+1. <b>all_genres_list.py</b>
+    Takes input `README.md` file for a treebank, and returns the list of unique values listed
+    in 'Genre' category in machine-readable metadata. Multiple inputs supported.
+    
+    Defaults output to stdout, which can then be piped into a file, if desired.
+    
+    ```bash
+   python3 all_genres_list.py <input_file(s)>
+    ```
+
+2. <b>get_data.sh</b>  
     Downloads and unpacks UDv2.5 Treebank Files to `HOME` directory, if not already present.
     ```bash
    sh get_data.sh
     ```
    
-2. <b>get_scores_with_sd.py</b>  
+3. <b>get_scores_with_sd.py</b>  
     Calculates mean and standard deviation values when `theta_POS.py` file is run multiple times
     for the similar data (example- 100 runs on slightly changing data). The first argument is the
     mode of the input file(s) followed by the different input files from second argument onwards.
@@ -44,7 +64,7 @@ in `UDv2.5_scores.tsv` file.
    python3 get_scores_with_sd.py <mode> <input_file(s)>
    ```
     
-3. <b>klcpos3.py</b>  
+4. <b>klcpos3.py</b>  
     File for calculating klcpos3 measure of source and target treebanks for single-source and 
     multi-source-weighted delexicalised parsing.
     
@@ -63,20 +83,18 @@ in `UDv2.5_scores.tsv` file.
    ```bash
    python3 klcpos3.py [-h] -t <target_file> -s <source_file(s)> [--single_source | --multi_source]
    ```
-4. <b>test_significance.py</b>  
+
+5. <b>test_significance.py</b>  
     Test if the scores generated from `get_scores_with_sd.py` are significantly different
     at 1%, 5%, 10% confidence value.
     ```bash
     python3 test_significance.py <input_file> <output_file>
     ```
    
-5. <b>theta_POS.py</b>  
+6. <b>theta_POS.py</b>  
     Reads the file, and calculate the symmetric metric theta_pos, which is a sum of 
-    calculated klcpos3 scores in either direction. Returns the final output score as a percentage of 1 i.e.   
-    if actual value = 0.45, reported value = 45  
-    (since 45 % of 1 = 0.45)  
-    
-    Defaults output to stdout, from where it can be piped into a file. 
+    calculated klcpos3 scores in either direction. Defaults output to stdout, from 
+    where it can be piped into a file. 
     
     Input File Format:
     ```bash
@@ -93,6 +111,7 @@ in `UDv2.5_scores.tsv` file.
    klcpos3(file3, file2) score
    
     ```
+
     Output Format (tsv, columns mark individual values):
     ```bash
    file1<space>file2  theta_pos_score
@@ -108,12 +127,44 @@ in `UDv2.5_scores.tsv` file.
 	
 <h4>Files Specific to "size_control" target</h4>
 
-1. get_coverage_scores.py  
-    Description Coming Soon
+1. <b>get_coverage_scores.py</b>  
+    Program to calculate the coverage statistics for trigrams, as a percentage of trigrams 
+    in target file. The file with greater number of trigrams is selected as the source, while
+    the other is selected as source. Reports score as a percentage of trigrams common to source
+    and target, over number of trigrams in target.
     
-2. split_by_parts.py  
-    Description Coming Soon
+    Arguments:
     
+    ```bash
+   Arg1: File 1 in CONLL-U format
+   Arg2: File 2 in CONLL-U format
+   ```
+   
+   Usage:
+   
+        python3 get_coverage_scores.py <input_file1> <input_file2>
+    
+2. <b>split_by_parts.py</b>  
+    Splits a given input file into two. The percentage of the split is specified by the first
+    argument. An argument value of 30 (as an example) would split the file into one file containing
+    30% sentences, and the other file containing 100 - 30 = 70% sentences. The output files retain
+    the same name as input file, with "_PERCENT" appended to the end, where PERCENT is the percentage
+    of sentences contained within the file.
+    
+    If needed, the third argument can be used to specify the seed value for the randomness of the
+    split. If not provided, default seed is 1618. 
+    
+    Arguments:
+    ```bash
+    Arg1:  Percentage of data to split to
+    Arg2:  Input file in CONLL-U format
+    Arg3:  Integral Seed Value
+	```
+   Usage: 
+   ```bash
+   python3 split_by_parts.py <percentage_to_split> <input_file> [<seed_value>]
+   ``` 
+   
 3. <b>split_pud.py</b>  
     Splits a given PUD file into `news.conllu` and `wiki.conllu` files.  
     
