@@ -10,23 +10,24 @@ cp ../scripts/theta_POS.py ./;
 cp ../scripts/kfold.py ./;
 cp ../scripts/get_scores_with_sd.py ./;
 cp ../scripts/split_fi_genres.py ./;
+cp ../scripts/get_formality_scores.py ./;
 
 cat $HOME/ud-treebanks-v2.5/UD_Finnish-TDT/fi_tdt-ud-train.conllu > fi-tdt.conllu;
 cat $HOME/ud-treebanks-v2.5/UD_Finnish-TDT/fi_tdt-ud-dev.conllu >> fi-tdt.conllu;
 cat $HOME/ud-treebanks-v2.5/UD_Finnish-TDT/fi_tdt-ud-test.conllu >> fi-tdt.conllu;
 python3 split_fi_genres.py fi-tdt.conllu;
-rm -f split_fi_genres.py fi-tdt.conllu grammar.conllu jrc_acquis.conllu uni_art;
+rm -f split_fi_genres.py fi-tdt.conllu europarl.conllu uni_art.conllu;
 
 echo "Generating Scores for Finnish Data. Please be patient." > /dev/stderr;
 
 for seedval in `seq 1 100`; do
-	for downsize in 100 200 300 400 500 600 700 800 900; do
-		for filename in blog fiction europarl wiki wiki_news uni_news fin_news; do
+	for downsize in 100 200 400 800; do
+		for filename in blog fiction wiki grammar legal; do
 			python3 downsample.py -i `echo $filename`.conllu -n `echo $downsize` --seed `echo $seedval`;
 		done;
 
-		for filename1 in fiction blog wiki_news uni_news fin_news wiki europarl; do
-			for filename2 in fiction blog wiki_news uni_news fin_news wiki europarl; do
+		for filename1 in fiction blog grammar wiki legal; do
+			for filename2 in fiction blog grammar wiki legal; do
 				if ! [ $filename1 = $filename2 ]; then
 					echo $filename1 $filename2 >> klcpos3.tsv;
 					python3 klcpos3.py --single_source --source `echo $filename1`_`echo $downsize`.conllu --target `echo $filename2`_`echo $downsize`.conllu | cut -f2 >> klcpos3.tsv;
@@ -34,6 +35,9 @@ for seedval in `seq 1 100`; do
 					echo "" >> klcpos3.tsv;
 				fi;
 			done;
+			echo $filename1 >> politeness_`echo $downsize`_`echo $seedval`;
+			python3 get_formality_scores.py `echo $filename1`_`echo $downsize`.conllu >> politeness_`echo $downsize`_`echo $seedval`;
+			echo "" >> politeness_`echo $downsize`_`echo $seedval`;
 		done;
 
 		python3 theta_POS.py klcpos3.tsv > klcpos3_scores_`echo $downsize`_`echo $seedval`;
@@ -41,15 +45,49 @@ for seedval in `seq 1 100`; do
 	rm -f klcpos3.tsv;
 done;
 
-for downsize in 100 200 300 400 500 600 700 800 900; do
+for downsize in 100 200 400 800; do
 	python3 get_scores_with_sd.py 1 klcpos3_scores_`echo $downsize`_* > fi/fi_scores_`echo $downsize`;
+	python3 get_scores_with_sd.py 2 politeness_`echo $downsize`_* > fi/formality_`echo $downsize`;
+	rm -f klcpos3_scores_`echo $downsize`_* politeness_`echo $downsize`_*;
 done;
 
 for seedval in `seq 1 100`; do
+	for downsize in 100 200 400 800; do
+		for filename in wiki_news uni_news fin_news; do
+			python3 downsample.py -i `echo $filename`.conllu -n `echo $downsize` --seed `echo $seedval`;
+		done;
+
+		for filename1 in wiki_news uni_news fin_news; do
+			for filename2 in wiki_news uni_news fin_news; do
+				if ! [ $filename1 = $filename2 ]; then
+					echo $filename1 $filename2 >> klcpos3.tsv;
+					python3 klcpos3.py --single_source --source `echo $filename1`_`echo $downsize`.conllu --target `echo $filename2`_`echo $downsize`.conllu | cut -f2 >> klcpos3.tsv;
+					python3 klcpos3.py --single_source --target `echo $filename1`_`echo $downsize`.conllu --source `echo $filename2`_`echo $downsize`.conllu | cut -f2 >> klcpos3.tsv;
+					echo "" >> klcpos3.tsv;
+				fi;
+			done;
+			echo $filename1 >> politeness_`echo $downsize`_`echo $seedval`;
+			python3 get_formality_scores.py `echo $filename1`_`echo $downsize`.conllu >> politeness_`echo $downsize`_`echo $seedval`;
+			echo "" >> politeness_`echo $downsize`_`echo $seedval`;
+		done;
+
+		python3 theta_POS.py klcpos3.tsv > klcpos3_scores_`echo $downsize`_`echo $seedval`;
+	done;
+	rm -f klcpos3.tsv;
+done;
+
+for downsize in 100 200 400 800; do
+	python3 get_scores_with_sd.py 1 klcpos3_scores_`echo $downsize`_* > fi/fi_news_scores_`echo $downsize`;
+	python3 get_scores_with_sd.py 2 politeness_`echo $downsize`_* > fi/formality_news_`echo $downsize`;
+	rm -f klcpos3_scores_`echo $downsize`_* politeness_`echo $downsize`_*;
+done;
+
+
+for seedval in `seq 1 100`; do
 	touch klcpos3_self.tsv;
-	for filename in fiction blog europarl wiki wiki_news uni_news fin_news; do
-		python3 downsample.py -i `echo $filename`.conllu -n 200 --seed `echo $seedval`;
-		python3 kfold.py 2 `echo $filename`_200.conllu;
+	for filename in fiction blog grammar legal wiki wiki_news uni_news fin_news; do
+		python3 downsample.py -i `echo $filename`.conllu -n 400 --seed `echo $seedval`;
+		python3 kfold.py 2 `echo $filename`_400.conllu;
 		echo $filename $filename >> klcpos3_self.tsv;
 		python3 klcpos3.py --single_source --source train_1 --target test_1 | cut -f2 >> klcpos3_self.tsv;
 		python3 klcpos3.py --single_source --target train_1 --source test_1 | cut -f2 >> klcpos3_self.tsv;

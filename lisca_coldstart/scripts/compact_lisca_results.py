@@ -34,8 +34,17 @@ def process_conllu(conllu_file):
 			else:
 				block.append(line)
 	return outdict
-	
-	
+
+
+def conllu_conllu_map(conllu_dict):
+	conllu_map = dict()
+	i = 1
+	for sent_id in conllu_dict:
+		conllu_map[i] = sent_id
+		i += 1
+	return conllu_map
+
+
 def conll_conllu_map(conll_dict, conllu_dict):
 	"""Using the two dicts generated above, create another dict that maps Sentence Order in CONLL to Sentence ID in CONLLU"""
 	map = dict()
@@ -68,14 +77,20 @@ def write_lisca_compact(lisca_scores, output_file):
 if __name__ == "__main__":
 	import argparse
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--conll", type=str, help="Input Test file, in CONLL format", required=True)
+	parser.add_argument("--conll", type=str, help="Input Test file, in CONLL format")
 	parser.add_argument("--conllu", type=str, help="Input Test file, in CONLL-U format", required=True)
 	parser.add_argument("--lisca", type=str, help="Lisca generated file, .lisca extension", required=True)
 	args = parser.parse_args()
 	
-	conll_IDs = process_conll(args.conll)
-	conllu_IDs = process_conllu(args.conllu)
-	maps = conll_conllu_map(conll_IDs, conllu_IDs)
+	maps = None
+	if args.conll:
+		conll_IDs = process_conll(args.conll)
+		conllu_IDs = process_conllu(args.conllu)
+		maps = conll_conllu_map(conll_IDs, conllu_IDs)
+	else:
+		conllu_IDs = process_conllu(args.conllu)
+		maps = conllu_conllu_map(conllu_IDs)
+		
 	lisca_compact_scores = modify_lisca(args.lisca, maps)
 	output_file = args.lisca.strip("lisca")+"tsv"
 	write_lisca_compact(lisca_compact_scores, output_file)

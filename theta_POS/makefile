@@ -64,17 +64,18 @@ genre_control:
 	@if ! [ -d genre_control ]; then \
 		mkdir genre_control; \
 	fi;
-	@cd genre_control; \
-		if ! [ -d fi ]; then \
-			cp ../scripts/genre_fi.sh ./; \
-			sh genre_fi.sh; \
-			rm -f genre_fi.sh; \
-		fi; \
-		if ! [ -d pl ]; then \
-			cp ../scripts/genre_pl.sh ./; \
-			sh genre_pl.sh; \
-			rm -f genre_pl.sh;
+	@if ! [ -d genre_control/fi ]; then \
+		cp scripts/genre_fi.sh genre_control/; \
+		cd genre_control; \
+		sh genre_fi.sh; \
+		rm -f genre_fi.sh; \
 		fi;
+	@if ! [ -d genre_control/pl ]; then \
+		cp scripts/genre_pl.sh genre_control/; \
+		cd genre_control; \
+			sh genre_pl.sh; \
+		rm -f genre_pl.sh; \
+	fi;
 
 clean:
 	rm -rf size_control *.tsv genre_control;

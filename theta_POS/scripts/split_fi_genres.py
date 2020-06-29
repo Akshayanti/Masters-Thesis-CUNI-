@@ -8,7 +8,7 @@ if len(sys.argv) != 2:
 		  "python3 " + sys.argv[0] + " <pl-lfg conllu file>")
 	exit(1)
 
-genres = {"grammar": [], "wiki": [], "wiki_news": [], "uni_news": [], "blog": [], "uni_art": [], "europarl": [], "jrc_acquis": [], "fin_news": [], "fiction": []}
+genres = {"grammar": [], "wiki": [], "wiki_news": [], "uni_news": [], "blog": [], "uni_art": [], "europarl": [], "legal": [], "fin_news": [], "fiction": []}
 
 
 def get_genre(given_id):
@@ -27,7 +27,7 @@ def get_genre(given_id):
 	elif given_id.startswith("e"):
 		return "europarl"
 	elif given_id.startswith("j"):
-		return "jrc_acquis"
+		return "legal"
 	elif given_id.startswith("f"):
 		return "fiction"
 	elif given_id.startswith("t"):
