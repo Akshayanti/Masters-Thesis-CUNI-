@@ -63,8 +63,8 @@ test-s356	25	1	None (Checked)
 test-s356	3	1	None (Checked)
 test-s356	31	1	None (Checked)
 test-s356	34	1	None (Checked)
-test-s37	11	1.0	None
-test-s386	1	0.0
+test-s37	11	1	None (Checked)
+test-s386	1	1	None (Checked)
 test-s390	18	0	Random Error (case4flat)
 test-s411	2	0.0
 test-s415	22	0.0

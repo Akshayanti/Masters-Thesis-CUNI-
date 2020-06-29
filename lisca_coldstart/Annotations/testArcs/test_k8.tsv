@@ -131,13 +131,13 @@ test-s356	36	1	None (Checked)
 test-s362	11	0.0
 test-s362	5	0.0
 test-s362	9	0.0
-test-s368	11	0.0
-test-s372	20	0.0
-test-s372	4	0.0
-test-s378	18	0.0
-test-s378	20	0.0
-test-s379	28	0.0
-test-s386	1	0.0
+test-s368	11	0	amod4xcomp
+test-s372	20	1	None (Checked)
+test-s372	4	0	Random Error (nmod4nsubj)
+test-s378	18	1	None (Checked)
+test-s378	20	1	None (Checked)
+test-s379	28	0	Random Error (compound4advmod)
+test-s386	1	1	None (Checked)
 test-s390	17	0	Random Error (case4flat)
 test-s390	22	1	None (Checked)
 test-s398	48	0.0

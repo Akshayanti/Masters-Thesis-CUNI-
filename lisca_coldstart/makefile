@@ -227,4 +227,5 @@ prep_upload:
 	done;
 	make get_stats;
 	git add Annotations stats.md;
-	git commit -m `date`;
+	git commit -m "Annotations as on `date`";
+	git push;

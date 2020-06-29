@@ -16,26 +16,29 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
+| amod4xcomp | 1 |
 | nmod4obl | 2 |
 | None | 8 |
-| None (Checked) | 36 |
+| None (Checked) | 39 |
 | nsubj4obl | 1 |
 | obl4advclORacl | 1 |
 | Random Error (acl4obl) | 1 |
 | Random Error (amod4nummod) | 1 |
 | Random Error (case4amodORcompound) | 1 |
 | Random Error (case4flat) | 1 |
+| Random Error (compound4advmod) | 1 |
 | Random Error (DET4ADJ, compound4amod) | 1 |
 | Random Error (det4amod) | 1 |
 | Random Error (dislocated4case) | 1 |
 | Random Error (dislocated4nmod) | 1 |
 | Random Error (mark4case) | 1 |
 | Random Error (Naming, Ask Dan) | 1 |
+| Random Error (nmod4nsubj) | 1 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
 | Tree Error | 4 |
 | Tree Error (Checked) | 6 |
-| Unclassified | 135 |
+| Unclassified | 129 |
 | Wrong Head (Checked) | 15 |
 | <b>Total</b> | <b>221 </b>|
 
@@ -125,8 +128,8 @@ Table of Contents:
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
 | | 221 | 380 | 254 | 226 |
-| <b>Errors</b> | <b>39</b> | <b>50</b> | <b>45</b> | <b>40</b> |
-| <b>Percentage</b>| <b>17.65 %</b> | <b>13.16 %</b> | <b>17.72 %</b> | <b>17.7 %</b> |
+| <b>Errors</b> | <b>42</b> | <b>53</b> | <b>48</b> | <b>43</b> |
+| <b>Percentage</b>| <b>19.0 %</b> | <b>13.95 %</b> | <b>18.9 %</b> | <b>19.03 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -146,8 +149,8 @@ Table of Contents:
 |:--------|:----|
 | amod4nummod | 1 |
 | nmod4obl | 2 |
-| None | 11 |
-| None (Checked) | 32 |
+| None | 10 |
+| None (Checked) | 34 |
 | obl4aclORadvcl | 1 |
 | obl4xcomp | 1 |
 | Random Error | 1 |
@@ -159,5 +162,5 @@ Table of Contents:
 | Random Error (dislocated4case) | 1 |
 | Random Error (nsubj4advcl) | 1 |
 | Tree Error (Checked) | 1 |
-| Unclassified | 65 |
+| Unclassified | 64 |
 | <b>Total</b> | <b>122 </b>|
