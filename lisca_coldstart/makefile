@@ -218,3 +218,13 @@ get_stats:
 	@python3 scripts/get_stats.py;
 	@echo "Statistics Stored in stats.README file" > /dev/stderr;
 	@rm -f baseline/baseline_test.lisca baseline/baseline_test.conllu;
+
+prep_upload:
+	@pip3 install -r requirements.txt;
+	for filename in base_allZero base_not_k k_not_base test_k4 test_k8; do \
+		python3 prep_upload.py Annotations/testArcs/`echo $$filename`.tsv; \
+		mv Annotations/testArcs/`echo $$filename`.tsv_new Annotations/testArcs/`echo $$filename`.tsv; \
+	done;
+	make get_stats;
+	git add Annotations stats.md;
+	git commit -m `date`;
