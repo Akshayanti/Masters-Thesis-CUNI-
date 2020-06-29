@@ -16,7 +16,27 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| Unclassified | 221 |
+| nmod4obl | 2 |
+| None | 8 |
+| None (Checked) | 36 |
+| nsubj4obl | 1 |
+| obl4advclORacl | 1 |
+| Random Error (acl4obl) | 1 |
+| Random Error (amod4nummod) | 1 |
+| Random Error (case4amodORcompound) | 1 |
+| Random Error (case4flat) | 1 |
+| Random Error (DET4ADJ, compound4amod) | 1 |
+| Random Error (det4amod) | 1 |
+| Random Error (dislocated4case) | 1 |
+| Random Error (dislocated4nmod) | 1 |
+| Random Error (mark4case) | 1 |
+| Random Error (Naming, Ask Dan) | 1 |
+| Random Error (obj4nsubj) | 1 |
+| Random Error (obl4advmod) | 2 |
+| Tree Error | 4 |
+| Tree Error (Checked) | 6 |
+| Unclassified | 135 |
+| Wrong Head (Checked) | 15 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -97,14 +117,16 @@ Table of Contents:
 
 
 
+<b>Note</b>: The 0-scored arcs in K=2 contains all the 0-scored arcs in K=4  
+<b>Note</b>: The 0-scored arcs in K=2 contains all the 0-scored arcs in K=8  
 <b>Note</b>: The 0-scored arcs in K=4 contains all the 0-scored arcs in K=8  
 <h3>Arc Flagging Statistics</h3>
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
 | | 221 | 380 | 254 | 226 |
-| <b>Errors</b> | <b>0</b> | <b>50</b> | <b>0</b> | <b>0</b> |
-| <b>Percentage</b>| <b>0.0 %</b> | <b>13.16 %</b> | <b>0.0 %</b> | <b>0.0 %</b> |
+| <b>Errors</b> | <b>39</b> | <b>50</b> | <b>45</b> | <b>40</b> |
+| <b>Percentage</b>| <b>17.65 %</b> | <b>13.16 %</b> | <b>17.72 %</b> | <b>17.7 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -122,10 +144,20 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| None (Checked) | 17 |
+| amod4nummod | 1 |
+| nmod4obl | 2 |
+| None | 11 |
+| None (Checked) | 32 |
+| obl4aclORadvcl | 1 |
+| obl4xcomp | 1 |
+| Random Error | 1 |
+| Random Error (case4compound) | 1 |
 | Random Error (case4flat) | 1 |
 | Random Error (compound4advmod) | 1 |
+| Random Error (compound4flat) | 1 |
 | Random Error (conj4parataxis) | 1 |
+| Random Error (dislocated4case) | 1 |
+| Random Error (nsubj4advcl) | 1 |
 | Tree Error (Checked) | 1 |
-| Unclassified | 101 |
+| Unclassified | 65 |
 | <b>Total</b> | <b>122 </b>|

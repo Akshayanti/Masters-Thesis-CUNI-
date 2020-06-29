@@ -8,42 +8,42 @@ test-s1043	26	0.0
 test-s1043	3	0.0
 test-s1046	14	0.0
 test-s1046	16	0.0
-test-s1055	15	0.0
-test-s1055	16	0.0
-test-s1061	3	0.0
+test-s1055	15	0.0	Tree Error
+test-s1055	16	0.0	Tree Error
+test-s1061	3	1.0	None
 test-s1069	20	0.0
 test-s107	10	0.0
-test-s1083	1	0.0
-test-s1083	10	0.0
-test-s1083	11	0.0
-test-s1083	2	0.0
-test-s1083	3	0.0
-test-s1083	4	0.0
-test-s1083	5	0.0
-test-s1083	6	0.0
-test-s1090	7	0.0
-test-s1090	8	0.0
-test-s109	1	0.0
-test-s109	3	0.0
-test-s109	4	0.0
-test-s109	5	0.0
-test-s109	6	0.0
+test-s1083	1	1	None (Checked)
+test-s1083	10	0	Tree Error (Checked)
+test-s1083	11	0	Tree Error (Checked)
+test-s1083	2	0	Wrong Head (Checked)
+test-s1083	3	1	None (Checked)
+test-s1083	4	0	Wrong Head (Checked)
+test-s1083	5	0	Tree Error (Checked)
+test-s1083	6	1	None (Checked)
+test-s1090	7	1	None (Checked)
+test-s1090	8	0	Wrong Head (Checked)
+test-s109	1	1	None (Checked)
+test-s109	3	1	None (Checked)
+test-s109	4	1	None (Checked)
+test-s109	5	1	None (Checked)
+test-s109	6	1	None (Checked)
 test-s1107	22	0.0
 test-s1111	12	0.0
 test-s1127	18	0.0
 test-s115	16	0.0
 test-s1152	22	0.0
-test-s1167	12	0.0
+test-s1167	12	1	None (Checked)
 test-s1167	22	0.0
 test-s1167	25	0.0
 test-s1167	28	0.0
 test-s1167	30	0.0
-test-s1167	31	0.0
+test-s1167	31	1	None (Checked)
 test-s1174	36	0.0
-test-s1183	18	0.0
-test-s1183	19	0.0
-test-s1183	21	0.0
-test-s1183	9	0.0
+test-s1183	18	0	Random Error (Naming, Ask Dan)
+test-s1183	19	0	Random Error (obj4nsubj)
+test-s1183	21	1	None (Checked)
+test-s1183	9	1	None (Checked)
 test-s1192	19	0.0
 test-s1192	2	0.0
 test-s1198	4	0.0
@@ -55,10 +55,10 @@ test-s1209	13	0.0
 test-s1209	31	0.0
 test-s1239	15	0.0
 test-s1239	6	0.0
-test-s125	9	0.0
+test-s125	9	0	Wrong Head (Checked)
 test-s1263	24	0.0
 test-s127	16	0.0
-test-s1287	13	0.0
+test-s1287	13	1.0	None
 test-s130	10	0.0
 test-s130	12	0.0
 test-s130	19	0.0
@@ -96,22 +96,22 @@ test-s1553	20	0.0
 test-s155	7	0.0
 test-s156	28	0.0
 test-s1564	5	0.0
-test-s1584	5	0.0
+test-s1584	5	1.0	None
 test-s1584	6	0.0
 test-s159	11	0.0
-test-s1603	1	0.0
-test-s1603	13	0.0
-test-s1603	8	0.0
-test-s1603	9	0.0
+test-s1603	1	0	Wrong Head (Checked)
+test-s1603	13	1	None (Checked)
+test-s1603	8	1	None (Checked)
+test-s1603	9	0	Random Error (dislocated4nmod)
 test-s1613	4	0.0
 test-s1616	27	0.0
 test-s1625	49	0.0
 test-s176	10	0.0
-test-s19	2	0.0
-test-s19	4	0.0
-test-s19	5	0.0
-test-s19	7	0.0
-test-s19	9	0.0
+test-s19	2	0	nmod4obl
+test-s19	4	0	Random Error (amod4nummod)
+test-s19	5	0	Tree Error
+test-s19	7	0	nmod4obl
+test-s19	9	0	Tree Error
 test-s211	2	0.0
 test-s211	5	0.0
 test-s225	22	0.0
@@ -127,20 +127,20 @@ test-s282	11	0.0
 test-s282	12	0.0
 test-s282	14	0.0
 test-s300	41	0.0
-test-s331	17	0.0
-test-s331	19	0.0
-test-s331	20	0.0
-test-s331	21	0.0
-test-s331	22	0.0
-test-s337	7	0.0
-test-s341	16	0.0
-test-s347	12	0.0
-test-s356	16	0.0
-test-s356	25	0.0
-test-s356	3	0.0
-test-s356	31	0.0
-test-s356	34	0.0
-test-s356	36	0.0
+test-s331	17	1	None (Checked)
+test-s331	19	1	None (Checked)
+test-s331	20	0	Wrong Head (Checked)
+test-s331	21	0	Wrong Head (Checked)
+test-s331	22	0	Wrong Head (Checked)
+test-s337	7	1	None (Checked)
+test-s341	16	0	Random Error (acl4obl)
+test-s347	12	1	None (Checked)
+test-s356	16	1	None (Checked)
+test-s356	25	1	None (Checked)
+test-s356	3	1	None (Checked)
+test-s356	31	1	None (Checked)
+test-s356	34	1	None (Checked)
+test-s356	36	1	None (Checked)
 test-s362	11	0.0
 test-s362	5	0.0
 test-s362	9	0.0
@@ -151,18 +151,18 @@ test-s378	18	0.0
 test-s378	20	0.0
 test-s379	28	0.0
 test-s386	1	0.0
-test-s390	17	0.0
-test-s390	22	0.0
+test-s390	17	0	Random Error (case4flat)
+test-s390	22	1	None (Checked)
 test-s398	48	0.0
 test-s413	14	0.0
 test-s423	5	0.0
-test-s459	26	0.0
+test-s459	26	0.0	Random Error
 test-s461	13	0.0
 test-s461	16	0.0
 test-s461	17	0.0
-test-s478	2	0.0
-test-s482	16	0.0
-test-s482	4	0.0
+test-s478	2	1.0	None
+test-s482	16	1	None (Checked)
+test-s482	4	1	None (Checked)
 test-s486	22	0.0
 test-s486	24	0.0
 test-s488	15	0.0
@@ -177,26 +177,26 @@ test-s552	3	0.0
 test-s552	7	0.0
 test-s564	4	0.0
 test-s564	5	0.0
-test-s573	10	0.0
+test-s573	10	1.0	None
 test-s573	19	0.0
 test-s573	20	0.0
 test-s573	24	0.0
-test-s57	6	0.0
-test-s617	27	0.0
-test-s624	18	0.0
-test-s624	20	0.0
-test-s626	10	0.0
-test-s626	20	0.0
-test-s626	22	0.0
-test-s626	24	0.0
+test-s57	6	1	None (Checked)
+test-s617	27	1	None (Checked)
+test-s624	18	0	Tree Error (Checked)
+test-s624	20	0	Tree Error (Checked)
+test-s626	10	1	None (Checked)
+test-s626	20	1	None (Checked)
+test-s626	22	1	None (Checked)
+test-s626	24	0	Random Error (dislocated4case)
 test-s628	40	0.0
-test-s651	15	0.0
-test-s671	19	0.0
+test-s651	15	1.0	None
+test-s671	19	1.0	None
 test-s671	21	0.0
 test-s707	8	0.0
-test-s7	11	0.0
-test-s71	18	0.0
-test-s7	12	0.0
+test-s7	11	1.0	None
+test-s71	18	1.0	None
+test-s7	12	1.0	None
 test-s719	8	0.0
 test-s722	29	0.0
 test-s722	31	0.0
@@ -209,46 +209,46 @@ test-s761	12	0.0
 test-s766	14	0.0
 test-s766	17	0.0
 test-s769	33	0.0
-test-s7	7	0.0
+test-s7	7	1.0	None
 test-s779	31	0.0
-test-s780	17	0.0
-test-s780	4	0.0
-test-s780	54	0.0
-test-s780	55	0.0
-test-s782	3	0.0
-test-s788	10	0.0
-test-s788	11	0.0
-test-s788	2	0.0
-test-s788	5	0.0
-test-s788	7	0.0
-test-s788	9	0.0
-test-s792	9	0.0
-test-s803	5	0.0
-test-s803	6	0.0
-test-s805	28	0.0
-test-s822	10	0.0
-test-s822	6	0.0
-test-s847	24	0.0
-test-s847	25	0.0
-test-s853	11	0.0
-test-s858	13	0.0
-test-s858	15	0.0
-test-s870	8	0.0
-test-s875	22	0.0
-test-s875	6	0.0
-test-s887	30	0.0
-test-s894	19	0.0
-test-s894	20	0.0
-test-s903	9	0.0
-test-s916	19	0.0
-test-s916	20	0.0
-test-s916	21	0.0
-test-s916	31	0.0
-test-s943	13	0.0
-test-s960	33	0.0
-test-s960	44	0.0
-test-s961	24	0.0
-test-s961	27	0.0
-test-s961	36	0.0
-test-s999	16	0.0
-test-s999	49	0.0
+test-s780	17	1	None (Checked)
+test-s780	4	0	Tree Error (Checked)
+test-s780	54	1	None (Checked)
+test-s780	55	1	None (Checked)
+test-s782	3	1.0	None
+test-s788	10	1	Wrong Head (Checked)
+test-s788	11	1	None (Checked)
+test-s788	2	0	Wrong Head (Checked)
+test-s788	5	0	Wrong Head (Checked)
+test-s788	7	0	Wrong Head (Checked)
+test-s788	9	0	Tree Error (Checked)
+test-s792	9	1	None (Checked)
+test-s803	5	0	Random Error (case4compound)
+test-s803	6	1	None (Checked)
+test-s805	28	0	Wrong Head (Checked)
+test-s822	10	0	Random Error (obl4advmod)
+test-s822	6	0	Random Error (obl4advmod)
+test-s847	24	0	Random Error (det4amod)
+test-s847	25	1	None (Checked)
+test-s853	11	1	None (Checked)
+test-s858	13	0	nsubj4obl
+test-s858	15	0	obl4advcl|acl
+test-s870	8	1	None (Checked)
+test-s875	22	1	None (Checked)
+test-s875	6	1	None (Checked)
+test-s887	30	0	Random Error (nsubj4advcl)
+test-s894	19	0	Random Error (compound4advmod)
+test-s894	20	0	Random Error (conj4parataxis)
+test-s903	9	0	Random Error (case4amod|compound)
+test-s916	19	1	None (Checked)
+test-s916	20	0	Random Error (DET4ADJ, compound4amod)
+test-s916	21	1	None (Checked)
+test-s916	31	1	None (Checked)
+test-s943	13	0	nmod4obl
+test-s960	33	0	Wrong Head (Checked)
+test-s960	44	0	Wrong Head (Checked)
+test-s961	24	1	None (Checked)
+test-s961	27	1	None (Checked)
+test-s961	36	1	None (Checked)
+test-s999	16	1	None (Checked)
+test-s999	49	0	Random Error (mark4case)
