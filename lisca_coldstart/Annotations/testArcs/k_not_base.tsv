@@ -1,8 +1,8 @@
-test-s103	54	0.0
-test-s1030	1	0.0
-test-s1042	16	0.0
-test-s1069	20	0.0
-test-s107	14	0.0
+test-s103	54	0	obl4xcomp
+test-s1030	1	1	None (Checked)
+test-s1042	16	1	None (Checked)
+test-s1069	20	1	None (Checked)
+test-s107	14	0	amod4xcomp
 test-s113	31	0.0
 test-s1152	22	0.0
 test-s1167	28	0.0

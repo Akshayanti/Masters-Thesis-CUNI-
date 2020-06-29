@@ -1,26 +1,24 @@
-test-s1030	1	0.0
-test-s1030	5	0.0
-test-s1034	10	0.0
-test-s103	54	0.0
-test-s1042	16	0.0
-test-s1043	1	0.0
-test-s1043	25	0.0
-test-s1043	26	0.0
-test-s1043	3	0.0
-test-s1046	14	0.0
-test-s1046	16	0.0
-test-s1052	20	0.0
-test-s1052	21	0.0
-test-s1055	15	0.0	Tree Error
-test-s1055	16	0.0	Tree Error
-test-s1056	3	0.0
-test-s1056	4	0.0
-test-s1061	3	1.0	None
-test-s1069	20	0.0
-test-s107	10	0.0
-test-s107	14	0.0
-
-====	========	====
+test-s1030	1	1	None (Checked)
+test-s1030	5	1	None (Checked)
+test-s1034	10	0	Tree Error (Checked)
+test-s103	54	0	obl4xcomp
+test-s1042	16	1	None (Checked)
+test-s1043	1	1	None (Checked)
+test-s1043	25	1	None (Checked)
+test-s1043	26	1	None (Checked)
+test-s1043	3	1	None (Checked)
+test-s1046	14	1	None (Checked)
+test-s1046	16	0	Random Error (dislocated4case)
+test-s1052	20	1	None (Checked)
+test-s1052	21	0	Random Error (case4amod)
+test-s1055	15	0	Random Error (det4amod)
+test-s1055	16	0	Random Error (POS Error)
+test-s1056	3	1	None (Checked)
+test-s1056	4	0	Random Error (case4amod)
+test-s1061	3	0	Random Error (nmod4nummod)
+test-s1069	20	1	None (Checked)
+test-s107	10	1	None (Checked)
+test-s107	14	0	amod4xcomp
 test-s1083	1	1	None (Checked)
 test-s1083	10	0	Tree Error (Checked)
 test-s1083	11	0	Tree Error (Checked)
