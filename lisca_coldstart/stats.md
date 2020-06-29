@@ -49,10 +49,11 @@ Table of Contents:
 | nsubj4obl | 3 |
 | obl4advclORacl | 1 |
 | obl4xcomp | 3 |
-| Random Error | 32 |
-| Tree Error | 22 |
+| Random Error | 31 |
+| Tree Error | 20 |
+| Tree Error (Checked) | 1 |
 | Wrong Head | 13 |
-| Wrong Head (Checked) | 2 |
+| Wrong Head (Checked) | 4 |
 | <b>Total</b> | <b>200 </b>|
 
 <h4>Instances in K=4 not present in K=8</h4>
@@ -61,7 +62,8 @@ Table of Contents:
 |:--------|:----|
 | advmod4amod | 1 |
 | amod4xcomp | 2 |
-| None | 79 |
+| None | 78 |
+| None (Checked) | 1 |
 | nsubj4obl | 3 |
 | obl4advclORacl | 1 |
 | obl4xcomp | 1 |
@@ -78,12 +80,14 @@ Table of Contents:
 | amod4xcomp | 2 |
 | auxasRoot | 2 |
 | nmod4obl | 5 |
-| None | 64 |
-| None (Checked) | 1 |
+| None | 60 |
+| None (Checked) | 4 |
 | nsubj4obl | 1 |
 | obl4aclORadvcl | 1 |
 | obl4xcomp | 4 |
-| Random Error | 10 |
+| Random Error | 9 |
+| Random Error (compound4flat) | 1 |
+| Random Error (dislocated4case) | 1 |
 | Tree Error | 3 |
 | Wrong Head | 4 |
 | xcomp4advmod | 1 |
@@ -98,9 +102,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 382 | 254 | 226 |
-| <b>Errors</b> | <b>0</b> | <b>36</b> | <b>0</b> | <b>0</b> |
-| <b>Percentage</b>| <b>0.0 %</b> | <b>9.42 %</b> | <b>0.0 %</b> | <b>0.0 %</b> |
+| | 221 | 380 | 254 | 226 |
+| <b>Errors</b> | <b>0</b> | <b>50</b> | <b>0</b> | <b>0</b> |
+| <b>Percentage</b>| <b>0.0 %</b> | <b>13.16 %</b> | <b>0.0 %</b> | <b>0.0 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |

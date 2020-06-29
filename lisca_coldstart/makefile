@@ -41,7 +41,7 @@ analyse_baseline:
 	@python3 scripts/compact_lisca_results.py --conllu baseline/baseline_test.conllu --lisca baseline/baseline_test.lisca;
 	@echo "Comparison with dataset complete." > /dev/stderr;
 	@mv baseline/baseline_test.tsv baseline/baseline_all.tsv;
-	@grep -Ph "\t0.0" baseline/baseline_all.tsv | sort > baseline/baseline_zero.tsv;
+	@grep -h "0\.0" baseline/baseline_all.tsv | sort > baseline/baseline_zero.tsv;
 
 baseline:
 	@if ! [ -f hi_16000.conllu ]; then \
@@ -59,21 +59,21 @@ baseline:
 
 zip_baseline_check:
 	@echo "Checking Required Files" > /dev/stderr;
-	@if [ ! -f base_conll.tar ]; then \
-		echo "Required File 'base_conll.tar' directory not found. Could not continue." > /dev/stderr; \
+	@if [ ! -f TARs/base_conll.tar ]; then \
+		echo "Required File 'base_conll.tar' in 'TARs' directory not found. Could not continue." > /dev/stderr; \
 		exit 1; \
 	else \
 		echo "File 1 of 2 found successfully." > /dev/stderr; \
 	fi;
-	@if [ ! -f base_lisca.tar ]; then \
-		echo "Required File 'base_lisca.tar' directory not found. Could not continue." > /dev/stderr; \
+	@if [ ! -f TARs/base_lisca.tar ]; then \
+		echo "Required File 'base_lisca.tar' in 'TARs' directory not found. Could not continue." > /dev/stderr; \
 		exit 1; \
 	else \
 		echo "File 2 of 2 found successfully." > /dev/stderr; \
 	fi;
 	@echo "Unpacking Files" > /dev/stderr;
-	@tar -xf base_conll.tar;
-	@tar -xf base_lisca.tar;
+	@tar -xf TARs/base_conll.tar;
+	@tar -xf TARS/base_lisca.tar;
 
 # ==================== END BASELINE PIPELINE ==========================================
 # ======================== BEGIN CV PIPELINE ==========================================
@@ -88,7 +88,7 @@ analyse_CV1:
 		mkdir testArcs; \
 		for run in {k2,k4,k8}; do \
 			for tsv_file in $$run/*.tsv; do \
-				grep "test" $$tsv_file | grep -Ph "\t0.0" >> temp; \
+				grep "test" $$tsv_file | grep -h "0\.0" >> temp; \
 			done; \
 			sort temp > testArcs/test_`echo $$run`.tsv; \
 			rm -f temp;	\
@@ -102,16 +102,16 @@ analyse_CV2:
 		if [ -f CV/k`echo $$id`.tsv ]; then \
 			yes | rm CV/k`echo $$id`.tsv; \
 		fi; \
-		grep -Ph "\t0.0" CV/k`echo $$id`/train*.tsv >> CV/k`echo $$id`/train.tsv; \
+		grep -h "0\.0" CV/k`echo $$id`/train*.tsv >> CV/k`echo $$id`/train.tsv; \
 		sort CV/k`echo $$id`/train.tsv >> CV/k`echo $$id`.tsv; \
 		yes | rm -r CV/k`echo $$id`; \
 	done;
 	@comm -12 CV/k2.tsv CV/k8.tsv > CV/k_all.tsv;
 	@comm -3 CV/k2.tsv CV/k4.tsv > CV/k_2-4.tsv;
 	@comm -3 CV/k4.tsv CV/k8.tsv > CV/k_4-8.tsv;
-	@sort -R --random-source=/dev/zero CV/k_all.tsv | head -n200 > CV/k_all_200.tsv1;
-	@sort -R --random-source=/dev/zero CV/k_2-4.tsv | head -n100 > CV/k_2not4_100.tsv1;
-	@sort -R --random-source=/dev/zero CV/k_4-8.tsv | head -n100 > CV/k_4not8_100.tsv1;
+	@sort -R --random-source=.shuffleKey CV/k_all.tsv | head -n200 > CV/k_all_200.tsv1;
+	@sort -R --random-source=.shuffleKey CV/k_2-4.tsv | head -n100 > CV/k_2not4_100.tsv1;
+	@sort -R --random-source=.shuffleKey CV/k_4-8.tsv | head -n100 > CV/k_4not8_100.tsv1;
 	@mkdir CV/allArcs;
 	@for filename in CV/k2.tsv CV/k4.tsv CV/k8.tsv; do \
 		mv $$filename CV/allArcs/; \
@@ -194,21 +194,21 @@ CV:
 
 zip_CV_check:
 	@echo "Checking Required Files" > /dev/stderr;
-	@if [ ! -f CV_conll.tar ]; then \
-		echo "Required File 'CV_conll.tar' directory not found. Could not continue." > /dev/stderr; \
+	@if [ ! -f TARs/CV_conll.tar ]; then \
+		echo "Required File 'CV_conll.tar' in 'TARs' directory not found. Could not continue." > /dev/stderr; \
 		exit 1; \
 	else \
 		echo "File 1 of 2 found successfully." > /dev/stderr; \
 	fi;
-	@if [ ! -f CV_lisca.tar ]; then \
-		echo "Required File 'CV_lisca.tar' directory not found. Could not continue." > /dev/stderr; \
+	@if [ ! -f TARs/CV_lisca.tar ]; then \
+		echo "Required File 'CV_lisca.tar' in 'TARs' directory not found. Could not continue." > /dev/stderr; \
 		exit 1; \
 	else \
 		echo "File 2 of 2 found successfully." > /dev/stderr; \
 	fi;
 	@echo "Unpacking Files" > /dev/stderr;
-	@tar -xf CV_conll.tar;
-	@tar -xf CV_lisca.tar;
+	@tar -xf TARs/CV_conll.tar;
+	@tar -xf TARs/CV_lisca.tar;
 # ========================== END CV PIPELINE ==========================================
 
 get_stats:
