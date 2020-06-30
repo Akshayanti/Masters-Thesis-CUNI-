@@ -20,7 +20,7 @@ Table of Contents:
 | amod4xcomp | 2 |
 | nmod4obl | 3 |
 | None | 5 |
-| None (Checked) | 84 |
+| None (Checked) | 93 |
 | nsubj4obl | 1 |
 | obl4aclORadvcl | 1 |
 | obl4advclORacl | 1 |
@@ -42,14 +42,14 @@ Table of Contents:
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4obj) | 1 |
-| Random Error (obj4aclORadvcl) | 2 |
+| Random Error (obj4aclORadvcl) | 3 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
-| Random Error (POS Error) | 1 |
+| Random Error (POS Error) | 2 |
 | Tree Error | 2 |
-| Tree Error (Checked) | 11 |
-| Unclassified | 63 |
-| Wrong Head (Checked) | 19 |
+| Tree Error (Checked) | 12 |
+| Unclassified | 47 |
+| Wrong Head (Checked) | 23 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -137,9 +137,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 357 | 254 | 226 |
-| <b>Errors</b> | <b>68</b> | <b>86</b> | <b>71</b> | <b>64</b> |
-| <b>Percentage</b>| <b>30.77 %</b> | <b>24.09 %</b> | <b>27.95 %</b> | <b>28.32 %</b> |
+| | 221 | 349 | 254 | 226 |
+| <b>Errors</b> | <b>75</b> | <b>97</b> | <b>79</b> | <b>72</b> |
+| <b>Percentage</b>| <b>33.94 %</b> | <b>27.79 %</b> | <b>31.1 %</b> | <b>31.86 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -161,8 +161,8 @@ Table of Contents:
 | amod4xcomp | 1 |
 | nmod4obj | 1 |
 | nmod4obl | 3 |
-| None | 9 |
-| None (Checked) | 43 |
+| None | 7 |
+| None (Checked) | 56 |
 | obl4xcomp | 2 |
 | Random Error (advcl4nmodORdet) | 1 |
 | Random Error (case4compound) | 1 |
@@ -174,8 +174,10 @@ Table of Contents:
 | Random Error (nmod4advmod) | 1 |
 | Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4advcl) | 1 |
+| Random Error (obl4mark) | 1 |
 | Random Error (obl4nmod) | 1 |
+| Tree error (Checked) | 1 |
 | Tree Error (Checked) | 2 |
-| Unclassified | 48 |
-| Wrong Head (Checked) | 1 |
+| Unclassified | 33 |
+| Wrong Head (Checked) | 3 |
 | <b>Total</b> | <b>122 </b>|
