@@ -3,13 +3,13 @@ test-s1030	1	1	None (Checked)
 test-s1042	16	1	None (Checked)
 test-s1069	20	1	None (Checked)
 test-s107	14	0	amod4xcomp
-test-s113	31	0.0
-test-s1152	22	0.0
-test-s1167	28	0.0
+test-s113	31	1	None (Checked)
+test-s1152	22	1	None (Checked)
+test-s1167	28	0	nmod4obj
 test-s1183	21	1	None (Checked)
-test-s1192	1	0.0
-test-s1194	12	0.0
-test-s1239	6	0.0
+test-s1192	1	0	nmod4obl
+test-s1194	12	1	None (Checked)
+test-s1239	6	1	None (Checked)
 test-s127	16	0.0
 test-s1287	13	1.0	None
 test-s131	36	0.0
@@ -66,10 +66,10 @@ test-s356	34	1	None (Checked)
 test-s37	11	1	None (Checked)
 test-s386	1	1	None (Checked)
 test-s390	18	0	Random Error (case4flat)
-test-s411	2	0.0
-test-s415	22	0.0
-test-s459	26	0.0	Random Error
-test-s478	1	0.0
+test-s411	2	0	Random Error (nmod4advmod)
+test-s415	22	0	Random Error (advcl4nmod|det)
+test-s459	26	0	Random Error (nmod4nummod)
+test-s478	1	1	None (Checked)
 test-s486	27	0.0
 test-s486	29	1.0	None
 test-s540	5	0.0	obl4acl|advcl

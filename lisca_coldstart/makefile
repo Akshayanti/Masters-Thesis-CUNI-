@@ -221,9 +221,11 @@ get_stats:
 
 prep_upload:
 	for filename in base_allZero base_not_k k_not_base test_k4 test_k8; do \
-		python3 prep_upload.py Annotations/testArcs/`echo $$filename`.tsv; \
+		python3 prep_upload.py Annotations/testArcs/test_k2.tsv Annotations/testArcs/`echo $$filename`.tsv; \
 		mv Annotations/testArcs/`echo $$filename`.tsv_new Annotations/testArcs/`echo $$filename`.tsv; \
 	done;
+	python3 prep_upload.py Annotations/testArcs/base_not_k.tsv Annotations/testArcs/base_allZero.tsv;
+	mv Annotations/testArcs/base_allZero.tsv_new Annotations/testArcs/base_allZero.tsv;
 	make get_stats;
 	git add Annotations stats.md;
 	git commit -m "Annotations as on `date`";

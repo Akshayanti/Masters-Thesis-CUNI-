@@ -1,9 +1,9 @@
-test-s1159	50	1	None
-test-s1183	17	0	Random Error (Naming, Ask Dan)
+test-s1159	50	0	Random Error (obj4acl|advcl)
+test-s1183	17	0	Random Error (Naming Error)
 test-s125	11	1	None (Checked)
 test-s1603	3	1	None (Checked)
 test-s356	37	1	None (Checked)
-test-s390	49	1	None
+test-s390	49	0	Random Error (obj4acl|advcl)
 test-s482	18	1	None (Checked)
 test-s626	19	1	None (Checked)
 test-s729	29	1	None (Checked)

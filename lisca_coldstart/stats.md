@@ -16,10 +16,12 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| amod4xcomp | 1 |
+| amod4advmod | 1 |
+| amod4xcomp | 2 |
+| nmod4bl | 1 |
 | nmod4obl | 2 |
-| None | 9 |
-| None (Checked) | 55 |
+| None | 6 |
+| None (Checked) | 75 |
 | nsubj4obl | 1 |
 | obl4advclORacl | 1 |
 | Random Error (acl4obl) | 1 |
@@ -27,22 +29,25 @@ Table of Contents:
 | Random Error (case4amod) | 2 |
 | Random Error (case4amodORcompound) | 1 |
 | Random Error (case4flat) | 1 |
+| Random Error (case4nummod) | 1 |
 | Random Error (compound4advmod) | 1 |
+| Random Error (dep4det) | 1 |
 | Random Error (DET4ADJ, compound4amod) | 1 |
 | Random Error (det4amod) | 2 |
 | Random Error (dislocated4case) | 2 |
 | Random Error (dislocated4nmod) | 1 |
 | Random Error (mark4case) | 1 |
-| Random Error (Naming, Ask Dan) | 2 |
+| Random Error (Naming Error) | 2 |
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (nmod4nummod) | 1 |
+| Random Error (obj4aclORadvcl) | 2 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
 | Random Error (POS Error) | 1 |
 | Tree Error | 2 |
-| Tree Error (Checked) | 7 |
-| Unclassified | 106 |
-| Wrong Head (Checked) | 15 |
+| Tree Error (Checked) | 9 |
+| Unclassified | 79 |
+| Wrong Head (Checked) | 16 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -130,9 +135,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 378 | 254 | 226 |
-| <b>Errors</b> | <b>50</b> | <b>62</b> | <b>53</b> | <b>48</b> |
-| <b>Percentage</b>| <b>22.62 %</b> | <b>16.4 %</b> | <b>20.87 %</b> | <b>21.24 %</b> |
+| | 221 | 361 | 254 | 226 |
+| <b>Errors</b> | <b>60</b> | <b>75</b> | <b>63</b> | <b>56</b> |
+| <b>Percentage</b>| <b>27.15 %</b> | <b>20.78 %</b> | <b>24.8 %</b> | <b>24.78 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -142,9 +147,9 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| None | 2 |
 | None (Checked) | 7 |
-| Random Error (Naming, Ask Dan) | 1 |
+| Random Error (Naming Error) | 1 |
+| Random Error (obj4aclORadvcl) | 2 |
 | <b>Total</b> | <b>10 </b>|
 <h3>Picked by Cross Validation, not by Baseline</h3>
 
@@ -152,19 +157,22 @@ Table of Contents:
 |:--------|:----|
 | amod4nummod | 1 |
 | amod4xcomp | 1 |
-| nmod4obl | 2 |
+| nmod4obj | 1 |
+| nmod4obl | 3 |
 | None | 10 |
-| None (Checked) | 37 |
+| None (Checked) | 42 |
 | obl4aclORadvcl | 1 |
 | obl4xcomp | 2 |
-| Random Error | 1 |
+| Random Error (advcl4nmodORdet) | 1 |
 | Random Error (case4compound) | 1 |
 | Random Error (case4flat) | 1 |
 | Random Error (compound4advmod) | 1 |
 | Random Error (compound4flat) | 1 |
 | Random Error (conj4parataxis) | 1 |
 | Random Error (dislocated4case) | 1 |
+| Random Error (nmod4advmod) | 1 |
+| Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4advcl) | 1 |
 | Tree Error (Checked) | 1 |
-| Unclassified | 59 |
+| Unclassified | 50 |
 | <b>Total</b> | <b>122 </b>|
