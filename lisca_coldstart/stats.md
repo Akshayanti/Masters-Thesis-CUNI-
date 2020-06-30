@@ -18,14 +18,15 @@ Table of Contents:
 |:--------|:----|
 | amod4advmod | 1 |
 | amod4xcomp | 2 |
-| nmod4bl | 1 |
-| nmod4obl | 2 |
-| None | 6 |
-| None (Checked) | 75 |
+| nmod4obl | 3 |
+| None | 5 |
+| None (Checked) | 84 |
 | nsubj4obl | 1 |
+| obl4aclORadvcl | 1 |
 | obl4advclORacl | 1 |
 | Random Error (acl4obl) | 1 |
 | Random Error (amod4nummod) | 1 |
+| Random Error (aux4advmod) | 1 |
 | Random Error (case4amod) | 2 |
 | Random Error (case4amodORcompound) | 1 |
 | Random Error (case4flat) | 1 |
@@ -40,14 +41,15 @@ Table of Contents:
 | Random Error (Naming Error) | 2 |
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (nmod4nummod) | 1 |
+| Random Error (nsubj4obj) | 1 |
 | Random Error (obj4aclORadvcl) | 2 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
 | Random Error (POS Error) | 1 |
 | Tree Error | 2 |
-| Tree Error (Checked) | 9 |
-| Unclassified | 79 |
-| Wrong Head (Checked) | 16 |
+| Tree Error (Checked) | 11 |
+| Unclassified | 63 |
+| Wrong Head (Checked) | 19 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -135,9 +137,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 361 | 254 | 226 |
-| <b>Errors</b> | <b>60</b> | <b>75</b> | <b>63</b> | <b>56</b> |
-| <b>Percentage</b>| <b>27.15 %</b> | <b>20.78 %</b> | <b>24.8 %</b> | <b>24.78 %</b> |
+| | 221 | 357 | 254 | 226 |
+| <b>Errors</b> | <b>68</b> | <b>86</b> | <b>71</b> | <b>64</b> |
+| <b>Percentage</b>| <b>30.77 %</b> | <b>24.09 %</b> | <b>27.95 %</b> | <b>28.32 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -159,9 +161,8 @@ Table of Contents:
 | amod4xcomp | 1 |
 | nmod4obj | 1 |
 | nmod4obl | 3 |
-| None | 10 |
-| None (Checked) | 42 |
-| obl4aclORadvcl | 1 |
+| None | 9 |
+| None (Checked) | 43 |
 | obl4xcomp | 2 |
 | Random Error (advcl4nmodORdet) | 1 |
 | Random Error (case4compound) | 1 |
@@ -173,6 +174,8 @@ Table of Contents:
 | Random Error (nmod4advmod) | 1 |
 | Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4advcl) | 1 |
-| Tree Error (Checked) | 1 |
-| Unclassified | 50 |
+| Random Error (obl4nmod) | 1 |
+| Tree Error (Checked) | 2 |
+| Unclassified | 48 |
+| Wrong Head (Checked) | 1 |
 | <b>Total</b> | <b>122 </b>|

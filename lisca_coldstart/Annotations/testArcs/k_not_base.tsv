@@ -70,10 +70,10 @@ test-s411	2	0	Random Error (nmod4advmod)
 test-s415	22	0	Random Error (advcl4nmod|det)
 test-s459	26	0	Random Error (nmod4nummod)
 test-s478	1	1	None (Checked)
-test-s486	27	0.0
-test-s486	29	1.0	None
-test-s540	5	0.0	obl4acl|advcl
-test-s545	7	0.0
+test-s486	27	0	Tree Error (Checked)
+test-s486	29	0	Wrong Head (Checked)
+test-s540	5	0	Random Error (obl4nmod)
+test-s545	7	1	None (Checked)
 test-s624	19	1	None (Checked)
 test-s624	20	0	Tree Error (Checked)
 test-s628	35	0.0

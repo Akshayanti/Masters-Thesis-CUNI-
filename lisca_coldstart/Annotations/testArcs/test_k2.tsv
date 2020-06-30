@@ -222,36 +222,32 @@ test-s423	5	1	None (Checked)
 test-s459	26	0	Random Error (nmod4nummod)
 test-s461	13	1	None (Checked)
 test-s461	16	1	None (Checked)
-test-s461	17	0	nmod4bl
+test-s461	17	0	nmod4obl
 test-s478	1	1	None (Checked)
 test-s478	2	1	None (Checked)
 test-s482	16	1	None (Checked)
 test-s482	4	1	None (Checked)
-====	========	====
-
-test-s486	22	0.0
-test-s486	24	0.0
-test-s486	27	0.0
-test-s486	29	1.0	None
-test-s488	15	0.0
-test-s488	39	0.0
-test-s494	38	0.0
-test-s494	62	0.0
-test-s494	63	0.0
-test-s507	3	0.0
-test-s540	5	0.0	obl4acl|advcl
-test-s545	7	0.0
-test-s552	10	0.0
-test-s552	3	0.0
-test-s552	7	0.0
-test-s564	4	0.0
-test-s564	5	0.0
-test-s573	10	1.0	None
-test-s573	19	0.0
-test-s573	20	0.0
-test-s573	24	0.0
-
-====	========	====
+test-s486	22	0	Tree Error (Checked)
+test-s486	24	1	None (Checked)
+test-s486	27	0	Tree Error (Checked)
+test-s486	29	0	Wrong Head (Checked)
+test-s488	15	1	None (Checked)
+test-s488	39	1	None (Checked)
+test-s494	38	0	Wrong Head (Checked)
+test-s494	62	1	None (Checked)
+test-s494	63	1	None (Checked)
+test-s507	3	1	None (Checked)
+test-s540	5	0	Random Error (obl4nmod)
+test-s545	7	1	None (Checked)
+test-s552	10	0	Random Error (aux4advmod)
+test-s552	3	0	Random Error (nsubj4obj)
+test-s552	7	0	obl4acl|advcl
+test-s564	4	0	Wrong Head (Checked)
+test-s564	5	0	Wrong Head (Checked)
+test-s573	10	1	None (Checked)
+test-s573	19	1	None (Checked)
+test-s573	20	1	None (Checked)
+test-s573	24	0	Tree Error (Checked)
 test-s57	6	1	None (Checked)
 test-s617	27	1	None (Checked)
 test-s624	18	0	Tree Error (Checked)
