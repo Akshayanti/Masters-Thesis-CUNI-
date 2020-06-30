@@ -76,20 +76,20 @@ test-s540	5	0	Random Error (obl4nmod)
 test-s545	7	1	None (Checked)
 test-s624	19	1	None (Checked)
 test-s624	20	0	Tree Error (Checked)
-test-s628	35	0.0
-test-s631	7	0.0
-test-s651	15	0.0	None
-test-s653	13	0.0
-test-s671	14	0.0
-test-s671	19	0.0	None
-test-s671	21	0.0
-test-s7	7	0.0	None
-test-s71	17	0.0	obl4xcomp
-test-s712	29	0.0
-test-s726	12	0.0
-test-s745	12	0.0
-test-s761	12	0.0
-test-s766	14	0.0
+test-s628	35	1	None (Checked)
+test-s631	7	1	None (Checked)
+test-s651	15	0	Random Error (obl4advmod)
+test-s653	13	1	None (Checked)
+test-s671	14	1	None (Checked)
+test-s671	19	0	Random Error (POS Error)
+test-s671	21	1	None (Checked)
+test-s7	7	0	Random Error (det4amod)
+test-s71	17	0	Random Error (obl4amod)
+test-s712	29	1	None (Checked)
+test-s726	12	1	None (Checked)
+test-s745	12	1	None (Checked)
+test-s761	12	1	None (Checked)
+test-s766	14	1	None (Checked)
 test-s780	10	0	nmod4obl
 test-s780	16	0	Random Error (compound4flat)
 test-s780	49	1	None (Checked)

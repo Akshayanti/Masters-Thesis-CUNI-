@@ -19,12 +19,13 @@ Table of Contents:
 | amod4advmod | 1 |
 | amod4xcomp | 2 |
 | nmod4obl | 3 |
-| None | 5 |
-| None (Checked) | 93 |
+| None | 2 |
+| None (Checked) | 104 |
 | nsubj4obl | 1 |
-| obl4aclORadvcl | 1 |
-| obl4advclORacl | 1 |
+| obl4aclORadvcl | 2 |
 | Random Error (acl4obl) | 1 |
+| Random Error (advmod4amod) | 2 |
+| Random Error (amod4acl) | 1 |
 | Random Error (amod4nummod) | 1 |
 | Random Error (aux4advmod) | 1 |
 | Random Error (case4amod) | 2 |
@@ -41,14 +42,16 @@ Table of Contents:
 | Random Error (Naming Error) | 2 |
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (nmod4nummod) | 1 |
+| Random Error (nsubj4amod) | 1 |
 | Random Error (nsubj4obj) | 1 |
 | Random Error (obj4aclORadvcl) | 3 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
 | Random Error (POS Error) | 2 |
 | Tree Error | 2 |
+| Tree Error  (Checked) | 1 |
 | Tree Error (Checked) | 12 |
-| Unclassified | 47 |
+| Unclassified | 34 |
 | Wrong Head (Checked) | 23 |
 | <b>Total</b> | <b>221 </b>|
 
@@ -137,9 +140,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 349 | 254 | 226 |
-| <b>Errors</b> | <b>75</b> | <b>97</b> | <b>79</b> | <b>72</b> |
-| <b>Percentage</b>| <b>33.94 %</b> | <b>27.79 %</b> | <b>31.1 %</b> | <b>31.86 %</b> |
+| | 221 | 345 | 254 | 226 |
+| <b>Errors</b> | <b>80</b> | <b>106</b> | <b>87</b> | <b>77</b> |
+| <b>Percentage</b>| <b>36.2 %</b> | <b>30.72 %</b> | <b>34.25 %</b> | <b>34.07 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -161,23 +164,27 @@ Table of Contents:
 | amod4xcomp | 1 |
 | nmod4obj | 1 |
 | nmod4obl | 3 |
-| None | 7 |
-| None (Checked) | 56 |
-| obl4xcomp | 2 |
+| None | 4 |
+| None (Checked) | 66 |
+| obl4xcomp | 1 |
 | Random Error (advcl4nmodORdet) | 1 |
 | Random Error (case4compound) | 1 |
 | Random Error (case4flat) | 1 |
 | Random Error (compound4advmod) | 1 |
 | Random Error (compound4flat) | 1 |
 | Random Error (conj4parataxis) | 1 |
+| Random Error (det4amod) | 1 |
 | Random Error (dislocated4case) | 1 |
 | Random Error (nmod4advmod) | 1 |
 | Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4advcl) | 1 |
+| Random Error (obl4advmod) | 1 |
+| Random Error (obl4amod) | 1 |
 | Random Error (obl4mark) | 1 |
 | Random Error (obl4nmod) | 1 |
+| Random Error (POS Error) | 1 |
 | Tree error (Checked) | 1 |
 | Tree Error (Checked) | 2 |
-| Unclassified | 33 |
+| Unclassified | 23 |
 | Wrong Head (Checked) | 3 |
 | <b>Total</b> | <b>122 </b>|
