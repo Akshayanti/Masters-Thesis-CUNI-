@@ -276,7 +276,7 @@ test-s745	12	1	None (Checked)
 test-s753	18	1	None (Checked)
 test-s761	12	1	None (Checked)
 test-s766	14	1	None (Checked)
-test-s766	17	1	None (Checked)
+test-s766	17	0	Random Error (obj4acl|advcl)
 test-s769	33	0	Random Error (amod4acl)
 test-s779	31	0	Tree Error  (Checked)
 test-s780	10	0	nmod4obl

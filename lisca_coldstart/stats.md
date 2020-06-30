@@ -20,7 +20,7 @@ Table of Contents:
 | amod4xcomp | 2 |
 | nmod4obl | 3 |
 | None | 2 |
-| None (Checked) | 104 |
+| None (Checked) | 103 |
 | nsubj4obl | 1 |
 | obl4aclORadvcl | 2 |
 | Random Error (acl4obl) | 1 |
@@ -44,7 +44,7 @@ Table of Contents:
 | Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4amod) | 1 |
 | Random Error (nsubj4obj) | 1 |
-| Random Error (obj4aclORadvcl) | 3 |
+| Random Error (obj4aclORadvcl) | 4 |
 | Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
 | Random Error (POS Error) | 2 |
@@ -141,8 +141,8 @@ Table of Contents:
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
 | | 221 | 345 | 254 | 226 |
-| <b>Errors</b> | <b>80</b> | <b>106</b> | <b>87</b> | <b>77</b> |
-| <b>Percentage</b>| <b>36.2 %</b> | <b>30.72 %</b> | <b>34.25 %</b> | <b>34.07 %</b> |
+| <b>Errors</b> | <b>81</b> | <b>107</b> | <b>88</b> | <b>78</b> |
+| <b>Percentage</b>| <b>36.65 %</b> | <b>31.01 %</b> | <b>34.65 %</b> | <b>34.51 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
