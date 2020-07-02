@@ -1,17 +1,17 @@
-test-s103	54	0	obl4xcomp
-test-s1030	1	1	None (Checked)
-test-s1042	16	1	None (Checked)
-test-s1069	20	1	None (Checked)
-test-s107	14	0	amod4xcomp
-test-s113	31	1	None (Checked)
-test-s1152	22	1	None (Checked)
-test-s1167	28	0	nmod4obj
-test-s1183	21	1	None (Checked)
-test-s1192	1	0	nmod4obl
-test-s1194	12	1	None (Checked)
-test-s1239	6	1	None (Checked)
-test-s127	16	0.0
-test-s1287	13	0.0	None
+test-s103	54	0	Tree Error (Checked)-
+test-s1030	1	1	obl4discourse-
+test-s1042	16	1	None (Checked)-
+test-s1069	20	1	None (Checked)-
+test-s107	14	0	amod4xcomp-
+test-s113	31	1	None (Checked)-
+test-s1152	22	1	None (Checked)-
+test-s1167	28	0	Wrong Head (Checked)-
+test-s1183	21	1	None (Checked)-
+test-s1192	1	0	nmod4discourse-
+test-s1194	12	1	None (Checked)-
+test-s1239	6	1	None (Checked)-
+test-s127	16	1	None (Checked)-
+test-s1287	13	1	None (Checked)-
 test-s131	36	0.0
 test-s1318	12	0.0
 test-s1330	18	0.0
@@ -68,7 +68,7 @@ test-s386	1	1	None (Checked)
 test-s390	18	0	Random Error (case4flat)
 test-s411	2	0	Random Error (nmod4advmod)
 test-s415	22	0	Random Error (advcl4nmod|det)
-test-s459	26	0	Random Error (nmod4nummod)
+test-s459	26	0	Random Error (nmod4flat)
 test-s478	1	1	None (Checked)
 test-s486	27	0	Tree Error (Checked)
 test-s486	29	0	Wrong Head (Checked)
@@ -81,7 +81,7 @@ test-s631	7	1	None (Checked)
 test-s651	15	0	Random Error (obl4advmod)
 test-s653	13	1	None (Checked)
 test-s671	14	1	None (Checked)
-test-s671	19	0	Random Error (POS Error)
+test-s671	19	0	Tree Error (Checked)
 test-s671	21	1	None (Checked)
 test-s7	7	0	Random Error (det4amod)
 test-s71	17	0	Random Error (obl4amod)
@@ -93,7 +93,7 @@ test-s766	14	1	None (Checked)
 test-s780	10	0	nmod4obl
 test-s780	16	0	Random Error (compound4flat)
 test-s780	49	1	None (Checked)
-test-s803	5	0	Random Error (case4compound)
+test-s803	5	0	Random Error (case4amod|compound)
 test-s803	6	1	None (Checked)
 test-s805	17	1	None (Checked)
 test-s805	23	1	None (Checked)
@@ -115,7 +115,7 @@ test-s957	22	0	Random Error (dislocated4case)
 test-s961	24	1	None (Checked)
 test-s961	36	1	None (Checked)
 test-s962	16	1	None (Checked)
-test-s965	1	0	amod4nummod
+test-s965	1	1	None (Checked)
 test-s969	12	1	None (Checked)
 test-s971	17	1	None (Checked)
 test-s999	16	1	None (Checked)

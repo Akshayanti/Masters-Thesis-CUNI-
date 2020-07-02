@@ -16,43 +16,50 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| amod4advmod | 1 |
-| amod4xcomp | 2 |
-| nmod4obl | 3 |
+| advcl4advmod- | 1 |
+| amod4advmod- | 1 |
+| amod4xcomp | 1 |
+| compound4obj- | 1 |
+| dep4det- | 1 |
+| dislocated4case- | 1 |
+| mark4case- | 2 |
+| Naming Error- | 1 |
+| nmod4appos- | 1 |
+| nmod4obl | 2 |
 | None | 2 |
-| None (Checked) | 103 |
+| None (Checked) | 73 |
+| None (Checked)- | 26 |
+| None- | 2 |
 | nsubj4obl | 1 |
+| obj4parataxis- | 1 |
 | obl4aclORadvcl | 2 |
+| obl4advcl- | 1 |
+| POS Labelling Error- | 3 |
 | Random Error (acl4obl) | 1 |
 | Random Error (advmod4amod) | 2 |
 | Random Error (amod4acl) | 1 |
-| Random Error (amod4nummod) | 1 |
 | Random Error (aux4advmod) | 1 |
-| Random Error (case4amod) | 2 |
 | Random Error (case4amodORcompound) | 1 |
 | Random Error (case4flat) | 1 |
-| Random Error (case4nummod) | 1 |
-| Random Error (compound4advmod) | 1 |
-| Random Error (dep4det) | 1 |
-| Random Error (DET4ADJ, compound4amod) | 1 |
-| Random Error (det4amod) | 2 |
-| Random Error (dislocated4case) | 2 |
-| Random Error (dislocated4nmod) | 1 |
+| Random Error (compound4advmod) | 2 |
+| Random Error (det4amod) | 1 |
+| Random Error (dislocated4case) | 1 |
+| Random Error (dislocated4compound) | 1 |
 | Random Error (mark4case) | 1 |
-| Random Error (Naming Error) | 2 |
+| Random Error (Naming Error) | 1 |
 | Random Error (nmod4nsubj) | 1 |
-| Random Error (nmod4nummod) | 1 |
 | Random Error (nsubj4amod) | 1 |
 | Random Error (nsubj4obj) | 1 |
 | Random Error (obj4aclORadvcl) | 4 |
-| Random Error (obj4nsubj) | 1 |
 | Random Error (obl4advmod) | 2 |
-| Random Error (POS Error) | 2 |
+| Random Error (POS Error) | 1 |
 | Tree Error | 2 |
 | Tree Error  (Checked) | 1 |
-| Tree Error (Checked) | 12 |
-| Unclassified | 34 |
-| Wrong Head (Checked) | 23 |
+| Tree Error (Checked) | 6 |
+| Tree Error (Checked)- | 8 |
+| Unclassified | 27 |
+| Wrong Head (Checked) | 18 |
+| Wrong Head (Checked)- | 12 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -140,9 +147,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 345 | 254 | 226 |
-| <b>Errors</b> | <b>81</b> | <b>107</b> | <b>88</b> | <b>78</b> |
-| <b>Percentage</b>| <b>36.65 %</b> | <b>31.01 %</b> | <b>34.65 %</b> | <b>34.51 %</b> |
+| | 221 | 346 | 254 | 226 |
+| <b>Errors</b> | <b>89</b> | <b>114</b> | <b>96</b> | <b>86</b> |
+| <b>Percentage</b>| <b>40.27 %</b> | <b>32.95 %</b> | <b>37.8 %</b> | <b>38.05 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -160,15 +167,15 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| amod4nummod | 1 |
-| amod4xcomp | 1 |
-| nmod4obj | 1 |
-| nmod4obl | 3 |
-| None | 4 |
-| None (Checked) | 66 |
-| obl4xcomp | 1 |
+| amod4xcomp- | 1 |
+| nmod4discourse- | 1 |
+| nmod4obl | 2 |
+| None | 3 |
+| None (Checked) | 59 |
+| None (Checked)- | 9 |
+| obl4discourse- | 1 |
 | Random Error (advcl4nmodORdet) | 1 |
-| Random Error (case4compound) | 1 |
+| Random Error (case4amodORcompound) | 1 |
 | Random Error (case4flat) | 1 |
 | Random Error (compound4advmod) | 1 |
 | Random Error (compound4flat) | 1 |
@@ -176,15 +183,16 @@ Table of Contents:
 | Random Error (det4amod) | 1 |
 | Random Error (dislocated4case) | 1 |
 | Random Error (nmod4advmod) | 1 |
-| Random Error (nmod4nummod) | 1 |
+| Random Error (nmod4flat) | 1 |
 | Random Error (nsubj4advcl) | 1 |
 | Random Error (obl4advmod) | 1 |
 | Random Error (obl4amod) | 1 |
 | Random Error (obl4mark) | 1 |
 | Random Error (obl4nmod) | 1 |
-| Random Error (POS Error) | 1 |
 | Tree error (Checked) | 1 |
-| Tree Error (Checked) | 2 |
-| Unclassified | 23 |
+| Tree Error (Checked) | 3 |
+| Tree Error (Checked)- | 1 |
+| Unclassified | 22 |
 | Wrong Head (Checked) | 3 |
+| Wrong Head (Checked)- | 1 |
 | <b>Total</b> | <b>122 </b>|
