@@ -19,6 +19,7 @@ Table of Contents:
 | advcl4advmod- | 1 |
 | amod4advmod- | 1 |
 | amod4xcomp | 1 |
+| compound4flat- | 1 |
 | compound4obj- | 1 |
 | dep4det- | 1 |
 | dislocated4case- | 1 |
@@ -27,11 +28,11 @@ Table of Contents:
 | nmod4appos- | 1 |
 | nmod4obl | 2 |
 | None | 2 |
-| None (Checked) | 73 |
-| None (Checked)- | 26 |
+| None (Checked) | 66 |
+| None (Checked)- | 32 |
 | None- | 2 |
 | nsubj4obl | 1 |
-| obj4parataxis- | 1 |
+| obj4parataxis- | 3 |
 | obl4aclORadvcl | 2 |
 | obl4advcl- | 1 |
 | POS Labelling Error- | 3 |
@@ -46,11 +47,10 @@ Table of Contents:
 | Random Error (dislocated4case) | 1 |
 | Random Error (dislocated4compound) | 1 |
 | Random Error (mark4case) | 1 |
-| Random Error (Naming Error) | 1 |
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (nsubj4amod) | 1 |
 | Random Error (nsubj4obj) | 1 |
-| Random Error (obj4aclORadvcl) | 4 |
+| Random Error (obj4aclORadvcl) | 2 |
 | Random Error (obl4advmod) | 2 |
 | Random Error (POS Error) | 1 |
 | Tree Error | 2 |
@@ -59,7 +59,7 @@ Table of Contents:
 | Tree Error (Checked)- | 8 |
 | Unclassified | 27 |
 | Wrong Head (Checked) | 18 |
-| Wrong Head (Checked)- | 12 |
+| Wrong Head (Checked)- | 13 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -159,9 +159,10 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| None (Checked) | 7 |
-| Random Error (Naming Error) | 1 |
-| Random Error (obj4aclORadvcl) | 2 |
+| compound4flat- | 1 |
+| None (Checked)- | 6 |
+| obj4parataxis- | 2 |
+| Wrong Head (Checked)- | 1 |
 | <b>Total</b> | <b>10 </b>|
 <h3>Picked by Cross Validation, not by Baseline</h3>
 
