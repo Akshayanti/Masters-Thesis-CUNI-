@@ -93,30 +93,30 @@ test-s766	14	1	None (Checked)
 test-s780	10	0	nmod4obl
 test-s780	16	0	Random Error (compound4flat)
 test-s780	49	1	None (Checked)
-test-s803	5	0	Random Error (case4amod|compound)
-test-s803	6	1	None (Checked)
-test-s805	17	1	None (Checked)
-test-s805	23	1	None (Checked)
-test-s807	24	1	None (Checked)
-test-s845	6	1	None (Checked)
-test-s847	25	1	None (Checked)
-test-s853	11	1	None (Checked)
-test-s874	4	1	None (Checked)
-test-s875	6	1	None (Checked)
-test-s887	30	0	Random Error (nsubj4advcl)
-test-s894	11	1	None (Checked)
-test-s894	14	1	None (Checked)
-test-s894	19	0	Random Error (compound4advmod)
-test-s894	20	0	Random Error (conj4parataxis)
-test-s894	23	1	None (Checked)
-test-s916	23	1	None (Checked)
-test-s943	13	0	nmod4obl
-test-s957	22	0	Random Error (dislocated4case)
-test-s961	24	1	None (Checked)
-test-s961	36	1	None (Checked)
-test-s962	16	1	None (Checked)
-test-s965	1	1	None (Checked)
-test-s969	12	1	None (Checked)
-test-s971	17	1	None (Checked)
-test-s999	16	1	None (Checked)
-test-s999	23	1	None (Checked)
+test-s803	5	0	case4amod-
+test-s803	6	1	None (Checked)-
+test-s805	17	1	None (Checked)-
+test-s805	23	0	advmod4discourse-
+test-s807	24	1	None (Checked)-
+test-s845	6	1	None (Checked)-
+test-s847	25	0	Wrong Head (Checked)-
+test-s853	11	0	amod4acl-
+test-s874	4	1	None (Checked)-
+test-s875	6	1	None (Checked)-
+test-s887	30	0	nsubj4advcl-
+test-s894	11	1	None (Checked)-
+test-s894	14	1	None (Checked)-
+test-s894	19	0	compound4advmod-
+test-s894	20	0	conj4parataxis-
+test-s894	23	1	None (Checked)-
+test-s916	23	1	None (Checked)-
+test-s943	13	0	nmod4obl-
+test-s957	22	0	dislocated4case-
+test-s961	24	1	None (Checked)-
+test-s961	36	1	None (Checked)-
+test-s962	16	0	Wrong Head (Checked)-
+test-s965	1	1	None (Checked)-
+test-s969	12	0	Wrong Head (Checked)-
+test-s971	17	1	None (Checked)-
+test-s999	16	0	nmod4obj-
+test-s999	23	0	Wrong Head (Checked)-

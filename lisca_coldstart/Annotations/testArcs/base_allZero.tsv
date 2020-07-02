@@ -8,7 +8,7 @@ test-s1046	14	0	nmod4appos-
 test-s1046	16	0	dislocated4case-
 test-s1052	20	1	None-
 test-s1052	21	0	POS Labelling Error-
-test-s1055	15	1	None-
+test-s1055	15	1	None (Checked)-
 test-s1055	16	0	obj4parataxis-
 test-s1056	3	1	None (Checked)-
 test-s1056	4	0	POS Labelling Error-
@@ -193,29 +193,29 @@ test-s780	17	1	None (Checked)
 test-s780	4	0	Tree Error (Checked)
 test-s780	54	1	None (Checked)
 test-s780	55	1	None (Checked)
-test-s782	3	0.0	None
-test-s788	10	1	Wrong Head (Checked)
-test-s788	11	1	None (Checked)
-test-s788	2	0	Wrong Head (Checked)
-test-s788	5	0	Wrong Head (Checked)
-test-s788	7	0	Wrong Head (Checked)
-test-s788	9	0	Tree Error (Checked)
-test-s792	9	1	None (Checked)
-test-s805	28	0	Wrong Head (Checked)
-test-s822	10	0	Random Error (obl4advmod)
-test-s822	6	0	Random Error (obl4advmod)
-test-s847	24	0	Random Error (det4amod)
-test-s858	13	0	nsubj4obl
-test-s858	15	0	obl4acl|advcl
-test-s870	8	1	None (Checked)
-test-s875	22	1	None (Checked)
-test-s903	9	0	Random Error (case4amod|compound)
-test-s916	19	1	None (Checked)
-test-s916	20	0	Random Error (compound4advmod)
-test-s916	21	1	None (Checked)
-test-s916	31	1	None (Checked)
-test-s957	1	1	None (Checked)
-test-s960	33	0	Wrong Head (Checked)
-test-s960	44	0	Wrong Head (Checked)
-test-s961	27	1	None (Checked)
-test-s999	49	0	Random Error (mark4case)
+test-s782	3	1	None (Checked)-
+test-s788	10	1	None (Checked)-
+test-s788	11	1	None (Checked)-
+test-s788	2	1	None (Checked)-
+test-s788	5	1	None (Checked)-
+test-s788	7	0	obl4amod-
+test-s788	9	0	amod4acl-
+test-s792	9	1	None (Checked)-
+test-s805	28	0	Wrong Head (Checked)-
+test-s822	10	0	Wrong Head (Checked)-
+test-s822	6	0	Random Error (obl4advmod)-
+test-s847	24	1	None (Checked)-
+test-s858	13	0	nsubj4obl-
+test-s858	15	0	obl4nsubj-
+test-s870	8	1	None (Checked)-
+test-s875	22	1	None (Checked)-
+test-s903	9	0	case4compound-
+test-s916	19	1	None (Checked)-
+test-s916	20	0	compound4advmod-
+test-s916	21	1	None (Checked)-
+test-s916	31	1	None (Checked)-
+test-s957	1	0	nsubj4dislocated-
+test-s960	33	0	Wrong Head (Checked)-
+test-s960	44	0	Wrong Head (Checked)-
+test-s961	27	1	None (Checked)-
+test-s999	49	0	mark4case-
