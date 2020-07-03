@@ -3,7 +3,7 @@ train-s11767	23	1	None
 train-s4356	7	1	None
 train-s13258	17	1	None
 train-s3210	8	1	None
-test-s1413	19	1	None
+test-s1413	19	1	None (Checked)-
 train-s2068	13	1	None
 train-s2513	4	1	None
 train-s6834	19	1	None
@@ -20,18 +20,18 @@ train-s1975	4	0	acl4amod
 train-s9370	13	0	nmod4obl
 train-s13145	43	1	None
 train-s3589	9	1	None
-test-s957	1	1	None (Checked)
+test-s957	1	0	nsubj4dislocated-
 train-s9599	40	1	None
 train-s12434	18	0	auxasRoot
 train-s1549	22	1	None
 train-s2658	35	0	Random Error
 dev-s1504	9	1	None
-test-s540	5	0	obl4acl|advcl
-test-s957	22	0	Random Error (dislocated4case)
-test-s807	24	1	None (Checked)
+test-s540	5	0	Wrong Head (Checked)-
+test-s957	22	0	dislocated4case-
+test-s807	24	1	None (Checked)-
 train-s12658	14	0	auxasRoot
 train-s5417	22	0	obl4xcomp
-test-s486	29	1	None
+test-s486	29	1	None (Checked)-
 train-s11878	22	1	None
 train-s8470	16	0	amod4xcomp
 train-s9468	4	1	None
@@ -43,7 +43,7 @@ train-s12084	18	0	Random Error
 train-s10896	5	0	amod4xcomp
 train-s8575	4	1	None
 train-s2750	4	1	None
-test-s1652	2	1	None
+test-s1652	2	1	None (Checked)-
 train-s7177	10	1	None
 train-s2428	7	1	None
 train-s4843	18	0	obl4xcomp
@@ -64,18 +64,18 @@ train-s11866	45	0	obl4xcomp
 dev-s373	15	1	None
 train-s1992	15	1	None
 train-s1262	20	0	nsubj4obl
-test-s780	16	0	Random Error (compound4flat)
+test-s780	16	0	compound4flat-
 dev-s610	12	1	None
 train-s10578	6	1	None
 train-s1411	19	0	xcomp4advmod
 train-s1939	22	0	Tree Error
-test-s874	4	1	None (Checked)
+test-s874	4	1	None (Checked)-
 train-s3081	24	1	None
 train-s10713	14	0	nmod4obl
 train-s7382	16	0	Random Error
 train-s12722	12	0	Random Error
-test-s1413	11	1	None
-test-s1453	3	1	None
+test-s1413	11	1	None (Checked)-
+test-s1453	3	0	dep4discourse-
 train-s12605	3	1	None
 train-s9733	4	1	None
 train-s8224	4	1	None
@@ -87,12 +87,12 @@ train-s5137	2	0	Wrong Head
 train-s1475	9	1	None
 train-s13145	31	0	nmod4obl
 train-s13217	6	1	None
-test-s37	11	1	None
+test-s37	11	1	None (Checked)-
 train-s12766	43	1	None
 train-s213	5	1	None
-test-s916	23	1	None (Checked)
+test-s916	23	1	None (Checked)-
 train-s3980	24	1	None
-test-s245	17	1	None
+test-s245	17	1	None (Checked)-
 dev-s936	24	0	Random Error
 dev-s1519	13	0	Tree Error
 train-s13261	15	1	None

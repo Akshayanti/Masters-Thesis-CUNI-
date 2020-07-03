@@ -31,12 +31,12 @@ train-s1682	34	1	None
 train-s11937	11	1	None
 train-s11362	11	1	None
 train-s11122	55	1	None
-test-s651	15	1	None
+test-s651	15	0	obl4advmod-
 train-s5731	25	1	None
 train-s13007	1	1	None
 train-s8306	54	1	None
 dev-s1012	31	1	None
-test-s1287	13	1	None
+test-s1287	13	1	None (Checked)-
 train-s11382	34	1	None
 train-s11125	28	1	None
 train-s11091	9	1	None
@@ -69,12 +69,12 @@ train-s7187	11	1	None
 train-s10083	14	1	None
 train-s353	17	1	None
 train-s2043	6	0	nsubj4obl
-test-s961	36	1	None (Checked)
-test-s671	19	1	None
+test-s961	36	1	None (Checked)-
+test-s671	19	1	None (Checked)-
 train-s4529	5	1	None
 train-s10295	3	0	Random Error
 train-s8456	16	0	Random Error
-test-s459	26	0	Random Error
+test-s459	26	0	nmod4flat-
 dev-s513	2	1	None
 train-s4161	23	0	Random Error
 train-s6810	2	1	None
