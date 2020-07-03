@@ -210,8 +210,8 @@ def analyse_baseline_vs_CV():
     print("<h3>Arc Flagging Statistics</h3>\n", file=STATS_FILE)
     baseline_vs_CV_compare()
     print(
-        "<b>Note:</b> Typology Counts Across different runs can be viewed "
-        "[here](./Annotations/testArcs/comparisonStats.tsv)")
+        "\n<b>Note:</b> Typology Counts Across different runs can be viewed "
+        "[here](./Annotations/testArcs/comparisonStats.tsv)", file=STATS_FILE)
     print("<h3>Arcs Commonly Flagged</h3>\n", file=STATS_FILE)
     baseline_vs_CV_common()
     print("<h3>Picked by Baseline, not by Cross-Validation</h3>\n", file=STATS_FILE)

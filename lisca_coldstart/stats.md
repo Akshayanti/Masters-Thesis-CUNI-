@@ -145,6 +145,8 @@ Table of Contents:
 | | 221 | 333 | 254 | 226 |
 | <b>Errors</b> | <b>111</b> | <b>166</b> | <b>130</b> | <b>117</b> |
 | <b>Percentage</b>| <b>50.23 %</b> | <b>49.85 %</b> | <b>51.18 %</b> | <b>51.77 %</b> |
+
+<b>Note:</b> Typology Counts Across different runs can be viewed [here](./Annotations/testArcs/comparisonStats.tsv)
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
