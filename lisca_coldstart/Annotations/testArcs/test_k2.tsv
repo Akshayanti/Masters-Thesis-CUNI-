@@ -204,28 +204,27 @@ test-s390	18	0	Random Error (case4flat)
 test-s390	22	1	None (Checked)
 test-s398	48	1	None (Checked)
 
-test-s411	2	0	Random Error (nmod4advmod)
-test-s413	14	1	None (Checked)
-test-s415	22	0	Random Error (advcl4nmod|det)
-test-s423	5	1	None (Checked)
-test-s459	26	0	Random Error (nmod4flat)
-test-s461	13	1	None (Checked)
-test-s461	16	1	None (Checked)
-test-s461	17	0	nmod4obl
-test-s478	1	1	None (Checked)
-test-s478	2	1	None (Checked)
-test-s482	16	1	None (Checked)
-test-s482	4	1	None (Checked)
-test-s486	22	0	Tree Error (Checked)
-test-s486	24	1	None (Checked)
-test-s486	27	0	Tree Error (Checked)
-test-s486	29	0	Wrong Head (Checked)
-test-s488	15	1	None (Checked)
-test-s488	39	1	None (Checked)
-test-s494	38	0	Wrong Head (Checked)
-test-s494	62	1	None (Checked)
-test-s494	63	1	None (Checked)
-
+test-s411	2	0	Tree Error (Checked)-
+test-s413	14	0	Tree Error (Checked)-
+test-s415	22	0	advcl4det-
+test-s423	5	1	None (Checked)-
+test-s459	26	0	nmod4flat-
+test-s461	13	1	None (Checked)-
+test-s461	16	0	nmod4acl-
+test-s461	17	0	nmod4appos-
+test-s478	1	0	mark4discourse-
+test-s478	2	1	None (Checked)-
+test-s482	16	0	acl4obj-
+test-s482	4	1	None (Checked)-
+test-s486	22	1	None (Checked)-
+test-s486	24	1	None (Checked)-
+test-s486	27	1	None (Checked)-
+test-s486	29	1	None (Checked)-
+test-s488	15	1	None (Checked)-
+test-s488	39	1	None (Checked)-
+test-s494	38	0	Wrong Head (Checked)-
+test-s494	62	1	None (Checked)-
+test-s494	63	0	Wrong Head (Checked)-
 test-s507	3	0	acl4expl-
 test-s540	5	0	Wrong Head (Checked)-
 test-s545	7	1	None (Checked)-
@@ -250,7 +249,7 @@ test-s626	24	0	dislocated4case-
 test-s628	35	1	None (Checked)-
 test-s628	40	1	None (Checked)-
 test-s631	7	0	Wrong Head (Checked)-
-test-s651	15	0	Random Error (obl4advmod)-
+test-s651	15	0	obl4advmod-
 test-s653	13	0	Tree Error (Checked)-
 test-s671	14	0	iobj4nsubj-
 test-s671	19	1	None (Checked)-
@@ -276,7 +275,7 @@ test-s761	12	0	nmod4xcomp-
 test-s766	14	1	None (Checked)-
 test-s766	17	0	obj4acl-
 test-s769	33	0	amod4acl-
-test-s779	31	0	Tree Error  (Checked)-
+test-s779	31	0	Tree Error (Checked)-
 test-s780	10	0	nmod4obl-
 test-s780	16	0	compound4flat-
 test-s780	17	1	None (Checked)-
@@ -299,7 +298,7 @@ test-s805	23	0	advmod4discourse-
 test-s805	28	0	Wrong Head (Checked)-
 test-s807	24	1	None (Checked)-
 test-s822	10	0	Wrong Head (Checked)-
-test-s822	6	0	Random Error (obl4advmod)-
+test-s822	6	0	obl4advmod-
 test-s845	6	1	None (Checked)-
 test-s847	24	1	None (Checked)-
 test-s847	25	0	Wrong Head (Checked)-

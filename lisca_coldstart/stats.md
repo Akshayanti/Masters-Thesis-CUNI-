@@ -17,6 +17,7 @@ Table of Contents:
 | Error Type | Count |
 |:--------|:----|
 | acl4expl- | 1 |
+| acl4obj- | 1 |
 | advcl4advmod- | 2 |
 | advmod4amod- | 2 |
 | amod4acl- | 3 |
@@ -33,11 +34,11 @@ Table of Contents:
 | iobj4nsubj- | 1 |
 | mark4case- | 3 |
 | Naming Error- | 1 |
-| nmod4appos- | 3 |
+| nmod4acl- | 1 |
+| nmod4appos- | 4 |
 | nmod4nummod- | 1 |
-| nmod4obl | 1 |
-| None (Checked) | 31 |
-| None (Checked)- | 83 |
+| None (Checked) | 19 |
+| None (Checked)- | 92 |
 | None- | 1 |
 | nsubj4dislocated- | 1 |
 | nsubj4flat- | 1 |
@@ -45,6 +46,7 @@ Table of Contents:
 | obj4acl- | 1 |
 | obj4parataxis- | 3 |
 | obl4advcl- | 1 |
+| obl4advmod- | 1 |
 | obl4amod- | 1 |
 | obl4det- | 1 |
 | obl4nsubj- | 1 |
@@ -54,14 +56,12 @@ Table of Contents:
 | Random Error (compound4advmod) | 1 |
 | Random Error (nmod4nsubj) | 1 |
 | Random Error (obj4aclORadvcl) | 1 |
-| Random Error (obl4advmod)- | 1 |
 | Random Error (POS Error) | 1 |
-| Tree Error  (Checked)- | 1 |
-| Tree Error (Checked) | 2 |
-| Tree Error (Checked)- | 16 |
+| Tree Error (Checked) | 1 |
+| Tree Error (Checked)- | 18 |
 | Tree Error- | 1 |
-| Wrong Head (Checked) | 6 |
-| Wrong Head (Checked)- | 28 |
+| Wrong Head (Checked) | 5 |
+| Wrong Head (Checked)- | 30 |
 | <b>Total</b> | <b>221 </b>|
 
 <h2>Cross-Validation</h2>
@@ -149,9 +149,9 @@ Table of Contents:
 
 | | Baseline | K=2 | K=4 | K=8 |
 |:----|:----:|:-----:|:-----:|:-----:|
-| | 221 | 339 | 254 | 226 |
-| <b>Errors</b> | <b>105</b> | <b>154</b> | <b>119</b> | <b>107</b> |
-| <b>Percentage</b>| <b>47.51 %</b> | <b>45.43 %</b> | <b>46.85 %</b> | <b>47.35 %</b> |
+| | 221 | 338 | 254 | 226 |
+| <b>Errors</b> | <b>108</b> | <b>156</b> | <b>122</b> | <b>110</b> |
+| <b>Percentage</b>| <b>48.87 %</b> | <b>46.15 %</b> | <b>48.03 %</b> | <b>48.67 %</b> |
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
@@ -171,6 +171,7 @@ Table of Contents:
 | Error Type | Count |
 |:--------|:----|
 | advcl4det | 1 |
+| advcl4det- | 1 |
 | advmod4discourse- | 1 |
 | amod4acl- | 1 |
 | amod4xcomp- | 1 |
@@ -184,25 +185,23 @@ Table of Contents:
 | dislocated4case- | 1 |
 | dislocated4dep- | 1 |
 | iobj4nsubj- | 1 |
+| mark4discourse- | 1 |
 | nmod4discourse- | 1 |
+| nmod4flat- | 1 |
 | nmod4obj- | 1 |
 | nmod4obl- | 2 |
 | nmod4xcomp- | 1 |
-| None (Checked) | 19 |
-| None (Checked)- | 51 |
+| None (Checked) | 18 |
+| None (Checked)- | 53 |
 | nsubj4advcl- | 1 |
 | obj4parataxis- | 1 |
+| obl4advmod- | 1 |
 | obl4amod- | 1 |
 | obl4discourse- | 2 |
-| Random Error (advcl4nmodORdet) | 1 |
 | Random Error (case4flat) | 1 |
-| Random Error (nmod4advmod) | 1 |
-| Random Error (nmod4flat) | 1 |
-| Random Error (obl4advmod)- | 1 |
 | Random Error (obl4mark) | 1 |
 | Tree error (Checked) | 1 |
-| Tree Error (Checked) | 1 |
-| Tree Error (Checked)- | 4 |
-| Wrong Head (Checked) | 2 |
+| Tree Error (Checked)- | 5 |
+| Wrong Head (Checked) | 1 |
 | Wrong Head (Checked)- | 13 |
 | <b>Total</b> | <b>122 </b>|
