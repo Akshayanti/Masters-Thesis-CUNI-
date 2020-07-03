@@ -112,48 +112,48 @@ test-s19	4	1	None (Checked)-
 test-s19	5	0	Tree Error-
 test-s19	7	0	nmod4appos-
 test-s19	9	0	Wrong Head (Checked)-
-test-s211	2	1	None (Checked)
-test-s211	5	0	Wrong Head (Checked)
-test-s225	22	1	None (Checked)
-test-s235	19	1	None (Checked)
-test-s246	9	0	Wrong Head (Checked)
-test-s251	1	1	None (Checked)
-test-s251	13	1	None (Checked)
-test-s251	14	1	None (Checked)
-test-s251	15	1	None (Checked)
-test-s254	1	0	Tree Error (Checked)
-test-s274	14	1	None (Checked)
-test-s282	11	1	None (Checked)
-test-s282	12	0	Random Error (POS Error)
-test-s282	14	0	Random Error (obj4acl|advcl)
-test-s300	41	1	None (Checked)
-test-s331	17	1	None (Checked)
-test-s331	19	1	None (Checked)
-test-s331	20	0	Wrong Head (Checked)
-test-s331	21	0	Wrong Head (Checked)
-test-s331	22	0	Wrong Head (Checked)
-test-s337	7	1	None (Checked)
-test-s341	16	0	Random Error (acl4obl)
-test-s347	12	1	None (Checked)
-test-s356	16	1	None (Checked)
-test-s356	25	1	None (Checked)
-test-s356	3	1	None (Checked)
-test-s356	31	1	None (Checked)
-test-s356	34	1	None (Checked)
-test-s356	36	1	None (Checked)
-test-s362	11	1	None (Checked)
-test-s362	5	1	None (Checked)
-test-s362	9	1	None (Checked)
-test-s368	11	0	amod4xcomp
-test-s372	20	1	None (Checked)
-test-s372	4	0	Random Error (nmod4nsubj)
-test-s378	18	1	None (Checked)
-test-s378	20	1	None (Checked)
-test-s379	28	0	Random Error (compound4advmod)
-test-s386	1	1	None (Checked)
-test-s390	17	0	Random Error (case4flat)
-test-s390	22	1	None (Checked)
-test-s398	48	1	None (Checked)
+test-s211	2	1	None (Checked)-
+test-s211	5	0	Wrong Head (Checked)-
+test-s225	22	0	Wrong Head (Checked)-
+test-s235	19	0	Wrong Head (Checked)-
+test-s246	9	0	Wrong Head (Checked)-
+test-s251	1	1	None (Checked)-
+test-s251	13	1	None (Checked)-
+test-s251	14	0	Wrong Head (Checked)-
+test-s251	15	1	None (Checked)-
+test-s254	1	0	Tree Error (Checked)-
+test-s274	14	1	None (Checked)-
+test-s282	11	1	None (Checked)-
+test-s282	12	0	POS Labelling Error-
+test-s282	14	0	obj4parataxis-
+test-s300	41	1	None (Checked)-
+test-s331	17	1	None (Checked)-
+test-s331	19	1	None (Checked)-
+test-s331	20	0	Wrong Head (Checked)-
+test-s331	21	0	Wrong Head (Checked)-
+test-s331	22	0	Wrong Head (Checked)-
+test-s337	7	1	None (Checked)-
+test-s341	16	0	Random Error (acl4obl)-
+test-s347	12	1	None (Checked)-
+test-s356	16	1	None (Checked)-
+test-s356	25	0	Tree Error (Checked)-
+test-s356	3	1	None (Checked)-
+test-s356	31	0	Tree Error (Checked)-
+test-s356	34	0	compound4obj-
+test-s356	36	1	None (Checked)-
+test-s362	11	1	None (Checked)-
+test-s362	5	1	None (Checked)-
+test-s362	9	1	None (Checked)-
+test-s368	11	0	amod4xcomp-
+test-s372	20	0	compound4fixed-
+test-s372	4	0	Wrong Head (Checked)-
+test-s378	18	1	None (Checked)-
+test-s378	20	1	None (Checked)-
+test-s379	28	0	compound4fixed-
+test-s386	1	0	nmod4subj-
+test-s390	17	0	case4flat-
+test-s390	22	1	None (Checked)-
+test-s398	48	1	None (Checked)-
 test-s413	14	0	Tree Error (Checked)-
 test-s423	5	1	None (Checked)-
 test-s459	26	0	nmod4flat-
