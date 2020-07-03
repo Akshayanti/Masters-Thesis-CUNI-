@@ -127,27 +127,24 @@ test-s1584	6	0	POS Labelling Error-
 test-s159	11	1	None (Checked)-
 test-s159	12	1	None (Checked)-
 test-s159	2	1	None (Checked)-
-
-====	========	====
-test-s1603	1	0	Wrong Head (Checked)
-test-s1603	13	1	None (Checked)
-test-s1603	7	1	None (Checked)
-test-s1603	8	1	None (Checked)
-test-s1603	9	0	Random Error (dislocated4compound)
-test-s1613	4	1	None (Checked)
-test-s1616	27	0	Wrong Head (Checked)
-test-s1625	49	0	Wrong Head (Checked)
-test-s1652	1	1	None (Checked)
-test-s1652	2	1	None (Checked)
-test-s171	3	1	None (Checked)
-test-s171	5	1	None (Checked)
-test-s176	10	0	Wrong Head (Checked)
-test-s19	2	1	None (Checked)
-test-s19	4	1	None (Checked)
-test-s19	5	0	Tree Error
-test-s19	7	0	nmod4obl
-test-s19	9	0	Tree Error
-
+test-s1603	1	0	Wrong Head (Checked)-
+test-s1603	13	1	None (Checked)-
+test-s1603	7	1	None (Checked)-
+test-s1603	8	1	None (Checked)-
+test-s1603	9	0	dislocated4compound-
+test-s1613	4	0	nsubj4flat-
+test-s1616	27	1	None (Checked)-
+test-s1625	49	0	Wrong Head (Checked)-
+test-s1652	1	1	None (Checked)-
+test-s1652	2	1	None (Checked)-
+test-s171	3	1	None (Checked)-
+test-s171	5	1	None (Checked)-
+test-s176	10	0	Wrong Head (Checked)-
+test-s19	2	1	None (Checked)-
+test-s19	4	1	None (Checked)-
+test-s19	5	0	Tree Error-
+test-s19	7	0	nmod4appos-
+test-s19	9	0	Wrong Head (Checked)-
 
 test-s203	13	1	None (Checked)
 test-s211	2	1	None (Checked)
@@ -172,6 +169,7 @@ test-s282	11	1	None (Checked)
 test-s282	12	0	Random Error (POS Error)
 test-s282	14	0	Random Error (obj4acl|advcl)
 test-s286	1	0	Random Error (obl4mark)
+
 test-s300	36	1	None (Checked)
 test-s300	41	1	None (Checked)
 test-s331	17	1	None (Checked)
@@ -192,7 +190,9 @@ test-s362	11	1	None (Checked)
 test-s362	5	1	None (Checked)
 test-s362	9	1	None (Checked)
 test-s368	11	0	amod4xcomp
+
 test-s37	11	1	None (Checked)
+
 test-s372	20	1	None (Checked)
 test-s372	4	0	Random Error (nmod4nsubj)
 test-s378	18	1	None (Checked)
@@ -203,6 +203,7 @@ test-s390	17	0	Random Error (case4flat)
 test-s390	18	0	Random Error (case4flat)
 test-s390	22	1	None (Checked)
 test-s398	48	1	None (Checked)
+
 test-s411	2	0	Random Error (nmod4advmod)
 test-s413	14	1	None (Checked)
 test-s415	22	0	Random Error (advcl4nmod|det)
@@ -224,66 +225,65 @@ test-s488	39	1	None (Checked)
 test-s494	38	0	Wrong Head (Checked)
 test-s494	62	1	None (Checked)
 test-s494	63	1	None (Checked)
-test-s507	3	1	None (Checked)
-test-s540	5	0	Random Error (obl4nmod)
-test-s545	7	1	None (Checked)
-test-s552	10	0	Random Error (aux4advmod)
-test-s552	3	0	Random Error (nsubj4obj)
-test-s552	7	0	obl4acl|advcl
-test-s564	4	0	Wrong Head (Checked)
-test-s564	5	0	Wrong Head (Checked)
-test-s573	10	1	None (Checked)
-test-s573	19	1	None (Checked)
-test-s573	20	1	None (Checked)
-test-s573	24	0	Tree Error (Checked)
-test-s57	6	1	None (Checked)
-test-s617	27	1	None (Checked)
-test-s624	18	0	Tree Error (Checked)
-test-s624	19	1	None (Checked)
-test-s624	20	0	Tree Error (Checked)
-test-s626	10	1	None (Checked)
-test-s626	20	1	None (Checked)
-test-s626	22	1	None (Checked)
-test-s626	24	0	Random Error (dislocated4case)
-test-s628	35	1	None (Checked)
-test-s628	40	1	None (Checked)
-test-s631	7	1	None (Checked)
-test-s651	15	0	Random Error (obl4advmod)
-test-s653	13	1	None (Checked)
-test-s671	14	1	None (Checked)
-test-s671	19	0	Tree Error (Checked)
-test-s671	21	1	None (Checked)
-test-s707	8	1	None (Checked)
-test-s7	11	1	None (Checked)
-test-s7	7	0	Random Error (det4amod)
-test-s7	12	0	Random Error (advmod4amod)
-test-s71	17	0	Random Error (obl4amod)
-test-s71	18	1	None (Checked)
-test-s712	29	1	None (Checked)
-test-s719	8	1	None (Checked)
-test-s722	29	1	None (Checked)
-test-s722	31	1	None (Checked)
-test-s722	32	0	Random Error (nsubj4amod)
-test-s726	12	1	None (Checked)
-test-s728	12	1	None (Checked)
-test-s728	3	1	None (Checked)
-test-s745	11	0	Random Error (advmod4amod)
-test-s745	12	1	None (Checked)
-test-s753	18	1	None (Checked)
-test-s761	12	1	None (Checked)
-test-s766	14	1	None (Checked)
-test-s766	17	0	Random Error (obj4acl|advcl)
-test-s769	33	0	Random Error (amod4acl)
-test-s779	31	0	Tree Error  (Checked)
-test-s780	10	0	nmod4obl
-test-s780	16	0	Random Error (compound4flat)
-test-s780	17	1	None (Checked)
-test-s780	4	0	Tree Error (Checked)
-test-s780	49	1	None (Checked)
-test-s780	54	1	None (Checked)
-test-s780	55	1	None (Checked)
-====	========	====
 
+test-s507	3	0	acl4expl-
+test-s540	5	0	Wrong Head (Checked)-
+test-s545	7	1	None (Checked)-
+test-s552	10	0	aux4advmod-
+test-s552	3	0	Wrong Head (Checked)-
+test-s552	7	0	Tree Error (Checked)-
+test-s564	4	1	None (Checked)-
+test-s564	5	0	Wrong Head (Checked)-
+test-s573	10	0	Tree Error (Checked)-
+test-s573	19	0	Tree Error (Checked)-
+test-s573	20	0	Tree Error (Checked)-
+test-s573	24	0	Tree Error (Checked)-
+test-s57	6	1	None (Checked)-
+test-s617	27	0	Wrong Head (Checked)-
+test-s624	18	0	Tree Error (Checked)-
+test-s624	19	1	None (Checked)-
+test-s624	20	0	Tree Error (Checked)-
+test-s626	10	1	None (Checked)-
+test-s626	20	1	None (Checked)-
+test-s626	22	0	nmod4appos-
+test-s626	24	0	dislocated4case-
+test-s628	35	1	None (Checked)-
+test-s628	40	1	None (Checked)-
+test-s631	7	0	Wrong Head (Checked)-
+test-s651	15	0	Random Error (obl4advmod)-
+test-s653	13	0	Tree Error (Checked)-
+test-s671	14	0	iobj4nsubj-
+test-s671	19	1	None (Checked)-
+test-s671	21	1	None (Checked)-
+test-s707	8	1	None (Checked)-
+test-s7	11	1	None (Checked)-
+test-s7	7	1	None (Checked)-
+test-s7	12	0	advmod4amod-
+test-s71	17	0	obl4amod-
+test-s71	18	1	None (Checked)-
+test-s712	29	1	None (Checked)-
+test-s719	8	0	Wrong Head (Checked)-
+test-s722	29	1	None (Checked)-
+test-s722	31	1	None (Checked)-
+test-s722	32	0	Wrong Head (Checked)-
+test-s726	12	1	None (Checked)-
+test-s728	12	1	None (Checked)-
+test-s728	3	1	None (Checked)-
+test-s745	11	0	advmod4amod-
+test-s745	12	1	None (Checked)-
+test-s753	18	1	None (Checked)-
+test-s761	12	0	nmod4xcomp-
+test-s766	14	1	None (Checked)-
+test-s766	17	0	obj4acl-
+test-s769	33	0	amod4acl-
+test-s779	31	0	Tree Error  (Checked)-
+test-s780	10	0	nmod4obl-
+test-s780	16	0	compound4flat-
+test-s780	17	1	None (Checked)-
+test-s780	4	0	Tree Error (Checked)-
+test-s780	49	1	None (Checked)-
+test-s780	54	1	None (Checked)-
+test-s780	55	1	None (Checked)-
 test-s782	3	1	None (Checked)-
 test-s788	10	1	None (Checked)-
 test-s788	11	1	None (Checked)-
