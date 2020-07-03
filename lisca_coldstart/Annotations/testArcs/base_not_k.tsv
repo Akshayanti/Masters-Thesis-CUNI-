@@ -1,10 +1,10 @@
-test-s1159	50	0	obj4parataxis-
-test-s1183	17	0	Wrong Head (Checked)-
-test-s125	11	1	None (Checked)-
-test-s1603	3	1	None (Checked)-
-test-s356	37	1	None (Checked)-
-test-s390	49	0	obj4parataxis-
-test-s482	18	1	None (Checked)-
-test-s626	19	1	compound4flat-
-test-s729	29	1	None (Checked)-
-test-s731	37	1	None (Checked)-
+test-s1159	50	0	Reported Speech Error (4parataxis)
+test-s1183	17	0	Wrong Head
+test-s125	11	1	None
+test-s1603	3	1	None
+test-s356	37	1	None
+test-s390	49	0	Reported Speech Error (4parataxis)
+test-s482	18	1	None
+test-s626	19	1	Naming Error (4appos|flat)
+test-s729	29	1	None
+test-s731	37	1	None

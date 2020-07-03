@@ -1,122 +1,122 @@
-test-s103	54	0	Tree Error (Checked)-
+test-s103	54	0	Tree Error
 test-s1030	1	0	obl4discourse-
-test-s1042	16	1	None (Checked)-
-test-s1069	20	1	None (Checked)-
-test-s107	14	0	amod4xcomp-
-test-s113	31	1	None (Checked)-
-test-s1152	22	1	None (Checked)-
-test-s1167	28	0	Wrong Head (Checked)-
-test-s1183	21	1	None (Checked)-
+test-s1042	16	1	None
+test-s1069	20	1	None
+test-s107	14	0	amod4xcomp
+test-s113	31	1	None
+test-s1152	22	1	None
+test-s1167	28	0	Wrong Head
+test-s1183	21	1	None
 test-s1192	1	0	nmod4discourse-
-test-s1194	12	1	None (Checked)-
-test-s1239	6	1	None (Checked)-
-test-s127	16	1	None (Checked)-
-test-s1287	13	1	None (Checked)-
-test-s131	36	0	Wrong Head (Checked)-
-test-s1318	12	0	Wrong Head (Checked)-
-test-s1330	18	0	Wrong Head (Checked)-
-test-s1334	4	0	Tree Error (Checked)-
-test-s1346	6	1	None (Checked)-
-test-s1347	5	0	Wrong Head (Checked)-
-test-s1351	8	1	None (Checked)-
+test-s1194	12	1	None
+test-s1239	6	1	None
+test-s127	16	1	None
+test-s1287	13	1	None
+test-s131	36	0	Wrong Head
+test-s1318	12	0	Wrong Head
+test-s1330	18	0	Wrong Head
+test-s1334	4	0	Tree Error
+test-s1346	6	1	None
+test-s1347	5	0	Wrong Head
+test-s1351	8	1	None
 test-s1355	17	0	dislocated4dep-
-test-s1378	34	1	None (Checked)-
-test-s1413	11	1	None (Checked)-
-test-s1413	18	0	obj4parataxis-
-test-s1413	19	1	None (Checked)-
-test-s1413	20	1	None (Checked)-
-test-s1413	9	1	None (Checked)-
-test-s1429	16	1	None (Checked)-
+test-s1378	34	1	None
+test-s1413	11	1	None
+test-s1413	18	0	Reported Speech Error (4parataxis)
+test-s1413	19	1	None
+test-s1413	20	1	None
+test-s1413	9	1	None
+test-s1429	16	1	None
 test-s1453	3	0	dep4discourse-
 test-s146	19	0	advcl4det
 test-s1478	2	0	obl4discourse-
-test-s1487	4	1	None (Checked)-
+test-s1487	4	1	None
 test-s1487	5	0	dep4det-
-test-s1556	4	0	Wrong Head (Checked)-
+test-s1556	4	0	Wrong Head
 test-s156	28	0	compound4det-
 test-s1563	12	0	compound4det-
-test-s159	12	1	None (Checked)-
-test-s159	2	1	None (Checked)-
-test-s1603	13	1	None (Checked)-
-test-s1603	7	1	None (Checked)-
-test-s1652	1	1	None (Checked)-
-test-s1652	2	1	None (Checked)-
-test-s171	3	1	None (Checked)-
-test-s171	5	1	None (Checked)-
-test-s176	10	0	Wrong Head (Checked)-
-test-s203	13	0	Wrong Head (Checked)-
-test-s225	22	0	Wrong Head (Checked)-
-test-s245	17	1	None (Checked)-
-test-s246	10	1	None (Checked)-
-test-s265	9	0	nmod4obl-
-test-s274	14	1	None (Checked)-
-test-s274	16	1	None (Checked)-
-test-s275	33	0	Wrong Head (Checked)-
-test-s279	10	0	Tree error (Checked)-
-test-s279	14	1	None (Checked)-
+test-s159	12	1	None
+test-s159	2	1	None
+test-s1603	13	1	None
+test-s1603	7	1	None
+test-s1652	1	1	None
+test-s1652	2	1	None
+test-s171	3	1	None
+test-s171	5	1	None
+test-s176	10	0	Wrong Head
+test-s203	13	0	Wrong Head
+test-s225	22	0	Wrong Head
+test-s245	17	1	None
+test-s246	10	1	None
+test-s265	9	0	nmod4obl
+test-s274	14	1	None
+test-s274	16	1	None
+test-s275	33	0	Wrong Head
+test-s279	10	0	Tree Error
+test-s279	14	1	None
 test-s286	1	0	obl4mark-
-test-s300	36	1	None (Checked)-
-test-s331	19	1	None (Checked)-
-test-s337	7	1	None (Checked)-
-test-s347	12	1	None (Checked)-
-test-s356	25	0	Tree Error (Checked)-
-test-s356	3	1	None (Checked)-
-test-s356	31	0	Tree Error (Checked)-
+test-s300	36	1	None
+test-s331	19	1	None
+test-s337	7	1	None
+test-s347	12	1	None
+test-s356	25	0	Tree Error
+test-s356	3	1	None
+test-s356	31	0	Tree Error
 test-s356	34	0	compound4obj-
-test-s37	11	1	None (Checked)-
-test-s386	1	0	nmod4subj-
-test-s390	18	0	case4flat-
-test-s411	2	0	Tree Error (Checked)-
-test-s415	22	0	advcl4det-
-test-s459	26	0	nmod4flat-
+test-s37	11	1	None
+test-s386	1	0	nmod4nsubj-
+test-s390	18	0	Naming Error (4appos|flat)
+test-s411	2	0	Tree Error
+test-s415	22	0	advcl4det
+test-s459	26	0	Naming Error (4appos|flat)
 test-s478	1	0	mark4discourse-
-test-s486	27	1	None (Checked)-
-test-s486	29	1	None (Checked)-
-test-s540	5	0	Wrong Head (Checked)-
-test-s545	7	1	None (Checked)-
-test-s624	19	1	None (Checked)-
-test-s624	20	0	Tree Error (Checked)-
-test-s628	35	1	None (Checked)-
-test-s631	7	0	Wrong Head (Checked)-
+test-s486	27	1	None
+test-s486	29	1	None
+test-s540	5	0	Wrong Head
+test-s545	7	1	None
+test-s624	19	1	None
+test-s624	20	0	Tree Error
+test-s628	35	1	None
+test-s631	7	0	Wrong Head
 test-s651	15	0	obl4advmod-
-test-s653	13	0	Tree Error (Checked)-
+test-s653	13	0	Tree Error
 test-s671	14	0	iobj4nsubj-
-test-s671	19	1	None (Checked)-
-test-s671	21	1	None (Checked)-
-test-s7	7	1	None (Checked)-
+test-s671	19	1	None
+test-s671	21	1	None
+test-s7	7	1	None
 test-s71	17	0	obl4amod-
-test-s712	29	1	None (Checked)-
-test-s726	12	1	None (Checked)-
-test-s745	12	1	None (Checked)-
+test-s712	29	1	None
+test-s726	12	1	None
+test-s745	12	1	None
 test-s761	12	0	nmod4xcomp-
-test-s766	14	1	None (Checked)-
-test-s780	10	0	nmod4obl-
-test-s780	16	0	compound4flat-
-test-s780	49	1	None (Checked)-
+test-s766	14	1	None
+test-s780	10	0	nmod4obl
+test-s780	16	0	Naming Error (4appos|flat)
+test-s780	49	1	None
 test-s803	5	0	case4amod-
-test-s803	6	1	None (Checked)-
-test-s805	17	1	None (Checked)-
+test-s803	6	1	None
+test-s805	17	1	None
 test-s805	23	0	advmod4discourse-
-test-s807	24	1	None (Checked)-
-test-s845	6	1	None (Checked)-
-test-s847	25	0	Wrong Head (Checked)-
-test-s853	11	0	amod4acl-
-test-s874	4	1	None (Checked)-
-test-s875	6	1	None (Checked)-
+test-s807	24	1	None
+test-s845	6	1	None
+test-s847	25	0	Wrong Head
+test-s853	11	0	amod4acl
+test-s874	4	1	None
+test-s875	6	1	None
 test-s887	30	0	nsubj4advcl-
-test-s894	11	1	None (Checked)-
-test-s894	14	1	None (Checked)-
+test-s894	11	1	None
+test-s894	14	1	None
 test-s894	19	0	compound4advmod-
-test-s894	20	0	conj4parataxis-
-test-s894	23	1	None (Checked)-
-test-s916	23	1	None (Checked)-
-test-s943	13	0	nmod4obl-
-test-s957	22	0	dislocated4case-
-test-s961	24	1	None (Checked)-
-test-s961	36	1	None (Checked)-
-test-s962	16	0	Wrong Head (Checked)-
-test-s965	1	1	None (Checked)-
-test-s969	12	0	Wrong Head (Checked)-
-test-s971	17	1	None (Checked)-
+test-s894	20	0	Reported Speech Error (4parataxis)
+test-s894	23	1	None
+test-s916	23	1	None
+test-s943	13	0	nmod4obl
+test-s957	22	0	Case Error (4case)
+test-s961	24	1	None
+test-s961	36	1	None
+test-s962	16	0	Wrong Head
+test-s965	1	1	None
+test-s969	12	0	Wrong Head
+test-s971	17	1	None
 test-s999	16	0	nmod4obj-
-test-s999	23	0	Wrong Head (Checked)-
+test-s999	23	0	Wrong Head
