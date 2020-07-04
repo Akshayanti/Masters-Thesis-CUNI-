@@ -48,7 +48,7 @@ train-s7177	10	1.0	None
 train-s2428	7	1.0	None
 train-s4843	18	0.0	obl4xcomp
 train-s5878	14	0.0	Random Error
-train-s9906	17	0	punct4case
+train-s9906	17	0	punct4case-
 train-s11638	9	0.0	Wrong Head
 train-s8438	13	0.0	acl4amod
 train-s684	12	0.0	Random Error

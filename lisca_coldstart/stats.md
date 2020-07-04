@@ -138,7 +138,7 @@ Table of Contents:
 | nsubj4obl | 1 |
 | nsubj4obl- | 1 |
 | obl4xcomp | 4 |
-| punct4case | 1 |
+| punct4case- | 1 |
 | Random Error | 6 |
 | Tree Error | 2 |
 | Wrong Head | 3 |
