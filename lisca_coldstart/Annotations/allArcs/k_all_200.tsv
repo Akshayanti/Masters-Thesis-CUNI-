@@ -1,200 +1,200 @@
-train-s10271	22	0	Tree Error
+train-s10271	22	0.0	Tree Error
 test-s390	22	1	None (Checked)-
-train-s13221	47	1	None
+train-s13221	47	1.0	None
 train-s12486	8	0	nmod4obl
-train-s9886	112	1	None
-dev-s86	9	0	obl4xcomp
-train-s3641	39	1	None
+train-s9886	112	0	Naming Error (4appos|flat)-
+dev-s86	9	0	Wrong Head (Checked)-
+train-s3641	39	1.0	None
 train-s10568	52	0	Tree Error
 train-s10942	13	0	Wrong Head
-train-s6481	8	1	None
+train-s6481	8	1.0	None
 train-s2351	28	0	amod4xcomp
 train-s8394	10	0	Tree Error
 train-s11035	22	0	Wrong Head
 train-s1548	5	0	advmod4amod
 test-s960	44	0	Wrong Head (Checked)-
-train-s6609	27	1	None
-train-s8598	18	1	None
-train-s12856	31	1	None
-train-s8326	28	1	None
+train-s6609	27	1.0	None
+train-s8598	18	1.0	None
+train-s12856	31	1.0	None
+train-s8326	28	1.0	None
 test-s478	2	1	None (Checked)-
 train-s12722	14	0	Random Error
-dev-s89	7	1	None
+dev-s89	7	1	None (Checked)-
 train-s7527	3	0	Random Error
-train-s4882	19	1	None
-train-s6498	2	1	None
-train-s8584	29	1	None
+train-s4882	19	1.0	None
+train-s6498	2	1.0	None
+train-s8584	29	1.0	None
 test-s626	22	0	nmod4appos-
 train-s2801	7	0	amod4xcomp
-train-s10271	30	1	None
-train-s6037	25	1	None
+train-s10271	30	1.0	None
+train-s6037	25	1.0	None
 test-s626	10	1	None (Checked)-
 train-s8	2	0	Random Error
-train-s296	12	1	None
-train-s4719	3	1	None
-train-s4112	15	1	None
-train-s5954	9	1	None
-train-s3463	5	1	None
-train-s220	2	1	None
-train-s8081	18	1	None
-train-s5632	31	1	None
+train-s296	12	1.0	None
+train-s4719	3	1.0	None
+train-s4112	15	1.0	None
+train-s5954	9	1.0	None
+train-s3463	5	1.0	None
+train-s220	2	1.0	None
+train-s8081	18	1.0	None
+train-s5632	31	1.0	None
 test-s482	4	1	None (Checked)-
-train-s994	11	1	None
+train-s994	11	0	Tree Error (Checked)-
 train-s4090	20	0	amod4xcomp
-train-s8166	32	1	None
-train-s2566	18	1	None
-train-s10709	18	1	None
+train-s8166	32	1.0	None
+train-s2566	18	1.0	None
+train-s10709	18	1.0	None
 test-s482	16	0	acl4obj-
-train-s555	8	1	None
-train-s6095	15	1	None
+train-s555	8	1.0	None
+train-s6095	15	1.0	None
 train-s2697	30	0	nsubj4obl
 train-s5472	16	0	nmod4obl
-train-s8316	23	1	None
+train-s8316	23	1.0	None
 train-s8177	3	0	nsubj4obl
-train-s11878	9	1	None
+train-s11878	9	1.0	None
 train-s11637	18	0	obl4advcl|acl
-train-s1470	5	1	None
-dev-s1053	25	0	Random Error
+train-s1470	5	1.0	None
+dev-s1053	25	1	None (Checked)-
 test-s1167	30	1	None (Checked)-
-train-s13217	3	1	None
+train-s13217	3	1.0	None
 train-s1981	11	0	Tree Error
-train-s9886	99	1	None
-train-s12783	9	1	None
+train-s9886	99	1	None (Checked)-
+train-s12783	9	1.0	None
 train-s6231	16	0	Tree Error
 train-s5382	67	0	Random Error
-train-s5661	16	1	None
-train-s7750	3	1	None
-train-s8758	28	1	None
-train-s2462	30	1	None
+train-s5661	16	1.0	None
+train-s7750	3	1.0	None
+train-s8758	28	1.0	None
+train-s2462	30	1.0	None
 test-s19	5	0	Tree Error-
 train-s12699	25	0	Tree Error
-train-s9502	16	1	None
+train-s9502	16	1	None (Checked)-
 train-s5183	5	0	Random Error
 train-s12643	48	0	Random Error
 train-s12605	5	0	Tree Error
 train-s1315	10	0	Random Error
-train-s11348	15	1	None
-train-s3641	70	1	None
-dev-s1501	6	1	None
-train-s12426	25	1	None
-train-s1411	18	1	None
+train-s11348	15	1.0	None
+train-s3641	70	1.0	None
+dev-s1501	6	0	Tree Error (Checked)-
+train-s12426	25	1.0	None
+train-s1411	18	1.0	None
 train-s1939	24	0	Tree Error
-train-s11339	1	1	None
-train-s9502	37	1	None
-train-s9443	14	1	None
-dev-s703	29	1	None
-train-s13221	51	1	None
-train-s7229	5	1	None
-train-s6419	27	1	None
-train-s9502	24	0	Tree Error
-train-s11382	35	1	None
-train-s4374	19	1	None
+train-s11339	1	1.0	None
+train-s9502	37	1	None (Checked)-
+train-s9443	14	1	None (Checked)-
+dev-s703	29	1	None (Checked)-
+train-s13221	51	1.0	None
+train-s7229	5	1.0	None
+train-s6419	27	1.0	None
+train-s9502	24	1	None (Checked)-
+train-s11382	35	1.0	None
+train-s4374	19	1.0	None
 test-s1584	5	1	None (Checked)-
-train-s11896	30	1	None
+train-s11896	30	1.0	None
 train-s4870	20	0	Tree Error
-train-s5213	16	1	None
+train-s5213	16	1.0	None
 train-s6655	1	0	Random Error
 train-s8558	9	0	Tree Error
-train-s6075	36	1	None
-train-s9391	23	0	Wrong Head
-train-s10611	26	1	None
+train-s6075	36	1.0	None
+train-s9391	23	1	None (Checked)-
+train-s10611	26	1.0	None
 train-s5182	20	0	Random Error
 train-s11186	11	0	Random Error
-train-s8224	10	0	Tree Error
-dev-s622	11	0	Tree Error
-dev-s1002	7	0	Random Error
+train-s8224	10	1.0	Tree Error
+dev-s622	11	1	None (Checked)-
+dev-s1002	7	0	Tree Error (Checked)-
 train-s11775	14	0	Random Error
 train-s1477	26	0	Random Error
-train-s11339	2	1	None
-dev-s1332	11	1	None
-train-s10709	12	1	None
-dev-s882	21	0	Tree Error
-train-s12566	6	1	None
-train-s10667	16	1	None
+train-s11339	2	1.0	None
+dev-s1332	11	1	None (Checked)-
+train-s10709	12	1.0	None
+dev-s882	21	0	None (Checked)-
+train-s12566	6	1.0	None
+train-s10667	16	1.0	None
 train-s5273	13	0	Tree Error
-train-s3484	8	1	None
+train-s3484	8	1.0	None
 test-s1061	3	1	None (Checked)-
-train-s1536	14	1	None
+train-s1536	14	1.0	None
 train-s13145	45	0	Wrong Head
-train-s10569	54	1	None
+train-s10569	54	1.0	None
 train-s2535	3	0	Random Error
-train-s9886	78	0	Wrong Head
+train-s9886	78	0	Wrong Head (Checked)-
 train-s8584	31	0	Random Error
-train-s11873	18	1	None
-train-s6854	10	1	None
-train-s6690	24	1	None
-train-s6244	2	1	None
+train-s11873	18	1.0	None
+train-s6854	10	1.0	None
+train-s6690	24	1.0	None
+train-s6244	2	1.0	None
 train-s6807	10	0	nsubj4obl
 test-s960	33	0	Wrong Head (Checked)-
-train-s10853	38	1	None
-dev-s1569	7	0	Tree Error
-train-s9163	19	0	Wrong Head
+train-s10853	38	1.0	None
+dev-s1569	7	0	amod4xcomp-
+train-s9163	19	0	Wrong Head (Checked)-
 train-s3896	16	0	Random Error
-train-s12856	37	1	None
-train-s11021	12	1	None
+train-s12856	37	1.0	None
+train-s11021	12	1.0	None
 train-s7697	53	0	Random Error
 train-s516	15	0	Wrong Head
 train-s1110	21	0	Wrong Head
 train-s7766	3	0	Random Error
-train-s9970	24	1	None
+train-s9970	24	1	None (Checked)-
 train-s12028	15	0	Random Error
-train-s9502	21	1	None
+train-s9502	21	1	None (Checked)-
 train-s6155	13	0	Random Error
-train-s11281	16	1	None
+train-s11281	16	1.0	None
 train-s6774	19	0	Wrong Head
-train-s2423	12	1	None
-train-s5661	19	1	None
+train-s2423	12	1.0	None
+train-s5661	19	1.0	None
 train-s2949	3	0	Random Error
 train-s11866	21	0	Wrong Head
-train-s11662	46	1	None
-train-s746	22	1	None
-train-s1874	11	1	None
+train-s11662	46	1.0	None
+train-s746	22	1.0	None
+train-s1874	11	1.0	None
 test-s573	10	0	Tree Error (Checked)-
-train-s12856	46	1	None
+train-s12856	46	1.0	None
 train-s7123	18	0	Random Error
-train-s12774	31	1	None
+train-s12774	31	1.0	None
 test-s1083	4	0	Wrong Head (Checked)-
 train-s10348	15	0	amod4xcomp
 train-s661	10	0	Random Error
 train-s3641	47	0	obl4xcomp
-dev-s1612	2	1	None
-train-s9970	23	0	Tree Error
-train-s7753	13	1	None
-train-s10512	14	1	None
+dev-s1612	2	1	None (Checked)-
+train-s9970	23	0	Tree Error (Checked)-
+train-s7753	13	1.0	None
+train-s10512	14	1.0	None
 train-s8050	24	0	Wrong Head
 test-s1055	16	0	obj4parataxis-
-train-s8788	18	1	None
-dev-s933	1	0	Random Error
-train-s11244	15	1	None
-dev-s441	16	0	Random Error
-train-s9212	9	1	None
-train-s6237	16	1	None
+train-s8788	18	1.0	None
+dev-s933	1	0	punct4mark-
+train-s11244	15	1.0	None
+dev-s441	16	0	dep4det-
+train-s9212	9	1	None (Checked)-
+train-s6237	16	1.0	None
 train-s148	1	0	Random Error
-dev-s886	3	1	None
+dev-s886	3	1	None (Checked)-
 train-s11590	1	0	Tree Error
 test-s1167	12	1	None (Checked)-
-train-s9328	16	0	Random Error
-train-s13223	32	1	None
-train-s8978	9	1	None
+train-s9328	16	0	Wrong Head (Checked)-
+train-s13223	32	1.0	None
+train-s8978	9	1.0	None
 train-s1296	10	0	Random Error
-train-s5714	4	1	None
+train-s5714	4	1.0	None
 train-s8316	20	0	Wrong Head
-dev-s936	17	1	None
+dev-s936	17	1	None (Checked)-
 test-s782	3	1	None (Checked)-
 train-s4870	37	0	nmod4obl
-dev-s703	33	1	None
+dev-s703	33	1	None (Checked)-
 train-s5759	13	0	acl4amod
-train-s7229	6	1	None
-train-s9583	6	1	None
-train-s4374	20	1	None
+train-s7229	6	1.0	None
+train-s9583	6	0	Naming Error (4appos|flat)-
+train-s4374	20	1.0	None
 train-s12028	13	0	obl4xcomp
-train-s92	6	0	Random Error
-train-s12332	38	1	None
-train-s2513	7	1	None
-dev-s1332	12	1	None
-train-s11905	5	1	None
+train-s92	6	1	None (Checked)-
+train-s12332	38	1.0	None
+train-s2513	7	1.0	None
+dev-s1332	12	1	None (Checked)-
+train-s11905	5	1.0	None
 train-s2660	13	0	Wrong Head
-train-s5803	1	1	None
+train-s5803	1	1.0	None
 test-s1083	2	0	Wrong Head (Checked)-
 train-s5177	29	0	Tree Error
-train-s6937	37	1	None
+train-s6937	37	1.0	None
