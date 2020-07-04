@@ -167,7 +167,7 @@ test-s57	6	1	None
 test-s617	27	0	Wrong Head
 test-s624	18	0	Tree Error
 test-s626	10	1	None
-test-s626	19	1	Naming Error (4appos|flat)
+test-s626	19	0	Naming Error (4appos|flat)
 test-s626	20	1	None
 test-s626	22	0	Naming Error (4appos|flat)
 test-s626	24	0	Case Error (4case)
