@@ -73,25 +73,30 @@ Table of Contents:
 | acl4amod | 1 |
 | acl4obj- | 1 |
 | advmod4amod | 1 |
+| amod4det- | 1 |
 | amod4xcomp | 4 |
 | amod4xcomp- | 1 |
 | dep4det- | 1 |
-| Naming Error (4apposORflat)- | 2 |
+| dislocated4amod- | 1 |
+| mark4amod- | 1 |
+| Naming Error (4apposORflat)- | 3 |
 | nmod4appos- | 1 |
 | nmod4obl | 3 |
-| None | 85 |
-| None (Checked)- | 30 |
-| nsubj4obl | 3 |
+| None | 71 |
+| None (Checked)- | 45 |
+| nsubj4obl | 2 |
+| nsubj4obl- | 1 |
 | obj4parataxis- | 1 |
 | obl4advclORacl | 1 |
 | obl4xcomp | 2 |
 | punct4mark- | 1 |
-| Random Error | 24 |
-| Tree Error | 14 |
-| Tree Error (Checked)- | 5 |
+| Random Error | 18 |
+| Reported Speech Error (4parataxis)- | 1 |
+| Tree Error | 11 |
+| Tree Error (Checked)- | 8 |
 | Tree Error- | 1 |
-| Wrong Head | 10 |
-| Wrong Head (Checked)- | 8 |
+| Wrong Head | 8 |
+| Wrong Head (Checked)- | 10 |
 | <b>Total</b> | <b>200 </b>|
 
 <h4>Instances in K=4 not present in K=8</h4>
@@ -99,22 +104,25 @@ Table of Contents:
 | Error Type | Count |
 |:--------|:----|
 | advmod4amod- | 1 |
-| amod4xcomp | 2 |
+| amod4acl- | 1 |
+| amod4det- | 1 |
+| amod4xcomp | 1 |
 | Case Error (4case)- | 1 |
 | dep4discourse- | 1 |
 | Naming Error (4apposORflat)- | 2 |
 | nmod4discourse- | 1 |
 | nmod4flat- | 1 |
-| None | 57 |
-| None (Checked)- | 15 |
+| None | 49 |
+| None (Checked)- | 22 |
+| None(Checked)- | 1 |
 | nsubj4det- | 1 |
-| nsubj4obl | 2 |
+| nsubj4obl | 1 |
 | obl4advclORacl | 1 |
 | obl4advmod- | 1 |
 | obl4xcomp | 1 |
-| Random Error | 8 |
+| Random Error | 7 |
 | Tree Error | 1 |
-| Tree Error (Checked)- | 2 |
+| Tree Error (Checked)- | 3 |
 | Wrong Head | 2 |
 | <b>Total</b> | <b>100 </b>|
 
@@ -122,28 +130,42 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| acl4amod | 2 |
+| acl4amod- | 1 |
 | acl4obj- | 1 |
-| amod4xcomp | 2 |
+| advmod4amod- | 2 |
+| advmod4det- | 1 |
+| amod4xcomp | 1 |
 | amod4xcomp- | 1 |
 | auxasRoot | 2 |
+| Case Error (4case)- | 1 |
+| case4det | 1 |
+| case4det- | 1 |
+| case4nummod- | 1 |
+| compound4acl- | 1 |
 | compound4flat- | 1 |
-| compound4obj- | 1 |
+| compound4obj- | 2 |
 | dep4discourse- | 1 |
 | dislocated4case- | 1 |
-| nmod4obl | 4 |
-| None | 45 |
-| None (Checked)- | 17 |
+| nmod4advmod- | 1 |
+| nmod4dislocated- | 1 |
+| nmod4obl | 2 |
+| nmod4obl- | 1 |
+| None | 16 |
+| None (Checked)- | 36 |
+| nsubj4compound- | 1 |
 | nsubj4dislocated- | 1 |
-| nsubj4obl | 1 |
+| nsubj4nmod- | 1 |
+| nsubj4obj- | 1 |
 | nsubj4obl- | 1 |
-| obl4xcomp | 4 |
+| obl4advcl- | 1 |
+| obl4expl- | 1 |
+| obl4xcomp | 2 |
 | punct4case- | 1 |
-| Random Error | 6 |
-| Tree Error | 2 |
-| Wrong Head | 3 |
-| Wrong Head (Checked)- | 2 |
-| xcomp4advmod | 1 |
+| Random Error | 2 |
+| Tree Error (Checked)- | 1 |
+| Wrong Head | 1 |
+| Wrong Head (Checked)- | 9 |
+| xcomp4advmod- | 1 |
 | <b>Total</b> | <b>100 </b>|
 
 <h2>Baseline vs Cross-Validation</h2>
