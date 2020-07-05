@@ -73,30 +73,34 @@ Table of Contents:
 | acl4amod | 1 |
 | acl4obj- | 1 |
 | advmod4amod | 1 |
+| advmod4amod- | 1 |
 | amod4det- | 1 |
 | amod4xcomp | 4 |
 | amod4xcomp- | 1 |
+| case4det- | 1 |
 | dep4det- | 1 |
 | dislocated4amod- | 1 |
+| iobj4nummod | 1 |
 | mark4amod- | 1 |
 | Naming Error (4apposORflat)- | 3 |
 | nmod4appos- | 1 |
 | nmod4obl | 3 |
-| None | 71 |
-| None (Checked)- | 45 |
+| None | 68 |
+| None (Checked)- | 47 |
 | nsubj4obl | 2 |
 | nsubj4obl- | 1 |
 | obj4parataxis- | 1 |
 | obl4advclORacl | 1 |
 | obl4xcomp | 2 |
+| punct4compound | 1 |
 | punct4mark- | 1 |
-| Random Error | 18 |
-| Reported Speech Error (4parataxis)- | 1 |
+| Random Error | 14 |
+| Reported Speech Error (4parataxis)- | 2 |
 | Tree Error | 11 |
 | Tree Error (Checked)- | 8 |
 | Tree Error- | 1 |
-| Wrong Head | 8 |
-| Wrong Head (Checked)- | 10 |
+| Wrong Head | 6 |
+| Wrong Head (Checked)- | 12 |
 | <b>Total</b> | <b>200 </b>|
 
 <h4>Instances in K=4 not present in K=8</h4>
@@ -112,18 +116,21 @@ Table of Contents:
 | Naming Error (4apposORflat)- | 2 |
 | nmod4discourse- | 1 |
 | nmod4flat- | 1 |
-| None | 49 |
-| None (Checked)- | 22 |
+| None | 44 |
+| None (Checked)- | 23 |
 | None(Checked)- | 1 |
 | nsubj4det- | 1 |
+| nsubj4obj- | 1 |
 | nsubj4obl | 1 |
 | obl4advclORacl | 1 |
+| obl4advmod | 1 |
 | obl4advmod- | 1 |
 | obl4xcomp | 1 |
 | Random Error | 7 |
 | Tree Error | 1 |
 | Tree Error (Checked)- | 3 |
 | Wrong Head | 2 |
+| Wrong Head (Checked)- | 2 |
 | <b>Total</b> | <b>100 </b>|
 
 <h4>Instances in K=2 not present in K=4 or K=8</h4>

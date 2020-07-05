@@ -30,12 +30,12 @@ train-s10271	30	1.0	None
 train-s6037	25	1.0	None
 test-s626	10	1	None (Checked)-
 train-s8	2	0	dislocated4amod-
-train-s296	12	1.0	None
+train-s296	12	0	case4det-
 train-s4719	3	1.0	None
 train-s4112	15	1.0	None
 train-s5954	9	1.0	None
 train-s3463	5	1.0	None
-train-s220	2	1.0	None
+train-s220	2	1	None (Checked)-
 train-s8081	18	0	Reported Speech Error (4parataxis)-
 train-s5632	31	1.0	None
 test-s482	4	1	None (Checked)-
@@ -45,7 +45,7 @@ train-s8166	32	1	None (Checked)-
 train-s2566	18	1.0	None
 train-s10709	18	1.0	None
 test-s482	16	0	acl4obj-
-train-s555	8	1.0	None
+train-s555	8	1	None (Checked)-
 train-s6095	15	1.0	None
 train-s2697	30	0.0	nsubj4obl
 train-s5472	16	0.0	nmod4obl
@@ -72,7 +72,7 @@ train-s9502	16	1	None (Checked)-
 train-s5183	5	0.0	Random Error
 train-s12643	48	0.0	Random Error
 train-s12605	5	0.0	Tree Error
-train-s1315	10	0.0	Random Error
+train-s1315	10	0	Reported Speech Error (4parataxis)-
 train-s11348	15	1.0	None
 train-s3641	70	1.0	None
 dev-s1501	6	0	Tree Error (Checked)-
@@ -133,8 +133,8 @@ train-s3896	16	0.0	Random Error
 train-s12856	37	1.0	None
 train-s11021	12	1.0	None
 train-s7697	53	1	None (Checked)-
-train-s516	15	0.0	Wrong Head
-train-s1110	21	0.0	Wrong Head
+train-s516	15	0	Wrong Head (Checked)-
+train-s1110	21	0	Wrong Head (Checked)-
 train-s7766	3	0	Naming Error (4appos|flat)-
 train-s9970	24	1	None (Checked)-
 train-s12028	15	0.0	Random Error
@@ -155,7 +155,7 @@ train-s7123	18	0	mark4amod-
 train-s12774	31	1.0	None
 test-s1083	4	0	Wrong Head (Checked)-
 train-s10348	15	0.0	amod4xcomp
-train-s661	10	0.0	Random Error
+train-s661	10	0	iobj4nummod
 train-s3641	47	0.0	obl4xcomp
 dev-s1612	2	1	None (Checked)-
 train-s9970	23	0	Tree Error (Checked)-
@@ -169,14 +169,14 @@ train-s11244	15	1.0	None
 dev-s441	16	0	dep4det-
 train-s9212	9	1	None (Checked)-
 train-s6237	16	1.0	None
-train-s148	1	0.0	Random Error
+train-s148	1	0	punct4compound
 dev-s886	3	1	None (Checked)-
 train-s11590	1	0.0	Tree Error
 test-s1167	12	1	None (Checked)-
 train-s9328	16	0	Wrong Head (Checked)-
 train-s13223	32	1.0	None
 train-s8978	9	1	None (Checked)-
-train-s1296	10	0.0	Random Error
+train-s1296	10	0	advmod4amod-
 train-s5714	4	1.0	None
 train-s8316	20	1	None (Checked)-
 dev-s936	17	1	None (Checked)-

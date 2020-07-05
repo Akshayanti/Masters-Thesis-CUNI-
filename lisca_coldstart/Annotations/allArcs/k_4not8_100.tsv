@@ -9,7 +9,7 @@ train-s11218	22	1.0	None
 train-s9324	1	0	Naming Error (4appos|flat)-
 dev-s566	17	0	nsubj4det-
 train-s13200	23	1.0	None
-train-s688	6	1.0	None
+train-s688	6	1	None (Checked)-
 train-s12488	17	1.0	None
 train-s4056	15	1.0	None
 train-s11109	16	1.0	None
@@ -61,13 +61,13 @@ train-s2595	3	1.0	None
 train-s8314	44	1	None (Checked)-
 train-s6546	34	0.0	Random Error
 train-s5382	70	1.0	None
-train-s1180	12	1.0	None
+train-s1180	12	0	obl4advmod
 dev-s801	26	0	Tree Error (Checked)-
 train-s6168	6	1.0	None
-train-s1095	10	1.0	None
+train-s1095	10	0	Wrong Head (Checked)-
 train-s7187	11	1	None (Checked)-
 train-s10083	14	1.0	None
-train-s353	17	1.0	None
+train-s353	17	0	Wrong Head (Checked)-
 train-s2043	6	0.0	nsubj4obl
 test-s961	36	1	None (Checked)-
 test-s671	19	1	None (Checked)-
@@ -84,7 +84,7 @@ train-s11425	10	1.0	None
 train-s7874	37	1	None (Checked)-
 train-s2539	6	1.0	None
 train-s12085	14	0.0	obl4xcomp
-train-s1034	27	1.0	None
+train-s1034	27	0	nsubj4obj-
 train-s7339	26	1	None (Checked)-
 train-s2185	7	0.0	amod4xcomp
 train-s10785	9	0.0	Random Error
