@@ -48,7 +48,7 @@ train-s7177	10	1	None (Checked)-
 train-s2428	7	0	advmod4amod-
 train-s4843	18	1	None (Checked)-
 train-s5878	14	0	nsubj4compound-
-train-s9906	17	0	punct4case-
+train-s9906	17	0	Case Error (4case)-
 train-s11638	9	0.0	Wrong Head
 train-s8438	13	0	acl4amod-
 train-s684	12	1	None (Checked)-

@@ -137,7 +137,7 @@ Table of Contents:
 | amod4xcomp | 1 |
 | amod4xcomp- | 1 |
 | auxasRoot | 2 |
-| Case Error (4case)- | 2 |
+| Case Error (4case)- | 3 |
 | case4det | 1 |
 | case4det- | 1 |
 | case4nummod- | 1 |
@@ -159,7 +159,6 @@ Table of Contents:
 | obl4advcl- | 1 |
 | obl4expl- | 1 |
 | obl4xcomp | 2 |
-| punct4case- | 1 |
 | Random Error | 2 |
 | Tree Error (Checked)- | 1 |
 | Wrong Head | 1 |
