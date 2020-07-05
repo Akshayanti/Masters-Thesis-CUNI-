@@ -27,7 +27,7 @@ train-s1549	22	0	Case Error (4case)-
 train-s2658	35	0	compound4obj-
 dev-s1504	9	0	amod4xcomp-
 test-s540	5	0	Wrong Head (Checked)-
-test-s957	22	0	dislocated4case-
+test-s957	22	0	Case Error (4case)-
 test-s807	24	1	None (Checked)-
 train-s12658	14	0.0	auxasRoot
 train-s5417	22	0	obl4advcl-

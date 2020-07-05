@@ -137,7 +137,7 @@ Table of Contents:
 | amod4xcomp | 1 |
 | amod4xcomp- | 1 |
 | auxasRoot | 2 |
-| Case Error (4case)- | 1 |
+| Case Error (4case)- | 2 |
 | case4det | 1 |
 | case4det- | 1 |
 | case4nummod- | 1 |
@@ -145,7 +145,6 @@ Table of Contents:
 | compound4flat- | 1 |
 | compound4obj- | 2 |
 | dep4discourse- | 1 |
-| dislocated4case- | 1 |
 | nmod4advmod- | 1 |
 | nmod4dislocated- | 1 |
 | nmod4obl | 2 |
