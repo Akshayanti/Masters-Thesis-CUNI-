@@ -20,7 +20,7 @@ train-s1975	4	0	Wrong Head
 train-s9370	13	1	None
 train-s13145	43	1	None
 train-s3589	9	0	advmod4det
-test-s957	1	0	nsubj4dislocated
+test-s957	1	0	nsubj4dislocated-
 train-s9599	40	1	None
 train-s12434	18	0	Wrong Head
 train-s1549	22	0	Case Error (4case)
@@ -75,7 +75,7 @@ train-s10713	14	0	Wrong Head
 train-s7382	16	0	Wrong Head
 train-s12722	12	1	None
 test-s1413	11	1	None
-test-s1453	3	0	dep4discourse
+test-s1453	3	0	dep4discourse|mark
 train-s12605	3	1	None
 train-s9733	4	1	None
 train-s8224	4	1	None

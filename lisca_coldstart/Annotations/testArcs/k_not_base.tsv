@@ -22,7 +22,7 @@ test-s1351	8	1	None
 test-s1355	17	0	dislocated4dep-
 test-s1378	34	1	None
 test-s1413	11	1	None
-test-s1413	18	0	Wrong Head (Checked)
+test-s1413	18	0	Wrong Head
 test-s1413	19	1	None
 test-s1413	20	1	None
 test-s1413	9	1	None
@@ -31,7 +31,7 @@ test-s1453	3	0	dep4discourse|mark
 test-s146	19	0	advcl4det
 test-s1478	2	0	obl4discourse|mark
 test-s1487	4	1	None
-test-s1487	5	0	dep4det-
+test-s1487	5	0	dep4nummod
 test-s1556	4	0	Wrong Head
 test-s156	28	0	compound4det-
 test-s1563	12	0	compound4det-
@@ -107,7 +107,7 @@ test-s887	30	0	nsubj4advcl-
 test-s894	11	1	None
 test-s894	14	1	None
 test-s894	19	0	compound4advmod-
-test-s894	20	0	Tree Error (Checked)-
+test-s894	20	0	Tree Error
 test-s894	23	1	None
 test-s916	23	1	None
 test-s943	13	0	nmod4obl

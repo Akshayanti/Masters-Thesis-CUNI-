@@ -75,7 +75,7 @@ test-s1459	19	0	Wrong Head
 test-s1486	18	0	Wrong Head
 test-s1486	27	1	None
 test-s1487	4	1	None
-test-s1487	5	0	dep4det-
+test-s1487	5	0	dep4nummod
 test-s1488	1	0	Tree Error
 test-s1494	47	1	None
 test-s1499	5	1	None

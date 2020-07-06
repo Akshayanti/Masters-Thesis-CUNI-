@@ -82,28 +82,27 @@ Table of Contents:
 | dislocated4amod- | 1 |
 | iobj4nummod | 1 |
 | mark4amod- | 1 |
+| Naming Error (4apposORflat) | 1 |
 | Naming Error (4apposORflat)- | 5 |
-| nmod4appos- | 1 |
 | nmod4obl | 3 |
-| None | 55 |
-| None (Checked)- | 57 |
+| None | 64 |
+| None (Checked)- | 48 |
 | nsubj4nmod- | 1 |
 | nsubj4obl | 2 |
 | nsubj4obl- | 1 |
 | nummod4amod- | 1 |
-| obj4parataxis- | 1 |
 | obl4advclORacl | 1 |
 | obl4xcomp | 2 |
 | punct4compound | 1 |
 | punct4det- | 1 |
 | punct4mark- | 1 |
 | Random Error | 12 |
+| Reported Speech Error (4parataxis) | 1 |
 | Reported Speech Error (4parataxis)- | 2 |
-| Tree Error | 8 |
-| Tree Error (Checked)- | 8 |
-| Tree Error- | 1 |
-| Wrong Head | 3 |
-| Wrong Head (Checked)- | 17 |
+| Tree Error | 10 |
+| Tree Error (Checked)- | 7 |
+| Wrong Head | 7 |
+| Wrong Head (Checked)- | 13 |
 | xcomp4acl- | 1 |
 | <b>Total</b> | <b>200 </b>|
 
@@ -118,16 +117,16 @@ Table of Contents:
 | Case Error (4case)- | 2 |
 | dep4det- | 1 |
 | dep4discourse- | 1 |
-| Naming Error (4apposORflat)- | 3 |
+| Naming Error (4apposORflat) | 1 |
+| Naming Error (4apposORflat)- | 2 |
 | nmod4discourse- | 1 |
-| None | 35 |
-| None (Checked)- | 31 |
+| None | 38 |
+| None (Checked)- | 28 |
 | nsubj4det- | 1 |
 | nsubj4obj- | 1 |
 | nsubj4obl | 1 |
-| obl4advclORacl | 1 |
+| obl4advclORacl | 2 |
 | obl4advmod | 1 |
-| obl4advmod- | 1 |
 | obl4xcomp | 1 |
 | Random Error | 7 |
 | Tree Error | 1 |
@@ -153,13 +152,13 @@ Table of Contents:
 | compound4acl | 1 |
 | compound4obj | 2 |
 | dep4advmod | 1 |
-| dep4discourse | 1 |
+| dep4discourseORmark | 1 |
 | MWE Error (4compound) | 2 |
 | Naming Error (4apposORflat) | 2 |
 | nmod4advmod | 1 |
 | nmod4dislocated | 1 |
 | None | 48 |
-| nsubj4dislocated | 1 |
+| nsubj4dislocated- | 1 |
 | nsubj4nmod | 1 |
 | nsubj4obj | 1 |
 | nsubj4obl | 1 |
@@ -215,8 +214,8 @@ Table of Contents:
 | compound4advmod- | 1 |
 | compound4det- | 2 |
 | compound4obj- | 1 |
-| dep4det- | 1 |
 | dep4discourseORmark | 1 |
+| dep4nummod | 1 |
 | dislocated4dep- | 1 |
 | iobj4nsubj- | 1 |
 | Naming Error (4apposORflat) | 3 |
@@ -230,8 +229,6 @@ Table of Contents:
 | obl4advclORacl | 1 |
 | obl4amod- | 1 |
 | obl4discourseORmark | 3 |
-| Tree Error | 8 |
-| Tree Error (Checked)- | 1 |
-| Wrong Head | 16 |
-| Wrong Head (Checked) | 1 |
+| Tree Error | 9 |
+| Wrong Head | 17 |
 | <b>Total</b> | <b>122 </b>|
