@@ -15,7 +15,7 @@ train-s1548	5	0.0	advmod4amod
 test-s960	44	0	Wrong Head
 train-s6609	27	1.0	None
 train-s8598	18	1	None (Checked)-
-train-s12856	31	1.0	None
+train-s12856	31	0	Wrong Head (Checked)-
 train-s8326	28	1	None (Checked)-
 test-s478	2	1	None
 train-s12722	14	1	None (Checked)-
@@ -87,7 +87,7 @@ train-s13221	51	0	Naming Error (4appos|flat)-
 train-s7229	5	1	None (Checked)-
 train-s6419	27	1.0	None
 train-s9502	24	1	None (Checked)-
-train-s11382	35	1.0	None
+train-s11382	35	0	Naming Error (4appos|flat)-
 train-s4374	19	1.0	None
 test-s1584	5	1	None
 train-s11896	30	1.0	None
@@ -130,7 +130,7 @@ train-s10853	38	0	Wrong Head (Checked)-
 dev-s1569	7	0	amod4xcomp-
 train-s9163	19	0	Wrong Head (Checked)-
 train-s3896	16	0.0	Random Error
-train-s12856	37	1.0	None
+train-s12856	37	1	None (Checked)-
 train-s11021	12	1.0	None
 train-s7697	53	1	None (Checked)-
 train-s516	15	0	Wrong Head (Checked)-
@@ -150,7 +150,7 @@ train-s11662	46	1	xcomp4acl-
 train-s746	22	1	None (Checked)-
 train-s1874	11	1.0	None
 test-s573	10	0	Tree Error
-train-s12856	46	1.0	None
+train-s12856	46	1	None (Checked)-
 train-s7123	18	0	mark4amod-
 train-s12774	31	1.0	None
 test-s1083	4	0	Wrong Head

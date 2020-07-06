@@ -22,11 +22,16 @@ Not an Error	109 (49.3%)	167 (50.1%)	124 (48.8%)	109 (48.2%)
 Total	221	333	254	226
 
 
-..advmod4det
-..amod4det
-..case4det
-..amod4xcomp
-nmod4advmod
-
-
-dep4discourse
+4det
+obl
+4discourse
+4mark
+4case
+4compound
+obl4advcl
+obl4acl
+4appos
+4flat
+4parataxis
+(Checked)-
+-

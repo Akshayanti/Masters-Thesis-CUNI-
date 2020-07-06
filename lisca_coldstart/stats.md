@@ -16,32 +16,32 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| acl4expl- | 1 |
-| acl4obj- | 1 |
+| acl4expl | 1 |
+| acl4obj | 1 |
 | acl4obl | 1 |
 | advcl4advmod | 2 |
 | advmod4amod | 2 |
 | amod4acl | 3 |
 | amod4advmod | 1 |
 | amod4xcomp | 1 |
-| aux4advmod- | 1 |
+| aux4advmod | 1 |
 | Case Error (4case) | 5 |
-| compound4advmod- | 1 |
-| compound4obj- | 1 |
-| dep4det- | 1 |
-| iobj4nsubj- | 1 |
+| compound4advmod | 1 |
+| compound4obj | 1 |
+| dep4det | 1 |
+| iobj4nsubj | 1 |
 | MWE Error (4compoundORfixed) | 5 |
 | Naming Error (4apposORflat) | 8 |
-| nmod4acl- | 1 |
-| nmod4nummod- | 1 |
+| nmod4acl | 1 |
+| nmod4nummod | 1 |
 | None | 110 |
-| nsubj4dislocated- | 1 |
-| nsubj4obl- | 1 |
-| obj4acl- | 1 |
+| nsubj4dislocated | 1 |
+| nsubj4obl | 1 |
+| obj4acl | 1 |
 | obl4advclORacl | 1 |
-| obl4advmod- | 1 |
+| obl4advmod | 1 |
 | obl4det | 1 |
-| obl4nsubj- | 1 |
+| obl4nsubj | 1 |
 | POS Error | 5 |
 | Reported Speech Error (4parataxis) | 4 |
 | Tree Error | 20 |
@@ -83,10 +83,10 @@ Table of Contents:
 | iobj4nummod | 1 |
 | mark4amod- | 1 |
 | Naming Error (4apposORflat) | 1 |
-| Naming Error (4apposORflat)- | 5 |
+| Naming Error (4apposORflat)- | 6 |
 | nmod4obl | 3 |
-| None | 64 |
-| None (Checked)- | 48 |
+| None | 60 |
+| None (Checked)- | 50 |
 | nsubj4nmod- | 1 |
 | nsubj4obl | 2 |
 | nsubj4obl- | 1 |
@@ -102,7 +102,7 @@ Table of Contents:
 | Tree Error | 10 |
 | Tree Error (Checked)- | 7 |
 | Wrong Head | 7 |
-| Wrong Head (Checked)- | 13 |
+| Wrong Head (Checked)- | 14 |
 | xcomp4acl- | 1 |
 | <b>Total</b> | <b>200 </b>|
 
@@ -110,29 +110,29 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| advmod4amod- | 1 |
-| amod4acl- | 1 |
-| amod4det- | 1 |
-| amod4xcomp | 1 |
-| Case Error (4case)- | 2 |
-| dep4det- | 1 |
-| dep4discourse- | 1 |
-| Naming Error (4apposORflat) | 1 |
-| Naming Error (4apposORflat)- | 2 |
-| nmod4discourse- | 1 |
-| None | 38 |
-| None (Checked)- | 28 |
-| nsubj4det- | 1 |
-| nsubj4obj- | 1 |
-| nsubj4obl | 1 |
-| obl4advclORacl | 2 |
+| advcl4acl | 1 |
+| advmod4amod | 1 |
+| amod4acl | 2 |
+| Case Error (4case) | 3 |
+| case4nummod | 1 |
+| compound4obl | 1 |
+| dep4det | 3 |
+| dep4discourseORmark | 1 |
+| Naming Error (4apposORflat) | 6 |
+| nmod4discourseORmark | 1 |
+| None | 53 |
+| nsubj4advmod | 1 |
+| nsubj4det | 2 |
+| nsubj4nummod | 1 |
+| nsubj4obj | 2 |
+| obj4acl | 1 |
+| obl4advclORacl | 3 |
 | obl4advmod | 1 |
-| obl4xcomp | 1 |
-| Random Error | 7 |
-| Tree Error | 1 |
-| Tree Error (Checked)- | 3 |
-| Wrong Head | 1 |
-| Wrong Head (Checked)- | 3 |
+| obl4det | 2 |
+| obl4iobj | 1 |
+| obl4obj | 1 |
+| Tree Error | 6 |
+| Wrong Head | 6 |
 | <b>Total</b> | <b>100 </b>|
 
 <h4>Instances in K=2 not present in K=4 or K=8</h4>
@@ -153,12 +153,12 @@ Table of Contents:
 | compound4obj | 2 |
 | dep4advmod | 1 |
 | dep4discourseORmark | 1 |
-| MWE Error (4compound) | 2 |
+| MWE Error (4compoundORfixed) | 2 |
 | Naming Error (4apposORflat) | 2 |
 | nmod4advmod | 1 |
 | nmod4dislocated | 1 |
 | None | 48 |
-| nsubj4dislocated- | 1 |
+| nsubj4dislocated | 1 |
 | nsubj4nmod | 1 |
 | nsubj4obj | 1 |
 | nsubj4obl | 1 |
@@ -210,24 +210,24 @@ Table of Contents:
 | amod4acl | 1 |
 | amod4xcomp | 1 |
 | Case Error (4case) | 1 |
-| case4amod- | 1 |
-| compound4advmod- | 1 |
-| compound4det- | 2 |
-| compound4obj- | 1 |
+| case4amod | 1 |
+| compound4advmod | 1 |
+| compound4det | 2 |
+| compound4obj | 1 |
 | dep4discourseORmark | 1 |
 | dep4nummod | 1 |
-| dislocated4dep- | 1 |
-| iobj4nsubj- | 1 |
+| dislocated4dep | 1 |
+| iobj4nsubj | 1 |
 | Naming Error (4apposORflat) | 3 |
 | nmod4discourseORmark | 1 |
-| nmod4nsubj- | 1 |
-| nmod4obj- | 1 |
+| nmod4nsubj | 1 |
+| nmod4obj | 1 |
 | nmod4obl | 3 |
-| nmod4xcomp- | 1 |
+| nmod4xcomp | 1 |
 | None | 65 |
-| nsubj4advcl- | 1 |
+| nsubj4advcl | 1 |
 | obl4advclORacl | 1 |
-| obl4amod- | 1 |
+| obl4amod | 1 |
 | obl4discourseORmark | 3 |
 | Tree Error | 9 |
 | Wrong Head | 17 |

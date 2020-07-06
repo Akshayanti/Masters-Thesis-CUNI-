@@ -20,7 +20,7 @@ train-s1975	4	0	Wrong Head
 train-s9370	13	1	None
 train-s13145	43	1	None
 train-s3589	9	0	advmod4det
-test-s957	1	0	nsubj4dislocated-
+test-s957	1	0	nsubj4dislocated
 train-s9599	40	1	None
 train-s12434	18	0	Wrong Head
 train-s1549	22	0	Case Error (4case)
@@ -47,7 +47,7 @@ test-s1652	2	1	None
 train-s7177	10	1	None
 train-s2428	7	0	advmod4amod
 train-s4843	18	1	None
-train-s5878	14	0	MWE Error (4compound)
+train-s5878	14	0	MWE Error (4compound|fixed)
 train-s9906	17	0	Case Error (4case)
 train-s11638	9	0	Wrong Head
 train-s8438	13	0	acl4amod
@@ -96,5 +96,5 @@ test-s245	17	1	None
 dev-s936	24	0	compound4obj
 dev-s1519	13	1	None
 train-s13261	15	0	Case Error (4case)
-train-s12149	14	0	MWE Error (4compound)
+train-s12149	14	0	MWE Error (4compound|fixed)
 train-s9190	11	1	None
