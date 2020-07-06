@@ -4,11 +4,11 @@ dev-s1440	10	1	None (Checked)-
 train-s10317	20	1.0	None
 train-s7817	14	0	amod4acl-
 dev-s1508	2	1	None (Checked)-
-train-s11691	20	1.0	None
+train-s11691	20	1	None (Checked)-
 train-s11218	22	1.0	None
 train-s9324	1	0	Naming Error (4appos|flat)-
 dev-s566	17	0	nsubj4det-
-train-s13200	23	1.0	None
+train-s13200	23	0	Case Error (4case)-
 train-s688	6	1	None (Checked)-
 train-s12488	17	1.0	None
 train-s4056	15	1.0	None
@@ -20,20 +20,20 @@ dev-s369	6	0	dep4discourse-
 train-s6086	11	1.0	None
 train-s12855	5	0.0	obl4advcl|acl
 dev-s1204	60	1	None (Checked)-
-train-s5419	28	1.0	None
+train-s5419	28	0	dep4det-
 train-s12929	7	1.0	None
 train-s10350	23	1.0	None
 train-s4637	27	0.0	Tree Error
 dev-s218	17	1	None (Checked)-
 train-s8306	40	1	None (Checked)-
-train-s7588	21	1	None(Checked)-
+train-s7588	21	1	None (Checked)-
 train-s1682	34	1.0	None
 train-s11937	11	1.0	None
 train-s11362	11	1.0	None
 train-s11122	55	1.0	None
 test-s651	15	0	obl4advmod-
-train-s5731	25	1.0	None
-train-s13007	1	1.0	None
+train-s5731	25	1	None (Checked)-
+train-s13007	1	1	None (Checked)-
 train-s8306	54	1	None (Checked)-
 dev-s1012	31	0	Case Error (4case)-
 test-s1287	13	1	None (Checked)-
@@ -46,21 +46,21 @@ dev-s1023	16	1	None (Checked)-
 train-s6240	22	1.0	None
 train-s12051	27	1.0	None
 dev-s1053	18	1	None (Checked)-
-train-s5382	66	1.0	None
-train-s10568	58	0.0	Wrong Head
+train-s5382	66	1	None (Checked)-
+train-s10568	58	0	Wrong Head (Checked)-
 train-s1953	18	1.0	None
 dev-s17	1	0	nmod4discourse-
 dev-s1097	5	0	Tree Error (Checked)-
-train-s3067	1	1.0	None
+train-s3067	1	1	None (Checked)-
 train-s9169	27	1	None (Checked)-
 train-s10948	29	1.0	None
 train-s12856	36	1.0	None
 train-s11640	10	1.0	None
-train-s13003	8	1.0	None
+train-s13003	8	1	None (Checked)-
 train-s2595	3	1.0	None
 train-s8314	44	1	None (Checked)-
 train-s6546	34	0.0	Random Error
-train-s5382	70	1.0	None
+train-s5382	70	1	None (Checked)-
 train-s1180	12	0	obl4advmod
 dev-s801	26	0	Tree Error (Checked)-
 train-s6168	6	1.0	None
@@ -74,7 +74,7 @@ test-s671	19	1	None (Checked)-
 train-s4529	5	1.0	None
 train-s10295	3	0.0	Random Error
 train-s8456	16	0	amod4det-
-test-s459	26	0	nmod4flat-
+test-s459	26	0	Naming Error (4appos|flat)-
 dev-s513	2	0	Naming Error (4appos|flat)-
 train-s4161	23	0.0	Random Error
 train-s6810	2	1.0	None

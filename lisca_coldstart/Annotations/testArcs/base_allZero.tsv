@@ -66,7 +66,7 @@ test-s130	9	0	POS Error
 test-s131	12	0	amod4acl
 test-s131	2	0	iobj4nsubj-
 test-s1334	16	1	None
-test-s1365	9	0	obl4det-
+test-s1365	9	0	obl4det
 test-s1371	11	1	None
 test-s1371	13	1	None
 test-s1410	20	1	None
@@ -198,7 +198,7 @@ test-s788	10	1	None
 test-s788	11	1	None
 test-s788	2	1	None
 test-s788	5	1	None
-test-s788	7	0	obl4amod-
+test-s788	7	1	None
 test-s788	9	0	amod4acl
 test-s792	9	1	None
 test-s805	28	0	Wrong Head
