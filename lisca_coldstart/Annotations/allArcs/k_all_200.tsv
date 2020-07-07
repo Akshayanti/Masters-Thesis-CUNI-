@@ -50,7 +50,7 @@ train-s6095	15	1	None
 train-s2697	30	0	Wrong Head
 train-s5472	16	0	Wrong Head
 train-s8316	23	0	amod4det
-train-s8177	3	0	nsubj4iobj
+train-s8177	3	1	None
 train-s11878	9	0	nsubj4nmod
 train-s11637	18	0	obl4advcl|acl
 train-s1470	5	0	Wrong Head

@@ -95,9 +95,8 @@ Table of Contents:
 | Naming Error (4apposORflat) | 10 |
 | nmod4nummod | 1 |
 | nmod4obl | 1 |
-| None | 98 |
+| None | 99 |
 | nsubj4amod | 1 |
-| nsubj4iobj | 1 |
 | nsubj4nmod | 1 |
 | nsubj4obj | 2 |
 | nummod4amod | 1 |
@@ -192,6 +191,8 @@ Table of Contents:
 | <b>Percentage</b>| <b>50.23 %</b> | <b>49.25 %</b> | <b>50.79 %</b> | <b>51.33 %</b> |
 
 <b>Note:</b> Typology Counts Across different runs can be viewed [here](./Annotations/testArcs/comparisonStats.tsv)
+
+<b>Note:</b> Typology counts across experimental runs (normalised per 1000) can be viewed[here](./Annotations/allArcs/normalizedScores.tsv)
 <h3>Arcs Commonly Flagged</h3>
 
 | | K=2 | K=4 | K=8 |
