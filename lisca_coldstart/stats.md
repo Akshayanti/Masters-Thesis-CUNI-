@@ -69,41 +69,46 @@ Table of Contents:
 
 | Error Type | Count |
 |:--------|:----|
-| acl4amod | 1 |
-| acl4obj- | 1 |
-| advcl4advmod- | 1 |
+| acl4obj | 1 |
+| acl4orphan | 1 |
+| advcl4advmod | 1 |
 | advmod4amod | 1 |
-| advmod4amod- | 1 |
-| amod4det- | 1 |
-| amod4xcomp | 3 |
-| amod4xcomp- | 1 |
-| case4det- | 1 |
-| dep4det- | 1 |
-| dislocated4amod- | 1 |
+| advmod4det | 1 |
+| advmod4orphan | 1 |
+| amod4acl | 1 |
+| amod4advmod | 1 |
+| amod4det | 1 |
+| amod4xcomp | 1 |
+| Case Error (4case) | 1 |
+| case4det | 1 |
+| compound4acl | 1 |
+| conj4xcomp | 1 |
+| dep4advmod | 1 |
+| dep4det | 1 |
+| dep4discourseORmark | 1 |
+| dislocated4amod | 1 |
 | iobj4nummod | 1 |
-| mark4amod- | 1 |
-| Naming Error (4apposORflat) | 1 |
-| Naming Error (4apposORflat)- | 6 |
-| nmod4obl | 3 |
-| None | 60 |
-| None (Checked)- | 50 |
-| nsubj4nmod- | 1 |
-| nsubj4obl | 2 |
-| nsubj4obl- | 1 |
-| nummod4amod- | 1 |
-| obl4advclORacl | 1 |
-| obl4xcomp | 2 |
-| punct4compound | 1 |
-| punct4det- | 1 |
-| punct4mark- | 1 |
-| Random Error | 12 |
-| Reported Speech Error (4parataxis) | 1 |
-| Reported Speech Error (4parataxis)- | 2 |
-| Tree Error | 10 |
-| Tree Error (Checked)- | 7 |
-| Wrong Head | 7 |
-| Wrong Head (Checked)- | 14 |
-| xcomp4acl- | 1 |
+| mark4advcl | 1 |
+| mark4advmod | 1 |
+| mark4amod | 1 |
+| MWE Error (4compoundORfixed) | 3 |
+| Naming Error (4apposORflat) | 10 |
+| nmod4nummod | 1 |
+| nmod4obl | 1 |
+| None | 98 |
+| nsubj4amod | 1 |
+| nsubj4iobj | 1 |
+| nsubj4nmod | 1 |
+| nsubj4obj | 2 |
+| nummod4amod | 1 |
+| obl4advclORacl | 2 |
+| POS Error | 3 |
+| punct4det | 1 |
+| punct4discourseORmark | 1 |
+| Reported Speech Error (4parataxis) | 3 |
+| Tree Error | 12 |
+| Wrong Head | 36 |
+| xcomp4acl | 1 |
 | <b>Total</b> | <b>200 </b>|
 
 <h4>Instances in K=4 not present in K=8</h4>
