@@ -1,0 +1,100 @@
+train-s6233	30	0	nsubj4obj
+train-s6280	21	1	None
+dev-s1440	10	1	None
+train-s10317	20	0	nsubj4advmod
+train-s7817	14	1	None
+dev-s1508	2	1	None
+train-s11691	20	1	None
+train-s11218	22	1	None
+train-s9324	1	0	Naming Error (4appos|flat)
+dev-s566	17	0	nsubj4det
+train-s13200	23	0	Case Error (4case)
+train-s688	6	1	None
+train-s12488	17	1	None
+train-s4056	15	0	Case Error (4case)
+train-s11109	16	0	compound4obl
+dev-s836	9	1	None
+train-s10804	6	1	None
+train-s2048	53	1	None
+dev-s369	6	0	dep4discourse|mark
+train-s6086	11	1	None
+train-s12855	5	0	obl4advcl|acl
+dev-s1204	60	1	None
+train-s5419	28	0	dep4det
+train-s12929	7	1	None
+train-s10350	23	1	None
+train-s4637	27	0	Tree Error
+dev-s218	17	1	None
+train-s8306	40	1	None
+train-s7588	21	1	None
+train-s1682	34	0	obl4det
+train-s11937	11	0	Tree Error
+train-s11362	11	0	Tree Error
+train-s11122	55	1	None
+test-s651	15	0	obl4advcl|acl
+train-s5731	25	1	None
+train-s13007	1	1	None
+train-s8306	54	1	None
+dev-s1012	31	0	Case Error (4case)
+test-s1287	13	1	None
+train-s11382	34	0	Naming Error (4appos|flat)
+train-s11125	28	1	None
+train-s11091	9	0	obl4iobj
+train-s994	32	1	None
+train-s987	3	1	None
+dev-s1023	16	1	None
+train-s6240	22	1	None
+train-s12051	27	1	None
+dev-s1053	18	1	None
+train-s5382	66	1	None
+train-s10568	58	0	Wrong Head
+train-s1953	18	0	Naming Error (4appos|flat)
+dev-s17	1	0	nmod4discourse|mark
+dev-s1097	5	0	Tree Error
+train-s3067	1	1	None
+train-s9169	27	1	None
+train-s10948	29	0	advcl4acl
+train-s12856	36	1	None
+train-s11640	10	0	Wrong Head
+train-s13003	8	1	None
+train-s2595	3	0	Naming Error (4appos|flat)
+train-s8314	44	1	None
+train-s6546	34	0	obl4advcl|acl
+train-s5382	70	1	None
+train-s1180	12	0	obl4advmod
+dev-s801	26	0	Tree Error
+train-s6168	6	1	None
+train-s1095	10	0	Wrong Head
+train-s7187	11	1	None
+train-s10083	14	1	None
+train-s353	17	0	Wrong Head
+train-s2043	6	0	nsubj4det
+test-s961	36	1	None
+test-s671	19	1	None
+train-s4529	5	0	Wrong Head
+train-s10295	3	0	dep4det
+train-s8456	16	1	None
+test-s459	26	0	Naming Error (4appos|flat)
+dev-s513	2	0	Naming Error (4appos|flat)
+train-s4161	23	0	obl4iobj
+train-s6810	2	1	None
+train-s12761	5	0	case4nummod
+train-s12882	13	0	obl4det
+train-s11425	10	0	dep4det
+train-s7874	37	1	None
+train-s2539	6	1	None
+train-s12085	14	1	None
+train-s1034	27	0	nsubj4obj
+train-s7339	26	1	None
+train-s2185	7	1	None
+train-s10785	9	0	Wrong Head
+train-s7847	16	1	None
+train-s10102	44	0	Wrong Head
+train-s12111	51	1	None
+train-s4583	10	1	None
+train-s9085	3	0	Tree Error
+train-s6341	6	1	None
+dev-s1171	17	1	None
+dev-s195	18	1	None
+train-s8120	29	0	Tree Error
+train-s2224	8	1	None

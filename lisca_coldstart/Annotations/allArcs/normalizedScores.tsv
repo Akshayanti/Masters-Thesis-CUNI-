@@ -1,0 +1,15 @@
+Type	k2	k4	k8
+Case Error	15.9	8.0	5
+MWE Error	14.9	13.3	15
+Naming Error	43.6	51.4	50
+No Error	519.2	522.3	515
+POS Error	10.0	13.3	15
+Reported Speech	12.5	13.3	15
+Tree Error	48.6	61.4	60
+Wrong Head	163.2	167.6	180
+advmod4amod	6.7	8.9	10
+dep4det	6.0	8.0	5
+dep4discourse|mark	6.7	5.6	5
+nsubj4obj	7.6	6.8	5
+obl4advcl|acl	6.0	8.0	5
+Random Errors	141.7	115.6	115

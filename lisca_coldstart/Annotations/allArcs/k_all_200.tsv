@@ -1,0 +1,200 @@
+train-s10271	22	1	None
+test-s390	22	1	None
+train-s13221	47	0	Naming Error (4appos|flat)
+train-s12486	8	0	nmod4obl
+train-s9886	112	0	Naming Error (4appos|flat)
+dev-s86	9	0	Wrong Head
+train-s3641	39	0	POS Error
+train-s10568	52	1	None
+train-s10942	13	0	nummod4amod
+train-s6481	8	0	Wrong Head
+train-s2351	28	1	None
+train-s8394	10	0	Tree Error
+train-s11035	22	0	Wrong Head
+train-s1548	5	0	advmod4orphan
+test-s960	44	0	Wrong Head
+train-s6609	27	1	None
+train-s8598	18	1	None
+train-s12856	31	0	Wrong Head
+train-s8326	28	1	None
+test-s478	2	1	None
+train-s12722	14	1	None
+dev-s89	7	1	None
+train-s7527	3	0	Tree Error
+train-s4882	19	1	None
+train-s6498	2	0	MWE Error (4compound|fixed)
+train-s8584	29	1	None
+test-s626	22	0	Naming Error (4appos|flat)
+train-s2801	7	1	None
+train-s10271	30	0	Wrong Head
+train-s6037	25	1	None
+test-s626	10	1	None
+train-s8	2	0	dislocated4amod
+train-s296	12	0	case4det
+train-s4719	3	0	nsubj4amod
+train-s4112	15	1	None
+train-s5954	9	0	Wrong Head
+train-s3463	5	0	dep4discourse|mark
+train-s220	2	1	None
+train-s8081	18	0	Reported Speech Error (4parataxis)
+train-s5632	31	0	Wrong Head
+test-s482	4	1	None
+train-s994	11	0	Tree Error
+train-s4090	20	1	None
+train-s8166	32	1	None
+train-s2566	18	1	None
+train-s10709	18	0	Wrong Head
+test-s482	16	0	acl4obj
+train-s555	8	1	None
+train-s6095	15	1	None
+train-s2697	30	0	Wrong Head
+train-s5472	16	0	Wrong Head
+train-s8316	23	0	amod4det
+train-s8177	3	1	None
+train-s11878	9	0	nsubj4nmod
+train-s11637	18	0	obl4advcl|acl
+train-s1470	5	0	Wrong Head
+dev-s1053	25	1	None
+test-s1167	30	1	None
+train-s13217	3	1	None
+train-s1981	11	0	acl4orphan
+train-s9886	99	1	None
+train-s12783	9	0	Wrong Head
+train-s6231	16	0	Wrong Head
+train-s5382	67	0	punct4det
+train-s5661	16	1	None
+train-s7750	3	0	Tree Error
+train-s8758	28	1	None
+train-s2462	30	0	obl4amod
+test-s19	5	0	Tree Error
+train-s12699	25	1	None
+train-s9502	16	1	None
+train-s5183	5	0	Wrong Head
+train-s12643	48	0	Wrong Head
+train-s12605	5	0	advcl4advmod
+train-s1315	10	1	None
+train-s11348	15	1	None
+train-s3641	70	1	None
+dev-s1501	6	0	Tree Error
+train-s12426	25	1	None
+train-s1411	18	0	MWE Error (4compound|fixed)
+train-s1939	24	0	Tree Error
+train-s11339	1	1	None
+train-s9502	37	1	None
+train-s9443	14	1	None
+dev-s703	29	1	None
+train-s13221	51	0	Naming Error (4appos|flat)
+train-s7229	5	1	None
+train-s6419	27	1	None
+train-s9502	24	1	None
+train-s11382	35	0	Naming Error (4appos|flat)
+train-s4374	19	1	None
+test-s1584	5	1	None
+train-s11896	30	0	Reported Speech Error (4parataxis)
+train-s4870	20	0	Wrong Head
+train-s5213	16	1	None
+train-s6655	1	1	None
+train-s8558	9	1	None
+train-s6075	36	1	None
+train-s9391	23	1	None
+train-s10611	26	1	None
+train-s5182	20	1	None
+train-s11186	11	0	compound4acl
+train-s8224	10	1	None
+dev-s622	11	1	None
+dev-s1002	7	0	Tree Error
+train-s11775	14	0	mark4advmod
+train-s1477	26	0	advmod4amod
+train-s11339	2	0	Wrong Head
+dev-s1332	11	1	None
+train-s10709	12	1	None
+dev-s882	21	1	None
+train-s12566	6	0	Naming Error (4appos|flat)
+train-s10667	16	1	None
+train-s5273	13	0	nsubj4obj
+train-s3484	8	1	None
+test-s1061	3	1	None
+train-s1536	14	0	Wrong Head
+train-s13145	45	0	Wrong Head
+train-s10569	54	0	Wrong Head
+train-s2535	3	1	None
+train-s9886	78	0	Wrong Head
+train-s8584	31	1	None
+train-s11873	18	0	dep4advmod
+train-s6854	10	1	None
+train-s6690	24	1	None
+train-s6244	2	0	Naming Error (4appos|flat)
+train-s6807	10	1	None
+test-s960	33	0	Wrong Head
+train-s10853	38	0	Wrong Head
+dev-s1569	7	0	amod4acl
+train-s9163	19	0	Wrong Head
+train-s3896	16	1	None
+train-s12856	37	1	None
+train-s11021	12	0	Tree Error
+train-s7697	53	1	None
+train-s516	15	0	Wrong Head
+train-s1110	21	0	Wrong Head
+train-s7766	3	0	Naming Error (4appos|flat)
+train-s9970	24	1	None
+train-s12028	15	0	mark4advcl
+train-s9502	21	1	None
+train-s6155	13	0	nmod4nummod
+train-s11281	16	1	None
+train-s6774	19	0	Wrong Head
+train-s2423	12	1	None
+train-s5661	19	1	None
+train-s2949	3	0	POS Error
+train-s11866	21	1	None
+train-s11662	46	1	None
+train-s746	22	1	None
+train-s1874	11	1	None
+test-s573	10	0	Tree Error
+train-s12856	46	1	None
+train-s7123	18	0	mark4amod
+train-s12774	31	0	Tree Error
+test-s1083	4	0	Wrong Head
+train-s10348	15	1	None
+train-s661	10	0	iobj4nummod
+train-s3641	47	0	POS Error
+dev-s1612	2	1	None
+train-s9970	23	0	Tree Error
+train-s7753	13	0	Wrong Head
+train-s10512	14	1	None
+train-s8050	24	0	Wrong Head
+test-s1055	16	0	Reported Speech Error (4parataxis)
+train-s8788	18	1	None
+dev-s933	1	0	punct4discourse|mark
+train-s11244	15	1	None
+dev-s441	16	0	dep4det
+train-s9212	9	1	None
+train-s6237	16	1	None
+train-s148	1	0	MWE Error (4compound|fixed)
+dev-s886	3	1	None
+train-s11590	1	0	Wrong Head
+test-s1167	12	1	None
+train-s9328	16	0	Wrong Head
+train-s13223	32	1	None
+train-s8978	9	1	None
+train-s1296	10	0	advmod4amod
+train-s5714	4	1	None
+train-s8316	20	1	None
+dev-s936	17	1	None
+test-s782	3	1	None
+train-s4870	37	0	Wrong Head
+dev-s703	33	1	None
+train-s5759	13	1	None
+train-s7229	6	1	None
+train-s9583	6	0	Naming Error (4appos|flat)
+train-s4374	20	1	None
+train-s12028	13	1	None
+train-s92	6	1	None
+train-s12332	38	0	Naming Error (4appos|flat)
+train-s2513	7	1	None
+dev-s1332	12	1	None
+train-s11905	5	0	Case Error (4case)
+train-s2660	13	0	Wrong Head
+train-s5803	1	1	None
+test-s1083	2	0	Wrong Head
+train-s5177	29	0	conj4xcomp
+train-s6937	37	1	None

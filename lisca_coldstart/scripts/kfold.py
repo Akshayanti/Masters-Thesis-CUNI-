@@ -24,7 +24,7 @@ def cross_validate(data, k):
     kfold = KFold(k, True, 1)
     i = 1
     for train, test in kfold.split(data):
-        with open("train_" + str(i), "w", encoding = "utf-8") as out_train:
+        with open("train_" + str(i), "w", encoding="utf-8") as out_train:
             for values in data[train]:
                 for lines in values:
                     out_train.write(lines)
@@ -53,5 +53,3 @@ if __name__ == "__main__":
         blocks = organise_as_block(contents)
         data = array(blocks)
         cross_validate(data, k=int(sys.argv[1]))
-   
-

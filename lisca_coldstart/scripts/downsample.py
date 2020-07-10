@@ -1,12 +1,11 @@
 import argparse
 import random
 import kfold
-import genre_split
 
 
 def get_blocks_count(file_name):
     """Get the total number of sentences in the input file"""
-    with open(file_name, "r", encoding = "utf-8") as infile:
+    with open(file_name, "r", encoding="utf-8") as infile:
         file_data = infile.readlines()
         count = 0
         for lines in file_data:
@@ -34,6 +33,15 @@ def generate_output_blocks(filename, output_size):
     return out
 
 
+def write_data(output_file, output_block):
+    """Iterate through the output_block param to write it in the output_file"""
+    file_handle = open(output_file, "w", encoding="utf-8")
+    for blocks in output_block:
+        for line in blocks:
+            file_handle.write(line)
+    file_handle.close()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', "--input", type=str, help="Input file that needs to be downsampled, in CONLL-U format", required=True)
@@ -48,4 +56,4 @@ if __name__ == "__main__":
     # Seed so that the downsampled data can be reproduced
     random.seed(1618)
     # Use Write Output Method from genre_split.py file
-    genre_split.writeout(args.input+"_"+str(output_size), generate_output_blocks(args.input, output_size))
+    write_data(args.input+"_"+str(output_size), generate_output_blocks(args.input, output_size))

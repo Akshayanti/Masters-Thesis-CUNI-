@@ -1,0 +1,100 @@
+train-s11368	11	0	advmod4det
+train-s11767	23	0	dep4advmod
+train-s4356	7	1	None
+train-s13258	17	1	None
+train-s3210	8	0	Wrong Head
+test-s1413	19	1	None
+train-s2068	13	1	None
+train-s2513	4	1	None
+train-s6834	19	1	None
+train-s553	7	0	compound4amod
+train-s1861	2	0	nmod4dislocated
+train-s6882	14	1	None
+dev-s889	6	0	Wrong Head
+train-s11662	39	1	None
+train-s9328	20	1	None
+train-s6968	11	1	None
+train-s7298	22	1	None
+train-s92	17	1	None
+train-s1975	4	0	Wrong Head
+train-s9370	13	1	None
+train-s13145	43	1	None
+train-s3589	9	0	advmod4det
+test-s957	1	0	nsubj4dislocated
+train-s9599	40	1	None
+train-s12434	18	0	Wrong Head
+train-s1549	22	0	Case Error (4case)
+train-s2658	35	0	compound4obj
+dev-s1504	9	0	amod4xcomp
+test-s540	5	0	Wrong Head
+test-s957	22	0	Case Error (4case)
+test-s807	24	1	None
+train-s12658	14	1	None
+train-s5417	22	0	obl4obj
+test-s486	29	1	None
+train-s11878	22	0	Reported Speech Error (4parataxis)
+train-s8470	16	0	Tree Error
+train-s9468	4	1	None
+train-s3776	13	1	None
+train-s7980	19	0	case4nummod
+train-s10522	42	1	None
+train-s46	30	1	None
+train-s12084	18	0	Wrong Head
+train-s10896	5	0	amod4det
+train-s8575	4	1	None
+train-s2750	4	1	None
+test-s1652	2	1	None
+train-s7177	10	1	None
+train-s2428	7	1	None
+train-s4843	18	1	None
+train-s5878	14	0	MWE Error (4compound|fixed)
+train-s9906	17	0	Case Error (4case)
+train-s11638	9	0	Wrong Head
+train-s8438	13	1	None
+train-s684	12	1	None
+train-s4968	10	0	obl4expl
+train-s5632	20	0	Wrong Head
+train-s5151	7	1	None
+train-s7336	8	0	Wrong Head
+train-s11691	18	0	Naming Error (4appos|flat)
+train-s3148	21	0	nmod4advmod
+train-s8162	2	0	Wrong Head
+train-s6484	14	0	Wrong Head
+train-s11866	45	0	Wrong Head
+dev-s373	15	0	advmod4det
+train-s1992	15	1	None
+train-s1262	20	0	nsubj4obj
+test-s780	16	0	Naming Error (4appos|flat)
+dev-s610	12	0	nsubj4obl
+train-s10578	6	0	amod4xcomp
+train-s1411	19	0	xcomp4advmod
+train-s1939	22	1	None
+test-s874	4	1	None
+train-s3081	24	1	None
+train-s10713	14	0	Wrong Head
+train-s7382	16	0	Wrong Head
+train-s12722	12	1	None
+test-s1413	11	1	None
+test-s1453	3	0	dep4discourse|mark
+train-s12605	3	1	None
+train-s9733	4	1	None
+train-s8224	4	1	None
+train-s1812	7	0	case4det
+train-s12203	29	0	obl4xcomp
+train-s12242	18	1	None
+train-s13145	42	1	None
+train-s5137	2	0	nsubj4nmod
+train-s1475	9	0	case4det
+train-s13145	31	0	Wrong Head
+train-s13217	6	1	None
+test-s37	11	1	None
+train-s12766	43	1	None
+train-s213	5	1	None
+test-s916	23	1	None
+train-s3980	24	1	None
+test-s245	17	1	None
+dev-s936	24	0	compound4obj
+dev-s1519	13	1	None
+train-s13261	15	0	Case Error (4case)
+train-s12149	14	0	MWE Error (4compound|fixed)
+train-s9190	11	1	None
