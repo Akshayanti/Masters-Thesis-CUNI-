@@ -18,7 +18,7 @@ test-s1056	4	0	POS Error
 test-s1061	3	1	None
 test-s1069	20	1	None
 test-s107	10	1	None
-test-s107	14	0	amod4xcomp
+test-s107	14	0	amod4acl
 test-s1083	1	1	None
 test-s1083	10	0	Wrong Head
 test-s1083	11	0	Tree Error
@@ -194,7 +194,7 @@ test-s372	4	0	Wrong Head
 test-s378	18	1	None
 test-s378	20	1	None
 test-s379	28	0	MWE Error (4compound|fixed)
-test-s386	1	0	nmod4nsubj
+test-s386	1	0	nmod4obl
 test-s390	17	0	Naming Error (4appos|flat)
 test-s390	18	0	Naming Error (4appos|flat)
 test-s390	22	1	None
@@ -205,7 +205,7 @@ test-s415	22	0	advcl4det
 test-s423	5	1	None
 test-s459	26	0	Naming Error (4appos|flat)
 test-s461	13	1	None
-test-s461	16	0	nmod4acl
+test-s461	16	0	Naming Error (4appos|flat)
 test-s461	17	0	Naming Error (4appos|flat)
 test-s478	1	1	None
 test-s478	2	1	None
@@ -246,7 +246,7 @@ test-s628	40	1	None
 test-s631	7	0	Wrong Head
 test-s651	15	0	obl4advcl|acl
 test-s653	13	0	Tree Error
-test-s671	14	0	iobj4nsubj
+test-s671	14	1	None
 test-s671	19	1	None
 test-s671	21	1	None
 test-s707	8	1	None
@@ -263,7 +263,7 @@ test-s722	32	0	Wrong Head
 test-s726	12	1	None
 test-s728	12	1	None
 test-s728	3	1	None
-test-s745	11	0	advmod4amod
+test-s745	11	1	None
 test-s745	12	1	None
 test-s753	18	1	None
 test-s761	12	0	nmod4xcomp
@@ -284,9 +284,9 @@ test-s788	11	1	None
 test-s788	2	1	None
 test-s788	5	1	None
 test-s788	7	1	None
-test-s788	9	0	amod4acl
+test-s788	9	0	amod4xcomp
 test-s792	9	1	None
-test-s803	5	0	case4amod
+test-s803	5	1	None
 test-s803	6	1	None
 test-s805	17	1	None
 test-s805	23	0	advmod4discourse|mark
@@ -297,17 +297,17 @@ test-s822	6	0	obl4advmod
 test-s845	6	1	None
 test-s847	24	1	None
 test-s847	25	0	Wrong Head
-test-s853	11	0	amod4acl
+test-s853	11	0	amod4xcomp
 test-s858	13	0	nsubj4obl
 test-s858	15	0	obl4nsubj
 test-s870	8	1	None
 test-s874	4	1	None
 test-s875	22	1	None
 test-s875	6	1	None
-test-s887	30	0	nsubj4advcl
+test-s887	30	0	nsubj4obj
 test-s894	11	1	None
 test-s894	14	1	None
-test-s894	19	0	compound4advmod
+test-s894	19	0	compound4advcl
 test-s894	20	0	Tree Error
 test-s894	23	1	None
 test-s903	9	0	MWE Error (4compound|fixed)
@@ -317,7 +317,7 @@ test-s916	21	1	None
 test-s916	23	1	None
 test-s916	31	1	None
 test-s943	13	0	nmod4obl
-test-s957	1	0	nsubj4dislocated
+test-s957	1	1	None
 test-s957	22	0	Case Error (4case)
 test-s960	33	0	Wrong Head
 test-s960	44	0	Wrong Head

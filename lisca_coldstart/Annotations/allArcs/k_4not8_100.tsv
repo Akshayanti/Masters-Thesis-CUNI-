@@ -2,7 +2,7 @@ train-s6233	30	0	nsubj4obj
 train-s6280	21	1	None
 dev-s1440	10	1	None
 train-s10317	20	0	nsubj4advmod
-train-s7817	14	0	amod4acl
+train-s7817	14	1	None
 dev-s1508	2	1	None
 train-s11691	20	1	None
 train-s11218	22	1	None
@@ -76,7 +76,7 @@ train-s10295	3	0	dep4det
 train-s8456	16	1	None
 test-s459	26	0	Naming Error (4appos|flat)
 dev-s513	2	0	Naming Error (4appos|flat)
-train-s4161	23	0	obl4obj
+train-s4161	23	0	obl4iobj
 train-s6810	2	1	None
 train-s12761	5	0	case4nummod
 train-s12882	13	0	obl4det
@@ -86,15 +86,15 @@ train-s2539	6	1	None
 train-s12085	14	1	None
 train-s1034	27	0	nsubj4obj
 train-s7339	26	1	None
-train-s2185	7	0	amod4acl
-train-s10785	9	0	nsubj4nummod
+train-s2185	7	1	None
+train-s10785	9	0	Wrong Head
 train-s7847	16	1	None
 train-s10102	44	0	Wrong Head
 train-s12111	51	1	None
 train-s4583	10	1	None
-train-s9085	3	0	advmod4amod
+train-s9085	3	0	Tree Error
 train-s6341	6	1	None
 dev-s1171	17	1	None
 dev-s195	18	1	None
 train-s8120	29	0	Tree Error
-train-s2224	8	0	obj4acl
+train-s2224	8	1	None

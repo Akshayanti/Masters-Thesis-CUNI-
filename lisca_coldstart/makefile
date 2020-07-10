@@ -211,16 +211,11 @@ zip_CV_check:
 	@tar -xf TARs/CV_lisca.tar;
 # ========================== END CV PIPELINE ==========================================
 
-get_stats:
+stats:
 	@rm -rf baseline CV;
 	@make process_baseline;
 	@make process_CV;
-	@python3 scripts/get_stats.py;
+	@python3 scripts/get_stats_md.py;
+	@python3 scripts/get_stats_tsv.py;
 	@echo "Statistics Stored in stats.md file" > /dev/stderr;
 	@rm -f baseline/baseline_test.lisca baseline/baseline_test.conllu;
-
-prep_upload:
-	make get_stats;
-	git add Annotations stats.md;
-	git commit -m "Annotations as on `date`";
-	git push;

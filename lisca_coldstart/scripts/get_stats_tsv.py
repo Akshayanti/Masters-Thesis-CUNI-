@@ -67,9 +67,9 @@ def get_normalised_scores():
                 random_error[1] += k4_score[error]
                 random_error[2] += k8_score[error]
         outfile.write("Random Errors\t" +
-                      str(random_error[0]) + "\t" +
-                      str(random_error[1]) + "\t" +
-                      str(random_error[2]) + "\n")
+                      str(round(random_error[0], 1)) + "\t" +
+                      str(round(random_error[1], 1)) + "\t" +
+                      str(round(random_error[2], 1)) + "\n")
 
 
 def get_test_scores():

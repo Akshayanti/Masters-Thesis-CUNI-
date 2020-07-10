@@ -2,7 +2,7 @@ test-s103	54	0	Tree Error
 test-s1030	1	0	obl4discourse|mark
 test-s1042	16	1	None
 test-s1069	20	1	None
-test-s107	14	0	amod4xcomp
+test-s107	14	0	amod4acl
 test-s113	31	1	None
 test-s1152	22	1	None
 test-s1167	28	0	Wrong Head
@@ -64,7 +64,7 @@ test-s356	3	1	None
 test-s356	31	0	Tree Error
 test-s356	34	0	compound4obj
 test-s37	11	1	None
-test-s386	1	0	nmod4nsubj
+test-s386	1	0	nmod4obl
 test-s390	18	0	Naming Error (4appos|flat)
 test-s411	2	0	Tree Error
 test-s415	22	0	advcl4det
@@ -80,7 +80,7 @@ test-s628	35	1	None
 test-s631	7	0	Wrong Head
 test-s651	15	0	obl4advcl|acl
 test-s653	13	0	Tree Error
-test-s671	14	0	iobj4nsubj
+test-s671	14	1	None
 test-s671	19	1	None
 test-s671	21	1	None
 test-s7	7	1	None
@@ -93,20 +93,20 @@ test-s766	14	1	None
 test-s780	10	0	nmod4obl
 test-s780	16	0	Naming Error (4appos|flat)
 test-s780	49	1	None
-test-s803	5	0	case4amod
+test-s803	5	1	None
 test-s803	6	1	None
 test-s805	17	1	None
 test-s805	23	0	advmod4discourse|mark
 test-s807	24	1	None
 test-s845	6	1	None
 test-s847	25	0	Wrong Head
-test-s853	11	0	amod4acl
+test-s853	11	0	amod4xcomp
 test-s874	4	1	None
 test-s875	6	1	None
-test-s887	30	0	nsubj4advcl
+test-s887	30	0	nsubj4obj
 test-s894	11	1	None
 test-s894	14	1	None
-test-s894	19	0	compound4advmod
+test-s894	19	0	compound4advcl
 test-s894	20	0	Tree Error
 test-s894	23	1	None
 test-s916	23	1	None

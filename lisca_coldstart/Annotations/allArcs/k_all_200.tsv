@@ -25,7 +25,7 @@ train-s4882	19	1	None
 train-s6498	2	0	MWE Error (4compound|fixed)
 train-s8584	29	1	None
 test-s626	22	0	Naming Error (4appos|flat)
-train-s2801	7	0	amod4advmod
+train-s2801	7	1	None
 train-s10271	30	0	Wrong Head
 train-s6037	25	1	None
 test-s626	10	1	None
@@ -40,7 +40,7 @@ train-s8081	18	0	Reported Speech Error (4parataxis)
 train-s5632	31	0	Wrong Head
 test-s482	4	1	None
 train-s994	11	0	Tree Error
-train-s4090	20	0	amod4acl
+train-s4090	20	1	None
 train-s8166	32	1	None
 train-s2566	18	1	None
 train-s10709	18	0	Wrong Head
@@ -65,7 +65,7 @@ train-s5382	67	0	punct4det
 train-s5661	16	1	None
 train-s7750	3	0	Tree Error
 train-s8758	28	1	None
-train-s2462	30	0	obl4advcl|acl
+train-s2462	30	0	obl4amod
 test-s19	5	0	Tree Error
 train-s12699	25	1	None
 train-s9502	16	1	None
@@ -104,7 +104,7 @@ train-s8224	10	1	None
 dev-s622	11	1	None
 dev-s1002	7	0	Tree Error
 train-s11775	14	0	mark4advmod
-train-s1477	26	0	advmod4det
+train-s1477	26	0	advmod4amod
 train-s11339	2	0	Wrong Head
 dev-s1332	11	1	None
 train-s10709	12	1	None
@@ -127,7 +127,7 @@ train-s6244	2	0	Naming Error (4appos|flat)
 train-s6807	10	1	None
 test-s960	33	0	Wrong Head
 train-s10853	38	0	Wrong Head
-dev-s1569	7	0	amod4xcomp
+dev-s1569	7	0	amod4acl
 train-s9163	19	0	Wrong Head
 train-s3896	16	1	None
 train-s12856	37	1	None
@@ -143,10 +143,10 @@ train-s6155	13	0	nmod4nummod
 train-s11281	16	1	None
 train-s6774	19	0	Wrong Head
 train-s2423	12	1	None
-train-s5661	19	0	nsubj4obj
+train-s5661	19	1	None
 train-s2949	3	0	POS Error
 train-s11866	21	1	None
-train-s11662	46	1	xcomp4acl
+train-s11662	46	1	None
 train-s746	22	1	None
 train-s1874	11	1	None
 test-s573	10	0	Tree Error
