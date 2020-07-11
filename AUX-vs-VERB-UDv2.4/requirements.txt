@@ -1,6 +1,7 @@
-flair
-sklearn
-matplotlib
-numpy
-seaborn
-argparse
+wheel
+flair == 0.5.1
+sklearn == 0.0
+matplotlib == 3.2.2
+numpy == 1.18.1
+seaborn == 0.10.1
+scikit-learn == 0.23
