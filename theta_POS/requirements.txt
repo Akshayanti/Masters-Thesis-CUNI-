@@ -1,4 +1,5 @@
 scipy==1.4.1
 sklearn>=0.0
 msgpack-numpy==0.4.3.2
-numpy>=1.18.1
+numpy==1.18.1
+conllu==3.0

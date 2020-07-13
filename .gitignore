@@ -1,2 +1,4 @@
 *.udpipe
-*.pt
+**/venv
+**/.DS_Store
+**/.idea

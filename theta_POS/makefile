@@ -1,11 +1,18 @@
 #!/bin/sh
 
+.PHONY: get_data all_scores clean get_trigrams genre_control
+
 get_data:
 	@pip3 install -r requirements.txt;
-	@chmod +x scripts/get_data.sh;
-	@sh scripts/get_data.sh;
+	@if ! [ -d $(HOME)/ud-treebanks-v2.5 ]; then \
+		wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3105/ud-treebanks-v2.5.tgz; \
+		tar -xvf ud-treebanks-v2.5.tgz; \
+		cp -r ud-treebanks-v2.5 $(HOME)/ud-treebanks-v2.5; \
+		rm -rf ud-treebanks-v2.5 ud-treebanks-v2.5.tgz; \
+	fi;
 
-all_scores:
+
+all_scores: get_data
 	@echo "Generating Scores. Might take a while. Please be patient." > /dev/stderr;
 	@cp scripts/klcpos3.py $(HOME)/ud-treebanks*2.5/;
 	@cd $(HOME)/ud-treebank*2.5; \
@@ -15,7 +22,7 @@ all_scores:
 		if ! [ -d temp ]; then \
 			mkdir temp; \
 		fi; \
-		for languages in  UD_Czech UD_German UD_Spanish UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Japanese UD_Korean UD_Latin UD_Lithuanian UD_Dutch UD_Norwegian UD_Old_Russian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Slovenian UD_Swedish UD_Turkish UD_Chinese; do \
+		for languages in UD_Czech UD_German UD_Spanish UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Japanese UD_Korean UD_Latin UD_Lithuanian UD_Dutch UD_Norwegian UD_Old_Russian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Slovenian UD_Swedish UD_Turkish UD_Chinese; do \
 			rm -rf temp; \
 			mkdir temp; \
 			for treebank in `echo $$languages`*; do \
@@ -44,7 +51,7 @@ all_scores:
 	@rm -f klcpos3_scores;
 	@echo "Done generating scores. Results available in UDv2.5_scores.tsv file." > /dev/stderr;
 
-size_control:
+size_control: get_data
 	@if ! [ -d size_control ]; then \
 		mkdir size_control; \
 	fi;
@@ -60,7 +67,10 @@ size_control:
 			rm -f size_et.sh; \
 		fi;
 
-genre_control:
+genre_control:	get_data
+	@if [ -d genre_control ]; then \
+		rm -rf genre_control; \
+	fi;
 	@if ! [ -d genre_control ]; then \
 		mkdir genre_control; \
 	fi;
@@ -69,7 +79,7 @@ genre_control:
 		cd genre_control; \
 		sh genre_fi.sh; \
 		rm -f genre_fi.sh; \
-		fi;
+	fi;
 	@if ! [ -d genre_control/pl ]; then \
 		cp scripts/genre_pl.sh genre_control/; \
 		cd genre_control; \
@@ -77,5 +87,27 @@ genre_control:
 		rm -f genre_pl.sh; \
 	fi;
 
+get_trigrams: get_data
+	@if ! [ -d unique_trigrams ]; then \
+		mkdir unique_trigrams; \
+	fi;
+	@cp scripts/get_unique_trigrams.py unique_trigrams/get_unique_trigrams.py;
+	@cp scripts/klcpos3.py unique_trigrams/klcpos3.py;
+	@cp scripts/downsample.py unique_trigrams/downsample.py;
+	@cp scripts/unique_trigrams* unique_trigrams/;
+	@cd unique_trigrams; \
+    sh unique_trigrams_et.sh; \
+    python3 get_unique_trigrams.py EDT-stats.tsv; \
+    rm -f unique_trigrams_et.sh; \
+    echo "EDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-train.conllu > PDT.conllu; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-dev.conllu >> PDT.conllu; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-test.conllu >> PDT.conllu; \
+    sh unique_trigrams_cs1.sh & sh unique_trigrams_cs2.sh; \
+    python3 get_unique_trigrams.py PDT-stats.tsv; \
+    rm -f *.py *.sh; \
+    echo "PDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
+
 clean:
-	rm -rf size_control *.tsv genre_control;
+	rm -rf genre_control;
+
