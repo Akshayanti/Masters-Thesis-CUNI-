@@ -67,6 +67,34 @@ size_control: get_data
 			rm -f size_et.sh; \
 		fi;
 
+get_trigrams: get_data
+	@if ! [ -d unique_trigrams ]; then \
+		mkdir unique_trigrams; \
+	fi;
+	@cp scripts/get_unique_trigrams.py unique_trigrams/get_unique_trigrams.py;
+	@cp scripts/klcpos3.py unique_trigrams/klcpos3.py;
+	@cp scripts/downsample.py unique_trigrams/downsample.py;
+	@cp scripts/unique_trigrams* unique_trigrams/;
+	@cp scripts/split_PDT_genres.py unique_trigrams/;
+	@cd unique_trigrams; \
+    sh unique_trigrams_et.sh; \
+    python3 get_unique_trigrams.py EDT-stats.tsv; \
+    rm -f unique_trigrams_et.sh; \
+    echo "EDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-train.conllu > PDT.conllu; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-dev.conllu >> PDT.conllu; \
+    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-test.conllu >> PDT.conllu; \
+    python3 split_PDT_genres.py PDT.conllu; \
+    mkdir temp; \
+    mv *.conllu temp; \
+    cp temp/l.conllu PDT.conllu; \
+    rm -rf temp split_PDT_genres.py; \
+    sh unique_trigrams_cs1.sh & sh unique_trigrams_cs2.sh; \
+    python3 get_unique_trigrams.py PDT-stats.tsv; \
+    rm -f *.py *.sh; \
+    rm -f PDT.conllu PDT_*; \
+    echo "PDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr;
+
 genre_control:	get_data
 	@if [ -d genre_control ]; then \
 		rm -rf genre_control; \
@@ -86,27 +114,6 @@ genre_control:	get_data
 			sh genre_pl.sh; \
 		rm -f genre_pl.sh; \
 	fi;
-
-get_trigrams: get_data
-	@if ! [ -d unique_trigrams ]; then \
-		mkdir unique_trigrams; \
-	fi;
-	@cp scripts/get_unique_trigrams.py unique_trigrams/get_unique_trigrams.py;
-	@cp scripts/klcpos3.py unique_trigrams/klcpos3.py;
-	@cp scripts/downsample.py unique_trigrams/downsample.py;
-	@cp scripts/unique_trigrams* unique_trigrams/;
-	@cd unique_trigrams; \
-    sh unique_trigrams_et.sh; \
-    python3 get_unique_trigrams.py EDT-stats.tsv; \
-    rm -f unique_trigrams_et.sh; \
-    echo "EDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-train.conllu > PDT.conllu; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-dev.conllu >> PDT.conllu; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-test.conllu >> PDT.conllu; \
-    sh unique_trigrams_cs1.sh & sh unique_trigrams_cs2.sh; \
-    python3 get_unique_trigrams.py PDT-stats.tsv; \
-    rm -f *.py *.sh; \
-    echo "PDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
 
 clean:
 	rm -rf genre_control;

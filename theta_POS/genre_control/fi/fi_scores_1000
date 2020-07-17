@@ -1,0 +1,10 @@
+fiction blog	0.356 ± 0.014
+fiction grammar	0.47 ± 0.019
+fiction wiki	1.552 ± 0.041
+fiction legal	1.559 ± 0.04
+blog grammar	0.504 ± 0.018
+blog wiki	1.307 ± 0.042
+blog legal	1.328 ± 0.026
+grammar wiki	1.166 ± 0.041
+grammar legal	1.554 ± 0.036
+wiki legal	1.229 ± 0.032

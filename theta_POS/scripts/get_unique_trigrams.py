@@ -58,32 +58,22 @@ def plot_and_save(indict1, infile):
 
     treebank_name = infile.split("/")[-1].strip("-stats.tsv")
 
-    fig, (ax1, ax3) = plt.subplots(nrows=2, ncols=1, constrained_layout=True)
+    fig, (ax1, ax3) = plt.subplots(nrows=2, ncols=1, sharey=True, constrained_layout=True)
     ax1.set(xlabel="Number of Sentences", title="Over " + str(max([x for x in indict1])) + " Sentences")
-    ax1.plot(x_list, counts_list, "r-")
+    ax1.plot(x_list, [round(x * 100 / max(counts_list), 2) for x in counts_list], "r-")
+    ax1.plot(x_list, [round(x * 100 / max(totals_list), 2) for x in totals_list], "b-")
     ax1.grid(True)
-    ax1.set_ylabel("Unique POS trigrams", color="red")
-    ax1.tick_params(axis='y', labelcolor="red")
-    ax2 = ax1.twinx()
-    ax2.plot(x_list, totals_list, "b-")
-    ax2.grid(True, linestyle="--")
-    ax2.set_ylabel("Total POS trigrams", color="blue")
-    ax2.tick_params(axis='y', labelcolor="blue")
+    ax1.set_ylabel("Percentage")
+    ax1.legend(["Unique POS Trigrams", "All POS Trigrams"])
 
     ax3.set(xlabel="Number of Sentences", title="Over 2000 Sentences")
-    ax3.plot(zoomed_x_list, zoomed_counts, "r-")
+    ax3.plot(zoomed_x_list, [round(x * 100 / max(counts_list), 2) for x in zoomed_counts], "r-")
+    ax3.plot(zoomed_x_list, [round(x * 100 / max(totals_list), 2) for x in zoomed_totals], "b-")
     ax3.grid(True)
-    ax3.set_ylabel("Unique POS trigrams", color="red")
-    ax3.tick_params(axis='y', labelcolor="red")
-    ax4 = ax3.twinx()
-    ax4.plot(zoomed_x_list, zoomed_totals, "b-")
-    ax4.grid(True, linestyle="--")
-    ax4.set_ylabel("Total POS trigrams", color="blue")
-    ax4.tick_params(axis='y', labelcolor="blue")
+    ax3.set_ylabel("Percentage")
+    ax3.legend(["Unique POS Trigrams", "All POS Trigrams"])
 
     fig.suptitle("Growth of POS trigrams in " + treebank_name + " with Increase in Dataset Size")
-
-    # fig.tight_layout()
     plt.savefig("../docs/trigram-stats-" + treebank_name + ".png")
 
 

@@ -1,0 +1,10 @@
+fiction news	0.754 ± 0.047
+fiction nonfiction	0.556 ± 0.028
+fiction social	0.726 ± 0.032
+fiction spoken_conversational	1.331 ± 0.052
+news nonfiction	0.55 ± 0.032
+news social	0.906 ± 0.044
+news spoken_conversational	2.039 ± 0.079
+nonfiction social	0.624 ± 0.027
+nonfiction spoken_conversational	1.643 ± 0.051
+social spoken_conversational	1.432 ± 0.022
