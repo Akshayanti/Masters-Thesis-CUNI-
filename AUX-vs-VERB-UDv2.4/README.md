@@ -36,8 +36,7 @@ accessed through [PDF](docs/auxvsverb.pdf) document in this folder.
 
 <h2>How to Use</h2>
 
-To start with the module, clone this repository in your system, and download UDv2.4 from [here](https://universaldependencies.org/#download) to your $HOME 
-directory.
+To start with the module, clone this repository in your system.
 
 Next, you can run the commands using [makefile](./makefile) in order to achieve the tasks as needed:
 
@@ -85,7 +84,6 @@ Defined Categories of errors:
 
 Results of Manual Annotation:
 
-
 |Category|Instances|Mislabelled|Percentage|
 |:------:|:--------|:----------|:---------|
 | aux-TP |  83 | 3 | 03.61 |
@@ -96,15 +94,26 @@ Results of Manual Annotation:
 | verb-O | 20 | 11 | 55.00 |
 | Total | 225 | 61 | 27.11 |
 
-The experiment failed owing to insufficiency in prediction results, or inability to detect the cases of mismatches in a reliable manner.  
+<h3>Discussion and Conlcusion</h3>
+Of the total number of tags listed in either category, 
+we are able to focus on just 225 instances where we might be 
+able to identify the problems. Even out of those 225 identified 
+instances, just a bit over 25\% are actually erroneous. 
 
-<h2>Citations</h2>
+While hypertuning the best configuration of the classifier, 
+the parameters correspond to the F1 score on how well it fits 
+to the original data. Essentially, the best performing model 
+is biased in the way that it would always try to find a 
+prediction that matches the original annotation. While there 
+is no other way on how to hypertune the model, the experimental 
+results are therefore liable to find comparatively less 
+instances where the confidence score is within the bounds as 
+considered in the experiment. 
 
-1. Miryam de Lhoneux and Joakim Nivre.
-Should Have, Would Have, Could Have. Investigating Verb Group Representations for Parsing with Universal Dependencies.
-In <i>Proceedings of the Workshop on Multilingual and Cross-lingual Methods in NLP</i>, pages 10–19, 2016.
-
-<h2>Acknowledgments</h2>
-
-1. Computational resources were provided by the CESNET LM2015042 and the CERIT Scientific Cloud LM2015085, provided under the programme "Projects of Large Research, Development, and Innovations Infrastructures"
-2. Computational resources were supplied by the Ministry of Education, Youth and Sports of the Czech Republic under the Projects CESNET (Project No. LM2015042) and CERIT-Scientific Cloud (Project No. LM2015085) provided within the program Projects of Large Research, Development and Innovations Infrastructures.
+While certain patterns are more reliable than others 
+(the case where predicted output doesn't match the original 
+annotation), the overall performance for the experiment 
+is low as can be attributed to different factors mentioned 
+above. Given the low scout-ability of the error cases in the 
+experiment, the approach used in the experiment is not reliable 
+enough for the process to be automated.

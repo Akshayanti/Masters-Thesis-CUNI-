@@ -14,6 +14,14 @@ def read_data(infile):
 					a[upos] = 1
 				else:
 					a[upos] += 1
+				feats = token["feats"]
+				if feats is None:
+					continue
+				if "Typo" in feats:
+					if "Typo" not in a:
+						a["Typo"] = 1
+					else:
+						a["Typo"] += 1
 	return a
 
 
@@ -36,7 +44,10 @@ def calculate_F_measure(in_dict):
 	f_verb = get_relative_freq("VERB", in_dict)
 	f_adverb = get_relative_freq("ADV", in_dict)
 	f_inter = get_relative_freq("INTJ", in_dict)
+	f_typo = get_relative_freq("Typo", in_dict)
+	f_sym = get_relative_freq("SYM", in_dict)
 	total = (f_noun + f_adjective + f_adposition + f_det) - (f_pronoun + f_verb + f_adverb + f_inter) + 100
+	inform = (f_typo + f_sym + f_inter) * 100
 	return total/2
 
 
