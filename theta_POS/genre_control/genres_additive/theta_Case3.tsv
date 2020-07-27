@@ -1,0 +1,3 @@
+fiction_base spoken_news_test	0.499 ± 0.02
+news_base spoken_fiction_test	0.854 ± 0.036
+spoken_base news_fiction_test	1.138 ± 0.03

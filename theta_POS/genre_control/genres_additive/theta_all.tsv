@@ -1,0 +1,10 @@
+fiction_base fiction_test	0.278 ± 0.013
+fiction_base spoken_base	0.99 ± 0.036
+fiction_base news_base	0.644 ± 0.034
+fiction_base news_test	0.64 ± 0.034
+fiction_test spoken_base	0.987 ± 0.034
+fiction_test news_base	0.646 ± 0.034
+fiction_test news_test	0.643 ± 0.038
+spoken_base news_base	1.503 ± 0.049
+spoken_base news_test	1.493 ± 0.048
+news_base news_test	0.257 ± 0.01

@@ -1,10 +1,8 @@
 europarl.conllu	18.441
 uni_art.conllu	13.621
 fiction.conllu	11.981
-blog.conllu	12.533
-grammar.conllu	8.48
-legal.conllu	20.968
 wiki.conllu	14.049
-wiki_news.conllu	12.725
-uni_news.conllu	14.034
-fin_news.conllu	12.416
+grammar.conllu	8.48
+blog.conllu	12.533
+legal.conllu	20.968
+news.conllu	13.026

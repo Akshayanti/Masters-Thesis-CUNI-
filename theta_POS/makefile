@@ -1,6 +1,6 @@
 #!/bin/sh
 
-.PHONY: get_data all_scores clean get_trigrams genre_control
+.PHONY: get_data all_scores clean get_trigrams genre_control all_genres genres_additive dummy
 
 get_data:
 	@pip3 install -r requirements.txt;
@@ -22,7 +22,7 @@ all_scores: get_data
 		if ! [ -d temp ]; then \
 			mkdir temp; \
 		fi; \
-		for languages in UD_Czech UD_German UD_Spanish UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Japanese UD_Korean UD_Latin UD_Lithuanian UD_Dutch UD_Norwegian UD_Old_Russian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Slovenian UD_Swedish UD_Turkish UD_Chinese; do \
+		for languages in UD_Arabic UD_Czech UD_German UD_Spanish UD_English UD_Estonian UD_Finnish UD_French UD_Galician UD_Ancient_Greek UD_Italian UD_Japanese UD_Korean UD_Latin UD_Dutch UD_Norwegian UD_Polish UD_Portuguese UD_Romanian UD_Russian UD_Slovenian UD_Swedish UD_Turkish UD_Chinese; do \
 			rm -rf temp; \
 			mkdir temp; \
 			for treebank in `echo $$languages`*; do \
@@ -77,28 +77,25 @@ get_trigrams: get_data
 	@cp scripts/unique_trigrams* unique_trigrams/;
 	@cp scripts/split_PDT_genres.py unique_trigrams/;
 	@cd unique_trigrams; \
-    sh unique_trigrams_et.sh; \
-    python3 get_unique_trigrams.py EDT-stats.tsv; \
-    rm -f unique_trigrams_et.sh; \
-    echo "EDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-train.conllu > PDT.conllu; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-dev.conllu >> PDT.conllu; \
-    cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-test.conllu >> PDT.conllu; \
-    python3 split_PDT_genres.py PDT.conllu; \
-    mkdir temp; \
-    mv *.conllu temp; \
-    cp temp/l.conllu PDT.conllu; \
-    rm -rf temp split_PDT_genres.py; \
-    sh unique_trigrams_cs1.sh & sh unique_trigrams_cs2.sh; \
-    python3 get_unique_trigrams.py PDT-stats.tsv; \
-    rm -f *.py *.sh; \
-    rm -f PDT.conllu PDT_*; \
-    echo "PDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr;
+		sh unique_trigrams_et.sh; \
+		python3 get_unique_trigrams.py EDT-stats.tsv; \
+		rm -f unique_trigrams_et.sh; \
+		echo "EDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr; \
+		cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-train.conllu > PDT.conllu; \
+		cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-dev.conllu >> PDT.conllu; \
+		cat $(HOME)/ud-treebanks-v2.5/UD_Czech-PDT/cs_pdt-ud-test.conllu >> PDT.conllu; \
+		python3 split_PDT_genres.py PDT.conllu; \
+		mkdir temp; \
+		mv *.conllu temp; \
+		cp temp/l.conllu PDT.conllu; \
+		rm -rf temp split_PDT_genres.py; \
+		sh unique_trigrams_cs1.sh & sh unique_trigrams_cs2.sh; \
+		python3 get_unique_trigrams.py PDT-stats.tsv; \
+		rm -f *.py *.sh; \
+		rm -f PDT.conllu PDT_*; \
+		echo "PDT Stats Plotted. Can be found in 'docs' folder" > /dev/stderr;
 
 genre_control:	get_data
-	@if [ -d genre_control ]; then \
-		rm -rf genre_control; \
-	fi;
 	@if ! [ -d genre_control ]; then \
 		mkdir genre_control; \
 	fi;
@@ -115,6 +112,16 @@ genre_control:	get_data
 		rm -f genre_pl.sh; \
 	fi;
 
+genres_additive:	genre_control
+	@if ! [ -d genre_control/genres_additive ]; then \
+		mkdir "genres_additive"; \
+		mkdir genre_control/genres_additive; \
+		cp scripts/additive_genres_pl.sh genres_additive/additive_genres_pl.sh; \
+		cd genres_additive; \
+			sh additive_genres_pl.sh; \
+	fi;
+	@yes | mv genres_additive/* genre_control/genres_additive/;
+	@yes | rm -r genres_additive;
+
 clean:
 	rm -rf genre_control;
-

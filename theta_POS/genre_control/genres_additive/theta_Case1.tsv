@@ -1,0 +1,7 @@
+fiction_base news_fiction_test	0.348 ± 0.019
+fiction_base all_genres	0.351 ± 0.014
+news_base news_fiction_test	0.304 ± 0.016
+news_base all_genres	0.463 ± 0.022
+news_fiction_base all_genres	0.247 ± 0.011
+news_base spoken_news_test	0.489 ± 0.022
+fiction_base spoken_fiction_test	0.41 ± 0.018
