@@ -22,20 +22,25 @@ for genre in europarl.conllu uni_art.conllu; do
 done;
 rm -f split_fi_genres.py fi-tdt.conllu;
 
+for filename in wiki_news uni_news fin_news; do
+  cat `echo $filename`.conllu >> news.conllu;
+  rm -f $filename.conllu;
+done;
+
 echo "Generating Scores for Finnish Data. Please be patient." > /dev/stderr;
 
-for genre in fiction wiki grammar blog legal wiki_news uni_news fin_news; do
+for genre in fiction wiki grammar blog legal news; do
   python3 average_sentence_length.py `echo $genre`.conllu >> fi/sent_lengths.tsv;
 done;
 
 # Begin Variance Inter-Genre ===========================================================================================
 for seedval in `seq 1 100`; do
-  for filename in fiction wiki grammar blog legal; do
+  for filename in fiction wiki grammar blog legal news; do
     python3 downsample.py -i `echo $filename`.conllu -n 1000 --seed `echo $seedval`;
   done;
 
-  for filename1 in fiction blog grammar wiki legal; do
-    for filename2 in fiction blog grammar wiki legal; do
+  for filename1 in fiction blog grammar wiki legal news; do
+    for filename2 in fiction blog grammar wiki legal news; do
       if ! [ $filename1 = $filename2 ]; then
         echo $filename1 $filename2 >> klcpos3.tsv;
         python3 klcpos3.py --single_source --source `echo $filename1`_1000.conllu --target `echo $filename2`_1000.conllu | cut -f2 >> klcpos3.tsv;
@@ -60,7 +65,7 @@ rm -f klcpos3_scores_1000_* politeness_1000_*;
 # Begin Variance Intra-Genre ===========================================================================================
 for seedval in `seq 1 100`; do
 	touch klcpos3_self.tsv;
-	for filename in fiction wiki grammar blog legal wiki wiki_news uni_news fin_news europarl uni_art; do
+	for filename in fiction wiki grammar blog legal wiki news europarl uni_art; do
 		python3 downsample.py -i `echo $filename`.conllu -n 900 --seed `echo $seedval`;
 		python3 kfold.py 2 `echo $filename`_900.conllu;
 		echo $filename $filename >> klcpos3_self.tsv;
