@@ -29,14 +29,14 @@ def scores_k8():
 def scores_k4():
     for error in scores:
         c1 = scores[error][0] * 2319 / 200
-        c2 = scores[error][1] * 311 / 100
+        c2 = scores[error][1] * 301 / 100
         k4_score[error] = round((c1 + c2) * 1000 / 2620, 1)
 
 
 def scores_k2():
     for error in scores:
         c1 = scores[error][0] * 2319 / 200
-        c2 = scores[error][1] * 311 / 100
+        c2 = scores[error][1] * 301 / 100
         c3 = scores[error][2] * 867 / 100
         k2_score[error] = round((c1 + c2 + c3) * 1000 / 3487, 1)
 
