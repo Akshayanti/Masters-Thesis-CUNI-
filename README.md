@@ -17,9 +17,22 @@ tool in a low-resource setting. The solutions discussed in the
 thesis are language-neutral, intended to work with multiple 
 languages with efficiency.
 
+<h2>List of Experiments</h3>
+
+1. [Estimating POS Annotation
+Consistency of Different
+Treebanks in a Language](theta_pos/README.md)
+2. [conj_head: Head Identification in Coordinating Conjunctions](conj_head/README.md)
+3. [Mining Errors in Low-Resource Languages by Combining LISCA And
+Cross-Validation](lisca_cv/README.md)
+4. [AUX vs. VERB: Attempt at
+Separation of Verbs and
+Auxiliary Verbs](AUX-vs-VERB-UDv2.4/README.md)
+
 <h2>About Repository</h2>
 
-The repository contains the data in form of codes, and the experiment results. The thesis is completed as of July 2020.  
+The repository contains the data in form of codes, and the experiment results. 
+The thesis was finished in July 2020.  
 
 Supervisor: Dan Zeman, UFAL, Charles University, Prague  
 Co-Supervisor: Koldo Gojenola, Computer Languages and Systems, University of Basque Country (UPV-EHU), Spain

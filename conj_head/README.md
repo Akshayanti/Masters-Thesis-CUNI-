@@ -1,4 +1,4 @@
-<h1>conj_head: Head Identification in Coordinating Conjunctions in UD </h1>
+<h1>conj_head: Head Identification in Coordinating Conjunctions</h1>
 
 <h2>Contents</h2>
 

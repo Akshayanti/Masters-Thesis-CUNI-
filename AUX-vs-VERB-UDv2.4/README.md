@@ -1,4 +1,6 @@
-<h1>AUX and VERB Distinctions</h1>
+<h1>AUX vs. VERB: Attempt at
+Separation of Verbs and
+Auxiliary Verbs</h1>
 
 <h2>Problem Statement</h2>
 
