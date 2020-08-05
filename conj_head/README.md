@@ -11,8 +11,8 @@
 
 <h3>Documentation</h3>
 
-The problem statement, the different approaches to the problem, and even more discussion can be accessed through the document
-[here](docs/conj_head.pdf).
+The problem statement, the different approaches to the problem, and even more discussion can be 
+read in Chapter 5 of the [thesis document](../docs/thesis.pdf).
 
 <h3>Included Files</h3>
 
@@ -96,12 +96,28 @@ RunTime based on 100 runs, as run on Ubuntu 18.04 (64-bit) on a 4-core Intel i5-
 For a through analysis of the results of the experiment, it is advised to read the 
 documentation, for it contains thorough investigation of the results, with examples. 
 
-<h3>Citations</h3>
+<h3>References</h3>
 
 1. Chiara Alzetta, Felice Dell’Orletta, Simonetta Montemagni, and Giulia Venturi. Dangerous relations in dependency 
-treebanks. In <i>Proceedings of the 16th International Workshop on Treebanks and Linguistic Theories</i>, pages 201–210, 2017.
+treebanks. In <i>Proceedings of the 16th International Workshop on Treebanks and Linguistic Theories</i>, pages 201–210,
+Prague, Czech Republic, 2017. URL https://www.aclweb.org/anthology/W17-7624.
 
-2. Martin Popel, Zdeněk Žabokrtský, and Martin Vojtek. Udapi: Universal API for universal dependencies.
-In <i>Proceedings of the NoDaLiDa 2017 Workshop onUniversal Dependencies (UDW 2017)</i>, pages 96–101, 2017.
+2. Martin Popel, Zdeněk Žabokrtský, and Martin Vojtek. Udapi: Universal API for Universal Dependencies.
+In <i>Proceedings of the NoDaLiDa 2017 Workshop onUniversal Dependencies (UDW 2017)</i>, pages 96–101, Gothenburg, Sweden, May 2017.
+ Association for Computational Linguistics. URL https://www.aclweb.org/anthology/W17-0412.
 
-3. Leon Stassen. And-languages and with-languages. <i>Linguistic Typology</i>, 4:1–54,01 2000. doi: 10.1515/lity.2000.4.1.1
+3. Leon Stassen. And-languages and WITH-languages. <i>Linguistic Typology</i>, 4(1):1–54, 2000. 
+doi: https://doi.org/10.1515/lity.2000.4.1.1 URL 
+https://www.degruyter.com/view/journals/lity/4/1/article-p1.xml
+
+4. Viacheslav Chirikba. Evidential category and evidential strategy in Abkhaz.
+<i>Typological Studies in Language</i>, 54:243–272, 2003. URL 
+https://benjamins.com/catalog/tsl.54.14chi.
+
+5. Winfried Boeder. The South Caucasian languages. <i>Lingua</i>, 115(1):
+5–89, 2005. ISSN 0024-3841. doi: https://doi.org/10.1016/j.lingua.2003.06.002. 
+URL http://www.sciencedirect.com/science/article/pii/S0024384103001244.
+
+6. Nivre, Joakim; Abrams, Mitchell; Agić, Željko; et al., 2019, 
+  Universal Dependencies 2.4, LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, 
+  http://hdl.handle.net/11234/1-2988.
