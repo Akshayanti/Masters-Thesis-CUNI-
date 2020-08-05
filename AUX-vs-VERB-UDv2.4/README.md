@@ -32,7 +32,7 @@ as can be seen in the [list of open issues on the subject](https://github.com/un
 <h2>Details Of the Experiment</h2>
 
 All the details related to the experiment, from the problems related to the error type, to the final evaluation can be 
-accessed through [PDF](docs/auxvsverb.pdf) document in this folder.
+read about in Chapter 7 of the [thesis document](../docs/thesis.pdf).
 
 <h2>How to Use</h2>
 
@@ -117,3 +117,23 @@ is low as can be attributed to different factors mentioned
 above. Given the low scout-ability of the error cases in the 
 experiment, the approach used in the experiment is not reliable 
 enough for the process to be automated.
+
+<h3>References</h3>
+
+1. Timothy Shopen. <i>Language Typology and Syntactic Description</i>, volume 1, pages
+40–59. Cambridge University Press, 2 edition, 2007. ISBN 0-511-36671-
+X. doi: https://doi.org/10.1017/CBO9780511619427. URL https://doi.org/10.1017/CBO9780511619427.
+
+2. Joseph H Greenberg. Some Universals of Grammar with Particular Reference to
+the Order of Meaningful Elements. <i>Universals of Language</i>, 2:73–113, 1963.
+URL http://hdl.handle.net/11707/78.
+
+3. Alan Akbik, Duncan Blythe, and Roland Vollgraf. Contextual String Embeddings
+for Sequence Labeling. In <i>Proceedings of the 27th International Conference on
+Computational Linguistics</i>, pages 1638–1649, Santa Fe, New Mexico, USA,
+August 2018. Association for Computational Linguistics. URL 
+https://www.aclweb.org/anthology/C18-1139.
+
+4. Nivre, Joakim; Abrams, Mitchell; Agić, Željko; et al., 2019, 
+  Universal Dependencies 2.4, LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, 
+  http://hdl.handle.net/11234/1-2988.
