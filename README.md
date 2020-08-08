@@ -37,4 +37,4 @@ The thesis was finished in July 2020.
 Supervisor: Dan Zeman, UFAL, Charles University, Prague  
 Co-Supervisor: Koldo Gojenola, Computer Languages and Systems, University of Basque Country (UPV-EHU), Spain
 
-[Thesis Main Document](docs/thesis.pdf)
+Thesis Main Document ([PDF](docs/thesis.pdf), [Latex Source](https://github.com/Akshayanti/Thesis-Documentation))

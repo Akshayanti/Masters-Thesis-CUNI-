@@ -5,9 +5,9 @@
 1. [Documentation](#documentation)
 2. [Included Files](#included-files)
 3. [Using This Module](#using-this-module)
-5. [RunTime Details](#runtime)
-6. [Results](#results)
-7. [Citations](#citations)
+4. [RunTime Details](#runtime)
+5. [Results](#results)
+6. [References](#references)
 
 <h3>Documentation</h3>
 

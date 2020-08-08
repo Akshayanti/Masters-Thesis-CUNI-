@@ -55,7 +55,7 @@ for seedval in `seq 1 100`; do
     cat spoken_base.conllu >> spoken_`echo $testfile`.conllu;
     cat `echo $testfile`.conllu >> spoken_`echo $testfile`.conllu;
   done;
-  for basefile in fiction_base news_base; do
+  for basefile in fiction_base news_base news_fiction_base; do
     echo $basefile "news_fiction_test" >> klcpos3_Case1.tsv;
     python3 klcpos3.py --single_source --source `echo $basefile`.conllu --target news_fiction_test.conllu | cut -f2 >> klcpos3_Case1.tsv;
     python3 klcpos3.py --single_source --target `echo $basefile`.conllu --source news_fiction_test.conllu | cut -f2 >> klcpos3_Case1.tsv;
