@@ -2,7 +2,22 @@
 Separation of Verbs and
 Auxiliary Verbs</h1>
 
-<h2>Problem Statement</h2>
+<h2>Contents</h2>
+
+1. [Documentation](#documentation)
+2. [Problem Statement](#problem-statement)
+3. [Using This Module](#using-this-module)
+4. [Included Files](#included-files)
+5. [Results](#results)
+6. [Discussion and Conclusion](#discussion-and-conclusion)
+7. [References](#references)
+
+<h3>Documentation</h3>
+
+All the details related to the experiment, from the problems related to the error type, to the final evaluation can be 
+read about in Chapter 7 of the [thesis document](../docs/thesis.pdf).
+
+<h3>Problem Statement</h3>
 
 There is a significant overlap between <b>VERB</b> and <b>AUX</b>. The distinction between <b>AUX</b> and <b>VERB</b> is 
 not always explicit, and is very liable to be affected by the agreement between the definitions of the terms in UD, and 
@@ -31,12 +46,7 @@ experiment done on UD\_Hindi-HDTB treebank in UDv2.4.
 Note that there still exist problems with respect to the differentiation between the two categories, 
 as can be seen in the [list of open issues on the subject](https://github.com/universaldependencies/docs/issues?utf8=\%E2\%9C\%93&q=is\%3Aopen+aux).
 
-<h2>Details Of the Experiment</h2>
-
-All the details related to the experiment, from the problems related to the error type, to the final evaluation can be 
-read about in Chapter 7 of the [thesis document](../docs/thesis.pdf).
-
-<h2>How to Use</h2>
+<h3>Using This Module</h3>
 
 To start with the module, clone this repository in your system.
 
@@ -61,14 +71,14 @@ Next, you can run the commands using [makefile](./makefile) in order to achieve 
      make clean
   Removes all files created in the process of the pipeline.
  
- <h2>Other Files</h2>
+<h3>Included Files</h3>
  
  1. [orig_splits](./orig_splits): The original splits generated for the data which have annotated values.
  2. [orig_splits_trained](./orig_splits_trained): The generated test files with predictions for models trained on [orig_splits](./orig_splits) data.
  2. [Annotated Data](./Annotated%20Data): The annotated data over the data in [orig_splits](./orig_splits) data.
  4. [optimisation_evals](./optimisation_evals): Optimized parameters for the entire treebank.
  
-<h2>Results</h2>
+<h3>Results</h3>
 
 Defined Categories of errors:
 
@@ -96,7 +106,8 @@ Results of Manual Annotation:
 | verb-O | 20 | 11 | 55.00 |
 | Total | 225 | 61 | 27.11 |
 
-<h3>Discussion and Conlcusion</h3>
+<h3>Discussion and Conclusion</h3>
+
 Of the total number of tags listed in either category, 
 we are able to focus on just 225 instances where we might be 
 able to identify the problems. Even out of those 225 identified 
