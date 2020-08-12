@@ -6,8 +6,8 @@ Auxiliary Verbs</h1>
 
 1. [Documentation](#documentation)
 2. [Problem Statement](#problem-statement)
-3. [Using This Module](#using-this-module)
-4. [Included Files](#included-files)
+3. [Included Files](#included-files)
+4. [Using This Module](#using-this-module)
 5. [Results](#results)
 6. [Discussion and Conclusion](#discussion-and-conclusion)
 7. [References](#references)
@@ -15,7 +15,9 @@ Auxiliary Verbs</h1>
 <h3>Documentation</h3>
 
 All the details related to the experiment, from the problems related to the error type, to the final evaluation can be 
-read about in Chapter 7 of the [thesis document](../docs/thesis.pdf).
+read about in Chapter 7 of the thesis document. 
+
+[//]: # "[thesis document](../docs/thesis.pdf)."
 
 <h3>Problem Statement</h3>
 
@@ -46,6 +48,13 @@ experiment done on UD\_Hindi-HDTB treebank in UDv2.4.
 Note that there still exist problems with respect to the differentiation between the two categories, 
 as can be seen in the [list of open issues on the subject](https://github.com/universaldependencies/docs/issues?utf8=\%E2\%9C\%93&q=is\%3Aopen+aux).
 
+<h3>Included Files</h3>
+ 
+ 1. [orig_splits](./orig_splits): The original splits generated for the data which have annotated values.
+ 2. [orig_splits_trained](./orig_splits_trained): The generated test files with predictions for models trained on [orig_splits](./orig_splits) data.
+ 2. [Annotated Data](./Annotated%20Data): The annotated data over the data in [orig_splits](./orig_splits) data.
+ 4. [optimisation_evals](./optimisation_evals): Optimized parameters for the entire treebank.
+ 
 <h3>Using This Module</h3>
 
 To start with the module, clone this repository in your system.
@@ -70,13 +79,6 @@ Next, you can run the commands using [makefile](./makefile) in order to achieve 
  
      make clean
   Removes all files created in the process of the pipeline.
- 
-<h3>Included Files</h3>
- 
- 1. [orig_splits](./orig_splits): The original splits generated for the data which have annotated values.
- 2. [orig_splits_trained](./orig_splits_trained): The generated test files with predictions for models trained on [orig_splits](./orig_splits) data.
- 2. [Annotated Data](./Annotated%20Data): The annotated data over the data in [orig_splits](./orig_splits) data.
- 4. [optimisation_evals](./optimisation_evals): Optimized parameters for the entire treebank.
  
 <h3>Results</h3>
 

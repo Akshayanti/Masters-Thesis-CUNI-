@@ -12,7 +12,9 @@
 <h3>Documentation</h3>
 
 The problem statement, the different approaches to the problem, and even more discussion can be 
-read in Chapter 5 of the [thesis document](../docs/thesis.pdf).
+read in Chapter 5 of the thesis document. 
+
+[//]: # "[thesis document](../docs/thesis.pdf)."
 
 <h3>Included Files</h3>
 
