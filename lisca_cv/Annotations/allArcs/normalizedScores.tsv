@@ -1,15 +1,15 @@
 Type	k2	k4	k8
-.Case Error	15.9	7.9	5
-.MWE Error	14.9	13.3	15
-.Naming Error	43.4	51.1	50
-.No Error	517.6	520.2	515
-.POS Error	10.0	13.3	15
-.Reported Speech	12.5	13.3	15
-.Tree Error	48.4	61.1	60
-.Wrong Head	163.0	167.4	180
-.advmod4amod	6.7	8.9	10
-.dep4det	5.9	7.9	5
+Case Error	15.9	7.9	5
+MWE Error	14.9	13.3	15
+Naming Error	43.4	51.1	50
+No Error	517.6	520.2	515
+POS Error	10.0	13.3	15
+Reported Speech	12.5	13.3	15
+Tree Error	48.4	61.1	60
+Wrong Head	163.0	167.4	180
+advmod4amod	6.7	8.9	10
+dep4det	5.9	7.9	5
 dep4discourse|mark	6.7	5.6	5
-.nsubj4obj	7.5	6.7	5
-.obl4advcl|acl	5.9	7.9	5
-.Random Errors	141.3	114.7	115
+nsubj4obj	7.5	6.7	5
+obl4advcl|acl	5.9	7.9	5
+Random Errors	141.3	114.7	115
