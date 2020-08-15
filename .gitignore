@@ -2,3 +2,5 @@
 **/venv
 **/.DS_Store
 **/.idea
+docs/ignore
+theta_*/estimate
