@@ -56,7 +56,7 @@ Since the manual annotation in the other files in the [allArcs](./allArcs) direc
 this file calculates the normalized scores calculated over 1000 arcs to allow effective comparison of the different CV runs.
 The following are the formulae used for calculating normalized scores:
 
-    ![Formulae](https://github.com/Akshayanti/Masters-Thesis-CUNI-2020/blob/master/lisca_cv/docs/formulae.png)
+    ![Formulae](../docs/formulae.png)
 
 2. [testArcs/comparisonStats.tsv](./testArcs/comparisonStats.tsv)  
 Based on the manual annotation of the 0-scored arcs found in `test` set of UDv2.4 hi-HDTB treebank, this file
