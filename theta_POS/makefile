@@ -124,4 +124,9 @@ genres_additive:	genre_control
 	@yes | rm -r genres_additive;
 
 clean:
-	rm -rf genre_control;
+  @rm -rf size_control;
+  @rm -rf unique_trigrams;
+	@rm -rf genre_control;
+	@rm -f treebanks_to_compare.tsv;
+	@rm -f UDv2.5_scores.tsv;
+	@rm -f docs/trigram-stats*;
