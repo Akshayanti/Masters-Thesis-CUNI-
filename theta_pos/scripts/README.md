@@ -141,8 +141,18 @@
 	
 <h3>Shell Files</h3>
 
-1. [additive_genres_pl.sh](./additive_genres_pl.sh)
-2. [genre_fi.sh](./genre_fi.sh) and [genre_pl.sh](./genre_pl.sh)
-3. [size_cs.sh](./size_cs.sh) and [size_et.sh](./size_et.sh)
-4. [treebanks_to_compare.sh](./treebanks_to_compare.sh)
-5. [unique_trigrams_cs1.sh](./unique_trigrams_cs1.sh), [unique_trigrams_cs2.sh](./unique_trigrams_cs2.sh) and [unique_trigrams_et.sh](./unique_trigrams_et.sh)
+1. [additive_genres_pl.sh](./additive_genres_pl.sh)  
+    Batch File to check how multiple genres at the same time affect θ<sub>pos</sub> scores. 
+2. [genre_fi.sh](./genre_fi.sh) and [genre_pl.sh](./genre_pl.sh)  
+    Batch Files to check the variance of θ<sub>pos</sub> scores on inter-genre basis in Finnish-TDT and Polish-LFG treebanks respectively.
+    In case of Finnish data, the intra-genre variance is also calculated.
+3. [size_cs.sh](./size_cs.sh) and [size_et.sh](./size_et.sh)  
+    Batch Files to check the variance of θ<sub>pos</sub> scores with the change in dataset size in Czech-PDT and Estonian-EDT data respectively.
+4. [treebanks_to_compare.sh](./treebanks_to_compare.sh)  
+    Runs [compare_treebank_bool.py](compare_treebank_bool.py) on all the different treebanks to indicate which treebanks should be compared with other
+    treebanks of the same language. Stores result in [TSV file](../treebanks_to_compare.tsv). The different treebanks of a language are separated from other 
+    treebanks of other language by an empty line in between.
+5. [unique_trigrams_cs1.sh](./unique_trigrams_cs1.sh), [unique_trigrams_cs2.sh](./unique_trigrams_cs2.sh) and [unique_trigrams_et.sh](./unique_trigrams_et.sh)  
+    Calculate the variance of count of POS trigrams Czech-PDT and Estonian-EDT data with change in dataset size.
+    [unique_trigrams_cs1.sh](./unique_trigrams_cs1.sh) and [unique_trigrams_cs2.sh](./unique_trigrams_cs2.sh) calculate the statistics for Czech-PDT treebanks,
+    and are split to allow parallel computation. Generates [unique_trigrams](../unique_trigrams) directory. 
