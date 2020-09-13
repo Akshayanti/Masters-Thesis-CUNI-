@@ -11,7 +11,7 @@
 
 1. [all_genres_list.py](./all_genres_list.py)
     Takes input `README.md` file for a treebank, and returns the list of unique values listed
-    in 'Genre' category in machine-readable metadata. Multiple inputs supported.
+    in `Genre` category in machine-readable metadata. Multiple inputs supported.
     
     Defaults output to stdout, which can then be piped into a file, if desired.
     
@@ -19,11 +19,23 @@
    python3 all_genres_list.py <input_file(s)>
     ```
 
-2. [average_sentence_length.py](./average_sentence_length.py)
-3. [compare_treebank_bool.py](./compare_treebank_bool.py)
+2. [average_sentence_length.py](./average_sentence_length.py)  
+    Calculates the average sentence length in a given CoNLL-U file, given by the total number of [syntactic words](https://universaldependencies.org/u/overview/tokenization.html)
+    divided by the total number of sentences.  
+    
+    Usage:
+    
+        python3 average_sentence_length.py <input_file>
+3. [compare_treebank_bool.py](./compare_treebank_bool.py)  
+    Determines if the total number of sentences in a given input file is more than 1000, or not. Returning `True` if the number of sentences
+    is more than 1000, and `False` otherwise.
+    
+    Usage:
+        
+        python3 compare_treebank_bool.py <input_file> 
 4. [downsample.py](./downsample.py)  
-    Downsamples a given CONLL-U file to a given number of sentences, or according to number of sentences in another
-     CONLL-U formatted file  
+    Downsamples a given CoNLL-U file to a given number of sentences, or according to number of sentences in another
+     CoNLL-U formatted file  
     
     Arguments:
     ```bash
@@ -31,7 +43,7 @@
    -n --number        Number of Sentences to downsample to
    -f --file          The file whose number of instances the input file should be downsampled to
    -o --output        Output file to write the downsampled data in. If the argument is not provided, 
-                       defaults to <input_file>_<downsampled_instances_count>.conllu
+                       defaults to <input_file>_<downsampled_instances_count>.CoNLLu
    -h --help          Display Help Message and Exit
     ```
    Usage:
@@ -40,7 +52,7 @@
     ```
 
 5. [get_coverage_scores.py](./get_coverage_scores.py)  
-    Program to calculate the coverage statistics for trigrams, as a percentage of trigrams 
+    Calculates the coverage statistics for trigrams, as a percentage of trigrams 
     in target file. The file with greater number of trigrams is selected as the source, while
     the other is selected as source. Reports score as a percentage of trigrams common to source
     and target, over number of trigrams in target.
@@ -48,15 +60,23 @@
     Arguments:
     
     ```bash
-   Arg1: File 1 in CONLL-U format
-   Arg2: File 2 in CONLL-U format
+   Arg1: File 1 in CoNLL-U format
+   Arg2: File 2 in CoNLL-U format
    ```
+   Usage:  
    
-   Usage:
-   
-        python3 get_coverage_scores.py <input_file1> <input_file2>
+       python3 get_coverage_scores.py <input_file1> <input_file2>
 
-6. [get_formality_scores.py](./get_formality_scores.py)
+6. [get_formality_scores.py](./get_formality_scores.py)  
+    NOT USED IN THE PIPELINE.
+    
+    The script reads input CoNLL-U file to calculate the F-score (as given by [Heylighen and Dewaele, 1999]), but using normalised frequencies.
+    Similarly, can be used to calculate I-measure (as given by [Mosquera and Pozo, 2011]), by commenting out line\#51 and including line\#52.
+    
+    Usage:
+    
+        python3 get_formality_scores.py <input_CoNLL-U_file>
+    
 7. [get_scores_with_sd.py](./get_scores_with_sd.py)  
     Calculates mean and standard deviation values when [theta_POS.py](./theta_POS.py) file is run multiple times
     for the similar data (example- 100 runs on slightly changing data). The first argument is the
@@ -77,17 +97,41 @@
    python3 get_scores_with_sd.py <mode> <input_file(s)>
    ```
 
-8. [get_unique_trigrams.py](./get_unique_trigrams.py)
-9. [kfold.py](./kfold.py)
+8. [get_unique_trigrams.py](./get_unique_trigrams.py)  
+    Calculates for a given input file
+    - the total number of POS trigrams
+    - the total number of unique POS trigrams
+    
+    If only one `input_file` with a `.tsv` extension is given as an argument, the script reads the file to plot the first
+    column as an x-value, while the subsequent columns are used to plot lines in the graph.
+    
+    For all other cases, the input file is read as a CoNLL-U file, and the values as indicated earlier are
+    computed for the input files. 
+   
+   Usage:
+   
+        python3  get_unique_trigrams.py <input_file(s)>
+   
+9. [kfold.py](./kfold.py)  
+    Creates `test` and `training` folds for the given data, based on the number of folds given as argument.
+    Arguments:
+    
+    ```bash
+   Arg1: The number of folds (integer)
+   Arg2: Input File in CoNLL-U format
+   ```
+   Usage:  
+   
+       python3 kfold.py <folds_count> <input_file>
 
 10. [klcpos3.py](./klcpos3.py)  
-    File for calculating klcpos3 measure of source and target treebanks for single-source and 
+    File for calculating KL<sub>cpos<sup>3<sup></sub> measure of source and target treebanks for single-source and 
     multi-source-weighted delexicalised parsing.
     
     Arguments:
     ```bash
-    --source:           Source Candidate File(s), in CONLL-U format
-    --target:           Target Candidate File, in CONLL-U format
+    --source:           Source Candidate File(s), in CoNLL-U format
+    --target:           Target Candidate File, in CoNLL-U format
     --single_source:    Used for selection of a single source, the sources would be displayed in
                          decreasing order of similarity measure
     --multi_source:     Used for computing klcpos3 ^ -4 as a similarity measure for weighted 
@@ -99,17 +143,22 @@
        python3 klcpos3.py [-h] -t <target_file> -s <source_file(s)> [--single_source | --multi_source]
        ```
 
-11. [split_EDT_genres.py](./split_EDT_genres.py), [split_fi_genres.py](./split_fi_genres.py), [split_PDT_genres.py](./split_PDT_genres.py) and [split_pl_genres.py](./split_pl_genres.py):
+11. [split_EDT_genres.py](./split_EDT_genres.py), [split_fi_genres.py](./split_fi_genres.py), [split_PDT_genres.py](./split_PDT_genres.py) and [split_pl_genres.py](./split_pl_genres.py)  
+    Split the given `input_file` into its constituent genres. Takes CoNLL-U file as a singular input.
+    ```bash
+    python3 <python_file> <input_file>
+    ``` 
+    
 12. [test_significance.py](./test_significance.py)  
-    Test if the scores generated from `get_scores_with_sd.py` are significantly different
-    at 1%, 5%, 10% confidence value.
+    For each given mean, tests how many other means it is significantly same with, 
+    at 95% confidence value.
     ```bash
     python3 test_significance.py <input_file> <output_file>
     ```
    
 13. [theta_POS.py](./theta_POS.py)  
-    Reads the file, and calculate the symmetric metric theta_pos, which is a sum of 
-    calculated klcpos3 scores in either direction. Defaults output to stdout, from 
+    Reads the file, and calculate the symmetric metric θ<sub>pos</sub>, which is a sum of 
+    calculated KL<sub>cpos<sup>3<sup></sub> scores in either direction. Defaults output to stdout, from 
     where it can be piped into a file. 
     
     Input File Format:
